@@ -1,0 +1,5458 @@
+[
+  {
+    "recommendation_id": 1,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 1,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 2,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 3,
+    "code": "S800",
+    "description": "CONTUSION DE LA RODILLA IZQUIERDA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 4,
+    "code": "Z358",
+    "description": "SUPERVISION DE OTROS EMBARAZOS DE ALTO RIESGO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 4,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 5,
+    "code": "Z358",
+    "description": "SUPERVISION DE OTROS EMBARAZOS DE ALTO RIESGO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 6,
+    "code": "Z358",
+    "description": "SUPERVISION DE OTROS EMBARAZOS DE ALTO RIESGO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 6,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 7,
+    "code": "L253",
+    "description": "DERMATITIS DE CONTACTO, FORMA NO ESPECIFICADA, DEBIDA A OTROS PRODUCTOS QUIMICOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 8,
+    "code": "M659",
+    "description": "SINOVITIS Y TENOSINOVITIS, NO ESPECIFICADA DERECHA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 9,
+    "code": "M169",
+    "description": "COXARTROSIS, NO ESPECIFICADA DERECHA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 11,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO DERECHO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 12,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 12,
+    "code": "K400",
+    "description": "HERNIA INGUINAL BILATERAL CON OBSTRUCCION, SIN GANGRENA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 13,
+    "code": "M942",
+    "description": "CONDROMALACIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 13,
+    "code": "R521",
+    "description": "DOLOR CRONICO INTRATABLE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 14,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 14,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 14,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 14,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 14,
+    "code": "M752",
+    "description": "TENDINITIS DE BICEPS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 15,
+    "code": "M754",
+    "description": "SINDROME DE ABDUCCION DOLOROSA DEL HOMBRO DERECHO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 16,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 16,
+    "code": "Z321",
+    "description": "EMBARAZO CONFIRMADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 17,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 18,
+    "code": "R104",
+    "description": "OTROS DOLORES ABDOMINALES Y LOS NO ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 18,
+    "code": "K429",
+    "description": "HERNIA UMBILICAL SIN OBSTRUCCION NI GANGRENA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 19,
+    "code": "M546",
+    "description": "DOLOR EN LA COLUMNA DORSAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 19,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 19,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 20,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 20,
+    "code": "D509",
+    "description": "ANEMIA POR DEFICIENCIA DE HIERRO SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 20,
+    "code": "E669",
+    "description": "OBESIDAD, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 21,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 21,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 22,
+    "code": "O440",
+    "description": "PLACENTA PREVIA CON ESPECIFICACION DE QUE NO HUBO HEMORRAGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 23,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 24,
+    "code": "S923",
+    "description": "FRACTURA DE HUESO DEL METATARSO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 25,
+    "code": "S430",
+    "description": "LUXACION DE LA ARTICULACION DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 25,
+    "code": "Z988",
+    "description": "OTROS ESTADOS POSTQUIRURGICOS ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 26,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 26,
+    "code": "M654",
+    "description": "TENOSINOVITIS DE ESTILOIDES RADIAL [DE QUERVAIN]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 27,
+    "code": "M170",
+    "description": "GONARTROSIS PRIMARIA, BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 27,
+    "code": "S832",
+    "description": "DESGARRO DE MENISCOS, PRESENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 27,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 27,
+    "code": "M233",
+    "description": "OTROS TRASTORNOS DE LOS MENISCOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 28,
+    "code": "S526",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL CUBITO Y DEL RADIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 28,
+    "code": "M255",
+    "description": "DOLOR EN ARTICULACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 29,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 30,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 31,
+    "code": "M479",
+    "description": "ESPONDILOSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 31,
+    "code": "M472",
+    "description": "OTRAS ESPONDILOSIS CON RADICULOPATIA  (DISCOPATIA L3-L4, L4-L5, L5-S1)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 32,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 32,
+    "code": "M130",
+    "description": "POLIARTRITIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 32,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 32,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 33,
+    "code": "M239",
+    "description": "TRASTORNOS INTERNO DE LA RODILLA, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 33,
+    "code": "M233",
+    "description": "OTROS TRASTORNOS DE LOS MENISCOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 34,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 34,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 34,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 35,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 35,
+    "code": "M45X",
+    "description": "ESPONDILITIS ANQUILOSANTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 35,
+    "code": "M100",
+    "description": "GOTA IDIOPATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 35,
+    "code": "M461",
+    "description": "SACROILIITIS, NO CLASIFICADA EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 36,
+    "code": "S526",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL CUBITO Y DEL RADIO DERECHO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 37,
+    "code": "K469",
+    "description": "HERNIA ABDOMINAL NO ESPECIFICADA, SIN OBSTRUCCION NI GANGRENA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 38,
+    "code": "Z321",
+    "description": "EMBARAZO CONFIRMADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 38,
+    "code": "G439",
+    "description": "MIGRAÑA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 39,
+    "code": "M190",
+    "description": "ARTROSIS PRIMARIA DE OTRAS ARTICULACIONES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 39,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 39,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 40,
+    "code": "G610",
+    "description": "SINDROME DE GUILLAIN",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 41,
+    "code": "S824",
+    "description": "FRACTURA DEL PERONE SOLAMENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 42,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 43,
+    "code": "M658",
+    "description": "OTRAS SINOVITIS Y TENOSINOVITIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 43,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 44,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 44,
+    "code": "M501",
+    "description": "TRASTORNO DE DISCO CERVICAL CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 44,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 44,
+    "code": "M549",
+    "description": "DORSALGIA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 45,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 45,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 46,
+    "code": "G563",
+    "description": "LESION DEL NERVIO RADIAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 47,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 48,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 49,
+    "code": "S821",
+    "description": "FRACTURA DE LA EPIFISIS SUPERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 50,
+    "code": "Z321",
+    "description": "EMBARAZO CONFIRMADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 50,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 51,
+    "code": "S823",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 51,
+    "code": "S819",
+    "description": "HERIDA DE LA PIERNA, PARTE NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 51,
+    "code": "M232",
+    "description": "TRASTORNO DEL MENISCO DEBIDO A DESGARRO O LESION ANTIGUA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 51,
+    "code": "D521",
+    "description": "ANEMIA POR DEFICIENCIA DE FOLATOS INDUCIDA POR DROGAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 51,
+    "code": "L97X",
+    "description": "ULCERA DEL MIEMBRO INFERIOR NO CLASIFICADA EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 52,
+    "code": "R521",
+    "description": "DOLOR CRONICO INTRATABLE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 52,
+    "code": "G564",
+    "description": "CAUSALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 52,
+    "code": "M674",
+    "description": "GANGLION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 53,
+    "code": "K429",
+    "description": "HERNIA UMBILICAL SIN OBSTRUCCION NI GANGRENA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 54,
+    "code": "G561",
+    "description": "OTRAS LESIONES DEL NERVIO MEDIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 55,
+    "code": "M200",
+    "description": "DEFORMIDAD DE DEDO(S) DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 56,
+    "code": "S431",
+    "description": "LUXACION DE LA ARTICULACION ACROMIOCLAVICULAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 56,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 56,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 57,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 57,
+    "code": "M329",
+    "description": "LUPUS ERITEMATOSO SISTEMICO, SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 58,
+    "code": "S923",
+    "description": "FRACTURA DE HUESO DEL METATARSO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 59,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 60,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 61,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 62,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 62,
+    "code": "M654",
+    "description": "TENOSINOVITIS DE ESTILOIDES RADIAL [DE QUERVAIN]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 63,
+    "code": "S682",
+    "description": "AMPUTACION TRAUMATICA DE DOS O MAS DEDOS SOLAMENTE (COMPLETA) (PARCIAL)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 64,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 65,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 66,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 66,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 67,
+    "code": "T08X",
+    "description": "FRACTURA DE LA COLUMNA VERTEBRAL, NIVEL NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 68,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 69,
+    "code": "S828",
+    "description": "FRACTURA DE OTRAS PARTES DE LA PIERNA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 69,
+    "code": "S528",
+    "description": "FRACTURA DE OTRAS PARTES DEL ANTEBRAZO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 69,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 69,
+    "code": "S821",
+    "description": "FRACTURA DE LA EPIFISIS SUPERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 70,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 71,
+    "code": "M029",
+    "description": "ARTROPATIA REACTIVA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 72,
+    "code": "M754",
+    "description": "SINDROME DE ABDUCCION DOLOROSA DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 72,
+    "code": "M624",
+    "description": "CONTRACTURA MUSCULAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 72,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 72,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 72,
+    "code": "G442",
+    "description": "CEFALEA DEBIDA A TENSION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 73,
+    "code": "H330",
+    "description": "DESPRENDIMIENTO DE LA RETINA CON RUPTURA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 73,
+    "code": "H261",
+    "description": "CATARATA TRAUMATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 74,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 75,
+    "code": "I610",
+    "description": "HEMORRAGIA INTRACEREBRAL EN HEMISFERIO, SUBCORTICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 75,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 75,
+    "code": "Q282",
+    "description": "MALFORMACION ARTERIOVENOSA DE LOS VASOS CEREBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 76,
+    "code": "S821",
+    "description": "FRACTURA DE LA EPIFISIS SUPERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 77,
+    "code": "B24X",
+    "description": "ENFERMEDAD POR VIRUS DE LA INMUNODEFICIENCIA HUMANA (VIH), SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 77,
+    "code": "M900",
+    "description": "TUBERCULOSIS OSEAS (A18.0)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 78,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 78,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 79,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 80,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 81,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 82,
+    "code": "L239",
+    "description": "DERMATITIS ALERGICA DE CONTACTO, DE CAUSA NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 82,
+    "code": "B49X",
+    "description": "MICOSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 83,
+    "code": "J60X",
+    "description": "NEUMOCONIOSIS DE LOS MINEROS DE DEL CARBON",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 83,
+    "code": "J450",
+    "description": "ASMA PREDOMINANTEMENTE ALERGICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 84,
+    "code": "S723",
+    "description": "FRACTURA DE LA DIAFISIS DEL FEMUR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 85,
+    "code": "S636",
+    "description": "ESGUINCES Y TORCEDURAS DE DEDO(S) DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 86,
+    "code": "S860",
+    "description": "TRAUMATISMO DEL TENDON DE AQUILES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 86,
+    "code": "Z988",
+    "description": "OTROS ESTADOS POSTQUIRURGICOS ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 87,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 88,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 89,
+    "code": "S626",
+    "description": "FRACTURA DE OTRO DEDO DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 90,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 90,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 90,
+    "code": "M674",
+    "description": "GANGLION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 91,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 92,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 92,
+    "code": "M503",
+    "description": "OTRAS DEGENERACIONES DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 93,
+    "code": "S663",
+    "description": "TRAUMATISMO DEL TENDON Y MUSCULO EXTENSOR DE OTRO(S) DEDO(S) A NIVEL DE LA MUÑECA Y DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 93,
+    "code": "S662",
+    "description": "TRAUMATISMO DEL TENDON Y MUSCULO EXTENSOR DEL PULGAR A NIVEL DE LA MUÑECA Y DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 94,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 94,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 95,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 96,
+    "code": "S724",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL FEMUR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 97,
+    "code": "M725",
+    "description": "FASCITIS, NO CLASIFICADA EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 98,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 99,
+    "code": "S826",
+    "description": "FRACTURA DEL MALEOLO EXTERNO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 100,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 101,
+    "code": "M233",
+    "description": "OTROS TRASTORNOS DE LOS MENISCOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 101,
+    "code": "Z988",
+    "description": "OTROS ESTADOS POSTQUIRURGICOS ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 102,
+    "code": "M232",
+    "description": "TRASTORNO DEL MENISCO DEBIDO A DESGARRO O LESION ANTIGUA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 102,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 103,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 104,
+    "code": "M233",
+    "description": "OTROS TRASTORNOS DE LOS MENISCOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 105,
+    "code": "M418",
+    "description": "OTRAS FORMAS DE ESCOLIOSIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 105,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 106,
+    "code": "S143",
+    "description": "TRAUMATISMO DE PLEXO BRAQUIAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 107,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 107,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 107,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 107,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 108,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 109,
+    "code": "S517",
+    "description": "HERIDAS MULTIPLES DEL ANTEBRAZO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 109,
+    "code": "S563",
+    "description": "TRAUMATISMO DE TENDONES Y MUSCULOS ABDUCTORES Y EXTENSORES DEL PULGAR A NIVEL DEL ANTEBRAZO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 110,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 111,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 111,
+    "code": "L209",
+    "description": "DERMATITIS ATOPICA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 112,
+    "code": "K409",
+    "description": "HERNIA INGUINAL UNILATERAL O NO ESPECIFICADA, SIN OBSTRUCION NI GANGRENA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 113,
+    "code": "M866",
+    "description": "OTRAS OSTEOMIELITIS CRONICAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 113,
+    "code": "S823",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 113,
+    "code": "S824",
+    "description": "FRACTURA DEL PERONE SOLAMENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 114,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 115,
+    "code": "I671",
+    "description": "ANEURISMA CEREBRAL, SIN RUPTURA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 115,
+    "code": "R51X",
+    "description": "CEFALEA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 116,
+    "code": "S830",
+    "description": "LUXACION DE LA ROTULA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 117,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 117,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 118,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 118,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 119,
+    "code": "H160",
+    "description": "ULCERA DE LA CORNEA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 119,
+    "code": "H544",
+    "description": "CEGUERA DE UN OJO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 120,
+    "code": "R521",
+    "description": "DOLOR CRONICO INTRATABLE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 120,
+    "code": "M890",
+    "description": "ALGONEURODISTROFIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 120,
+    "code": "T335",
+    "description": "CONGELAMIENTO SUPERFICIAL DE LA MUÑECA Y DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 121,
+    "code": "S820",
+    "description": "FRACTURA DE LA ROTULA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 121,
+    "code": "G610",
+    "description": "SINDROME DE GUILLAIN",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 122,
+    "code": "M170",
+    "description": "GONARTROSIS PRIMARIA, BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 123,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 123,
+    "code": "M654",
+    "description": "TENOSINOVITIS DE ESTILOIDES RADIAL [DE QUERVAIN]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 123,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 123,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 124,
+    "code": "S881",
+    "description": "AMPUTACION TRAUMATICA EN ALGUN NIVEL ENTRE LA RODILLA Y EL TOBILLO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 124,
+    "code": "G546",
+    "description": "SINDROME DEL MIEMBRO FANTASMA CON DOLOR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 125,
+    "code": "T934",
+    "description": "SECUELAS DE TRAUMATISMO DE NERVIO DE MIEMBRO INFERIOR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 126,
+    "code": "M541",
+    "description": "RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 127,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 128,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 128,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 129,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 130,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 130,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 131,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 132,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 132,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 133,
+    "code": "M654",
+    "description": "TENOSINOVITIS DE ESTILOIDES RADIAL [DE QUERVAIN]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 134,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 135,
+    "code": "S432",
+    "description": "LUXACION DE LA ARTICULACION ESTERNOCLAVICULAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 136,
+    "code": "G510",
+    "description": "PARALISIS DE BELL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 137,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 137,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 138,
+    "code": "I872",
+    "description": "INSUFICIENCIA VENOSA (CRONICA) (PERIFERICA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 139,
+    "code": "S528",
+    "description": "FRACTURA DE OTRAS PARTES DEL ANTEBRAZO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 139,
+    "code": "S669",
+    "description": "TRAUMATISMO DE TENDON Y MUSCULO NO ESPECIFICADO, A NIVEL DE LA MUÑECA Y DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 140,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 140,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 141,
+    "code": "S821",
+    "description": "FRACTURA DE LA EPIFISIS SUPERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 141,
+    "code": "S822",
+    "description": "FRACTURA DE LA DIAFISIS DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 142,
+    "code": "M215",
+    "description": "MANO O PIE EN GARRA O EN TALIPES, PIE EQUINOVARO O ZAMBO ADQUIRIDOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 142,
+    "code": "M670",
+    "description": "ACORTAMIENTO DEL TENDON DE AQUILES (ADQUIRIDO)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 142,
+    "code": "S423",
+    "description": "FRACTURA DE LA DIAFISIS DEL HUMERO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 142,
+    "code": "S528",
+    "description": "FRACTURA DE OTRAS PARTES DEL ANTEBRAZO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 143,
+    "code": "S525",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL RADIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 144,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 144,
+    "code": "M541",
+    "description": "RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 144,
+    "code": "F321",
+    "description": "EPISODIO DEPRESIVO MODERADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 145,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 145,
+    "code": "M750",
+    "description": "CAPSULITIS ADHESIVA DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 145,
+    "code": "Z988",
+    "description": "OTROS ESTADOS POSTQUIRURGICOS ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 146,
+    "code": "M508",
+    "description": "OTROS TRASTORNOS DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 146,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 147,
+    "code": "Z940",
+    "description": "TRASPLANTE DE RIÑON",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 148,
+    "code": "Z488",
+    "description": "OTROS CUIDADOS ESPECIFICADOS POSTERIORES A LA CIRUGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 149,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 150,
+    "code": "M658",
+    "description": "OTRAS SINOVITIS Y TENOSINOVITIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 150,
+    "code": "M199",
+    "description": "ARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 151,
+    "code": "F319",
+    "description": "TRASTORNO AFECTIVO BIPOLAR, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 152,
+    "code": "H544",
+    "description": "CEGUERA DE UN OJO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 152,
+    "code": "S220",
+    "description": "FRACTURA DE VERTEBRA TORACICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 153,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 154,
+    "code": "F329",
+    "description": "EPISODIO DEPRESIVO, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 154,
+    "code": "F454",
+    "description": "TRASTORNO DE DOLOR PERSISTENTE SOMATOMORFO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 155,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 156,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 157,
+    "code": "I255",
+    "description": "CARDIOMIOPATIA ISQUEMICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 157,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 157,
+    "code": "M328",
+    "description": "OTRAS FORMAS DE LUPUS ERITEMATOSO SISTEMICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 158,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 158,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 159,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 160,
+    "code": "S723",
+    "description": "FRACTURA DE LA DIAFISIS DEL FEMUR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 161,
+    "code": "M059",
+    "description": "ARTRITIS REUMATOIDE SEROPOSITIVA, SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 162,
+    "code": "R268",
+    "description": "OTRAS ANORMALIDADES DE LA MARCHA Y DE LA MOVILIDAD Y LAS NO ESPECIFICADAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 163,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 163,
+    "code": "M705",
+    "description": "OTRAS BURSITIS DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 164,
+    "code": "M540",
+    "description": "PANICULITIS QUE AFECTA REGIONES DEL CUELLO Y DE LA ESPALDA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 164,
+    "code": "M000",
+    "description": "ARTRITIS Y POLIARTRITIS ESTAFILOCOCICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 165,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 165,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 166,
+    "code": "J449",
+    "description": "ENFERMEDAD PULMONAR OBSTRUCTIVA CRONICA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 167,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 167,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 167,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 168,
+    "code": "M170",
+    "description": "GONARTROSIS PRIMARIA, BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 169,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 170,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 170,
+    "code": "M430",
+    "description": "ESPONDILOLISIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 171,
+    "code": "S821",
+    "description": "FRACTURA DE LA EPIFISIS SUPERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 172,
+    "code": "S423",
+    "description": "FRACTURA DE LA DIAFISIS DEL HUMERO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 173,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 174,
+    "code": "M531",
+    "description": "SINDROME CERVICOBRAQUIAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 174,
+    "code": "M759",
+    "description": "LESIONES DEL HOMBRO, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 174,
+    "code": "M654",
+    "description": "TENOSINOVITIS DE ESTILOIDES RADIAL [DE QUERVAIN]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 174,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 175,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 175,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 175,
+    "code": "E660",
+    "description": "OBESIDAD DEBIDA A EXCESO DE CALORIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 176,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 176,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 176,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 176,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 177,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 177,
+    "code": "E109",
+    "description": "DIABETES MELLITUS INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 177,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 177,
+    "code": "E660",
+    "description": "OBESIDAD DEBIDA A EXCESO DE CALORIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 177,
+    "code": "M064",
+    "description": "POLIARTROPATIA INFLAMATORIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 178,
+    "code": "M224",
+    "description": "CONDROMALACIA DE LA ROTULA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 179,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 179,
+    "code": "M418",
+    "description": "OTRAS FORMAS DE ESCOLIOSIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 180,
+    "code": "S832",
+    "description": "DESGARRO DE MENISCOS, PRESENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 181,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 181,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 181,
+    "code": "E119",
+    "description": "DIABETES MELLITUS NO INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 181,
+    "code": "E039",
+    "description": "HIPOTIROIDISMO, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 182,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 182,
+    "code": "M419",
+    "description": "ESCOLIOSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 183,
+    "code": "I251",
+    "description": "ENFERMEDAD ATEROSCLEROTICA DEL CORAZON",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 183,
+    "code": "I739",
+    "description": "ENFERMEDAD VASCULAR PERIFERICA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 183,
+    "code": "I255",
+    "description": "CARDIOMIOPATIA ISQUEMICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 183,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 183,
+    "code": "M796",
+    "description": "DOLOR EN MIEMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 184,
+    "code": "A000",
+    "description": "COLERA DEBIDO A VIBRIO CHOLERAE O1, BIOTIPO CHOLERAE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 184,
+    "code": "V010",
+    "description": "PEATON LESIONADO POR COLISION CON VEHICULO DE PEDAL: ACCIDENTE NO DE TRANSITO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 184,
+    "code": "D000",
+    "description": "CARCINOMA IN SITU DEL LABIO, DE LA CAVIDAD BUCAL Y DE LA FARINGE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 184,
+    "code": "E000",
+    "description": "SINDROME CONGENITO DE DEFICIENCIA DE YODO, TIPO NEUROLOGICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 184,
+    "code": "H000",
+    "description": "ORZUELO Y OTRAS INFLAMACIONES PROFUNDAS DEL PARPADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 184,
+    "code": "Y000",
+    "description": "AGRESION CON OBJETO ROMO O SIN FILO: VIVIENDA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 185,
+    "code": "S723",
+    "description": "FRACTURA DE LA DIAFISIS DEL FEMUR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 186,
+    "code": "I693",
+    "description": "SECUELAS DE INFARTO CEREBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 186,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 186,
+    "code": "E116",
+    "description": "DIABETES MELLITUS NO INSULINODEPENDIENTE CON OTRAS COMPLICACIONES ESPECIFICADAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 187,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 187,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 187,
+    "code": "AA00",
+    "description": "ABSCESO DEL OÍDO EXTERNO",
+    "cie_type": 11,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 187,
+    "code": "KA21.10",
+    "description": "RECIÉN NACIDO CON PESO MUY BAJO AL NACER, DE 1000 A 1249 GRAMOS",
+    "cie_type": 11,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 187,
+    "code": "C000",
+    "description": "TUMOR MALIGNO DEL LABIO SUPERIOR, CARA EXTERNA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 187,
+    "code": "AA00",
+    "description": "ABSCESO DEL OÍDO EXTERNO",
+    "cie_type": 11,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 188,
+    "code": "M170",
+    "description": "GONARTROSIS PRIMARIA, BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 189,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 189,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 189,
+    "code": "E039",
+    "description": "HIPOTIROIDISMO, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 189,
+    "code": "I509",
+    "description": "INSUFICIENCIA CARDIACA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 189,
+    "code": "I694",
+    "description": "SECUELAS DE ACCIDENTE VASCULAR ENCEFALICO, NO ESPECIFICADO COMO HEMORRAGICO O ISQUEMICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 189,
+    "code": "F338",
+    "description": "OTROS TRASTORNOS DEPRESIVOS RECURRENTES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 190,
+    "code": "I255",
+    "description": "CARDIOMIOPATIA ISQUEMICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 191,
+    "code": "M489",
+    "description": "ESPONDILOPATIA , NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 191,
+    "code": "M549",
+    "description": "DORSALGIA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 192,
+    "code": "M792",
+    "description": "NEURALGIA Y NEURITIS, NO ESPECIFICADAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 192,
+    "code": "G548",
+    "description": "OTROS TRASTORNOS DE LAS RAICES Y PLEXOS NERVIOSOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 192,
+    "code": "M796",
+    "description": "DOLOR EN MIEMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 193,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 193,
+    "code": "M501",
+    "description": "TRASTORNO DE DISCO CERVICAL CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 193,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 194,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 195,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 195,
+    "code": "M512",
+    "description": "OTROS DESPLAZAMIENTOS ESPECIFICADOS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 196,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 197,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 198,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 198,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 198,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 198,
+    "code": "M674",
+    "description": "GANGLION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 199,
+    "code": "M059",
+    "description": "ARTRITIS REUMATOIDE SEROPOSITIVA, SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 199,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 199,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 199,
+    "code": "K295",
+    "description": "GASTRITIS CRONICA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 200,
+    "code": "I693",
+    "description": "SECUELAS DE INFARTO CEREBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 200,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 200,
+    "code": "G811",
+    "description": "HEMIPLEJIA ESPASTICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 200,
+    "code": "E781",
+    "description": "HIPERGLICERIDEMIA PURA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 200,
+    "code": "E119",
+    "description": "DIABETES MELLITUS NO INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 200,
+    "code": "E660",
+    "description": "OBESIDAD DEBIDA A EXCESO DE CALORIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 201,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 201,
+    "code": "M752",
+    "description": "TENDINITIS DE BICEPS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 202,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 202,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 203,
+    "code": "M431",
+    "description": "ESPONDILOLISTESIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 204,
+    "code": "S822",
+    "description": "FRACTURA DE LA DIAFISIS DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 205,
+    "code": "S929",
+    "description": "FRACTURA DEL PIE, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 206,
+    "code": "N189",
+    "description": "INSUFICIENCIA RENAL CRONICA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 206,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 206,
+    "code": "E119",
+    "description": "DIABETES MELLITUS NO INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 206,
+    "code": "E785",
+    "description": "HIPERLIPIDEMIA NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 206,
+    "code": "H919",
+    "description": "HIPOACUSIA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 207,
+    "code": "J930",
+    "description": "NEUMOTORAX ESPONTANEO A PRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 207,
+    "code": "J942",
+    "description": "HEMOTORAX",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 208,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 209,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 209,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 210,
+    "code": "S602",
+    "description": "CONTUSION DE OTRAS PARTES DE LA MUÑECA Y DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 210,
+    "code": "R522",
+    "description": "OTRO DOLOR CRONICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 210,
+    "code": "M674",
+    "description": "GANGLION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 211,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 211,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 212,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 212,
+    "code": "S526",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL CUBITO Y DEL RADIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 212,
+    "code": "M191",
+    "description": "ARTROSIS POSTRAUMATICA DE OTRAS ARTICULACIONES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 213,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 213,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 214,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 214,
+    "code": "M224",
+    "description": "CONDROMALACIA DE LA ROTULA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 214,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 215,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 215,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 215,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 215,
+    "code": "N19X",
+    "description": "INSUFICIENCIA RENAL NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 216,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 216,
+    "code": "M754",
+    "description": "SINDROME DE ABDUCCION DOLOROSA DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 216,
+    "code": "M531",
+    "description": "SINDROME CERVICOBRAQUIAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 217,
+    "code": "H903",
+    "description": "HIPOACUSIA NEUROSENSORIAL, BILATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 218,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 218,
+    "code": "M508",
+    "description": "OTROS TRASTORNOS DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 219,
+    "code": "S832",
+    "description": "DESGARRO DE MENISCOS, PRESENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 219,
+    "code": "M224",
+    "description": "CONDROMALACIA DE LA ROTULA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 219,
+    "code": "M942",
+    "description": "CONDROMALACIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 220,
+    "code": "Y835",
+    "description": "AMPUTACION DE MIEMBRO(S)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 220,
+    "code": "E660",
+    "description": "OBESIDAD DEBIDA A EXCESO DE CALORIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 220,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 220,
+    "code": "G473",
+    "description": "APNEA DEL SUEÑO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 220,
+    "code": "F331",
+    "description": "TRASTORNO DEPRESIVO RECURRENTE, EPISODIO MODERADO PRESENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 220,
+    "code": "F419",
+    "description": "TRASTORNO DE ANSIEDAD , NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 221,
+    "code": "I471",
+    "description": "TAQUICARDIA SUPRAVENTRICULAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 221,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 221,
+    "code": "R060",
+    "description": "DISNEA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 221,
+    "code": "I509",
+    "description": "INSUFICIENCIA CARDIACA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 222,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 222,
+    "code": "M232",
+    "description": "TRASTORNO DEL MENISCO DEBIDO A DESGARRO O LESION ANTIGUA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 222,
+    "code": "M235",
+    "description": "INESTABILIDAD CRONICA DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 222,
+    "code": "M171",
+    "description": "OTRAS GONARTROSIS PRIMARIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 223,
+    "code": "S823",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 224,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 225,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 226,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 226,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 226,
+    "code": "M130",
+    "description": "POLIARTRITIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 226,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 227,
+    "code": "M255",
+    "description": "DOLOR EN ARTICULACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 228,
+    "code": "N202",
+    "description": "CALCULO DEL RIÑON CON CALCULO DEL URETER",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 228,
+    "code": "M549",
+    "description": "DORSALGIA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 228,
+    "code": "S223",
+    "description": "FRACTURA DE COSTILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 228,
+    "code": "M792",
+    "description": "NEURALGIA Y NEURITIS, NO ESPECIFICADAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 229,
+    "code": "S980",
+    "description": "AMPUTACION TRAUMATICA DEL PIE A NIVEL DEL TOBILLO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 229,
+    "code": "Y835",
+    "description": "AMPUTACION DE MIEMBRO(S)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 229,
+    "code": "T873",
+    "description": "NEUROMA DE MUÑON DE AMPUTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 230,
+    "code": "I694",
+    "description": "SECUELAS DE ACCIDENTE VASCULAR ENCEFALICO, NO ESPECIFICADO COMO HEMORRAGICO O ISQUEMICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 230,
+    "code": "H813",
+    "description": "OTROS VERTIGOS PERIFERICOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 230,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 231,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 231,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 232,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 232,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 232,
+    "code": "M501",
+    "description": "TRASTORNO DE DISCO CERVICAL CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 232,
+    "code": "G470",
+    "description": "TRASTORNOS DEL INICIO Y DEL MANTENIMIENTO DEL SUEÑO [INSOMNIOS]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 232,
+    "code": "M403",
+    "description": "SINDROME DE ESPALDA PLANA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 233,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 233,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 234,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 234,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 235,
+    "code": "D24X",
+    "description": "TUMOR BENIGNO DE LA MAMA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 236,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 236,
+    "code": "S823",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 237,
+    "code": "S320",
+    "description": "FRACTURA DE VERTEBRA LUMBAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 238,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 238,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 238,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 238,
+    "code": "M754",
+    "description": "SINDROME DE ABDUCCION DOLOROSA DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 238,
+    "code": "N19X",
+    "description": "INSUFICIENCIA RENAL NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 238,
+    "code": "D231",
+    "description": "TUMOR BENIGNO DE LA PIEL DEL PARPADO, INCLUIDA LA COMISURA PALPEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 239,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 240,
+    "code": "J399",
+    "description": "ENFERMEDAD DE LAS VIAS RESPIRATORIAS SUPERIORES, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 240,
+    "code": "E668",
+    "description": "OTROS TIPOS DE OBESIDAD",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 240,
+    "code": "M201",
+    "description": "HALLUX VALGUS (ADQUIRIDO)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 240,
+    "code": "Q665",
+    "description": "PIE PLANO CONGENITO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 241,
+    "code": "H359",
+    "description": "TRASTORNO DE LA RETINA, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 242,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 242,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 242,
+    "code": "F320",
+    "description": "EPISODIO DEPRESIVO LEVE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 242,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 243,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 243,
+    "code": "M541",
+    "description": "RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 244,
+    "code": "B369",
+    "description": "MICOSIS SUPERFICIAL, SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 244,
+    "code": "T812",
+    "description": "PUNCION O LACERACION ACCIDENTAL DURANTE UN PROCEDIMIENTO, NO CLASIFICADAS EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 244,
+    "code": "L309",
+    "description": "DERMATITIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 245,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 246,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 246,
+    "code": "M192",
+    "description": "ARTROSIS SECUNDARIA DE OTRAS ARTICULACIONES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 247,
+    "code": "M238",
+    "description": "OTROS TRASTORNOS INTERNOS DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 248,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 248,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 249,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 249,
+    "code": "S460",
+    "description": "TRAUMATISMO DE TENDON DEL MANGUITO ROTATORIO DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 250,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 251,
+    "code": "T905",
+    "description": "SECUELAS DE TRAUMATISMO INTRACRANEAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 251,
+    "code": "G519",
+    "description": "TRASTORNOS DEL NERVIO FACIAL, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 251,
+    "code": "F321",
+    "description": "EPISODIO DEPRESIVO MODERADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 251,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 251,
+    "code": "F929",
+    "description": "TRASTORNO MIXTO DE LA CONDUCTA Y DE LAS EMOCIONES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 252,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 252,
+    "code": "E669",
+    "description": "OBESIDAD, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 253,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 254,
+    "code": "C530",
+    "description": "TUMOR MALIGNO DEL ENDOCERVIX",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 254,
+    "code": "D508",
+    "description": "OTRAS ANEMIAS POR DEFICIENCIA DE HIERRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 254,
+    "code": "E780",
+    "description": "HIPERCOLESTEROLEMIA PURA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 255,
+    "code": "L038",
+    "description": "CELULITIS DE OTROS SITIOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 255,
+    "code": "E107",
+    "description": "DIABETES MELLITUS INSULINODEPENDIENTE CON COMPLICACIONES MULTIPLES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 255,
+    "code": "E789",
+    "description": "TRASTORNO DEL METABOLISMO DE LAS LIPOPROTEINAS, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 255,
+    "code": "L984",
+    "description": "ULCERA CRONICA DE LA PIEL, NO CLASIFICADA EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 256,
+    "code": "I862",
+    "description": "VARICES PELVICAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 257,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 258,
+    "code": "B24X",
+    "description": "ENFERMEDAD POR VIRUS DE LA INMUNODEFICIENCIA HUMANA (VIH), SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 259,
+    "code": "D518",
+    "description": "OTRAS ANEMIAS POR DEFICIENCIA DE VITAMINA B12",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 259,
+    "code": "D582",
+    "description": "OTRAS HEMOGLOBINOPATIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 259,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 259,
+    "code": "F410",
+    "description": "TRASTORNO DE PANICO [ANSIEDAD PAROXISTICA EPISODICA]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 259,
+    "code": "G470",
+    "description": "TRASTORNOS DEL INICIO Y DEL MANTENIMIENTO DEL SUEÑO [INSOMNIOS]",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 260,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 261,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 261,
+    "code": "E119",
+    "description": "DIABETES MELLITUS NO INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 262,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 262,
+    "code": "M503",
+    "description": "OTRAS DEGENERACIONES DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 263,
+    "code": "M508",
+    "description": "OTROS TRASTORNOS DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 263,
+    "code": "R522",
+    "description": "OTRO DOLOR CRONICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 263,
+    "code": "G608",
+    "description": "OTRAS NEUROPATIAS HEREDITARIAS E IDIOPATICAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 263,
+    "code": "L040",
+    "description": "LINFADENITIS AGUDA DE CARA, CABEZA Y CUELLO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 263,
+    "code": "D170",
+    "description": "TUMOR BENIGNO LIPOMATOSO DE PIEL Y DE TEJIDO SUBCUTANEO DE CABEZA, CARA Y CUELLO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 263,
+    "code": "I671",
+    "description": "ANEURISMA CEREBRAL, SIN RUPTURA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 264,
+    "code": "N511",
+    "description": "TRASTORNO DEL TESTICULO Y DEL EPIDIDIMO EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 264,
+    "code": "N433",
+    "description": "HIDROCELE, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 265,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 266,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 266,
+    "code": "M752",
+    "description": "TENDINITIS DE BICEPS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 267,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 267,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 267,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 268,
+    "code": "S431",
+    "description": "LUXACION DE LA ARTICULACION ACROMIOCLAVICULAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 268,
+    "code": "S323",
+    "description": "FRACTURA DEL HUESO ILIACO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 268,
+    "code": "L039",
+    "description": "CELULITIS DE SITIO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 269,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 270,
+    "code": "M658",
+    "description": "OTRAS SINOVITIS Y TENOSINOVITIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 271,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 272,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 273,
+    "code": "H721",
+    "description": "PERFORACION ATICA DE LA MEMBRANA TIMPANICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 273,
+    "code": "H920",
+    "description": "OTALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 274,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 274,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 274,
+    "code": "R522",
+    "description": "OTRO DOLOR CRONICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 275,
+    "code": "S435",
+    "description": "ESGUINCES Y TORCEDURAS DE LA ARTICULACION ACROMIOCLAVICULAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 275,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 276,
+    "code": "I514",
+    "description": "MIOCARDITIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 276,
+    "code": "R072",
+    "description": "DOLOR PRECORDIAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 277,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 278,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 279,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 279,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 280,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 280,
+    "code": "M755",
+    "description": "BURSITIS DEL HOMBRO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 280,
+    "code": "M752",
+    "description": "TENDINITIS DE BICEPS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 280,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 280,
+    "code": "M508",
+    "description": "OTROS TRASTORNOS DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 281,
+    "code": "M171",
+    "description": "OTRAS GONARTROSIS PRIMARIAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 282,
+    "code": "R101",
+    "description": "DOLOR ABDOMINAL LOCALIZADO EN PARTE SUPERIOR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 282,
+    "code": "N201",
+    "description": "CALCULO DEL URETER",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 282,
+    "code": "Z988",
+    "description": "OTROS ESTADOS POSTQUIRURGICOS ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 282,
+    "code": "N298",
+    "description": "OTROS TRASTORNOS DEL RIÑON Y DEL URETER EN OTRAS ENFERMEDADES CLASIFICADAS EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 283,
+    "code": "J459",
+    "description": "ASMA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 283,
+    "code": "R490",
+    "description": "DISFONIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 283,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 283,
+    "code": "C348",
+    "description": "LESION DE SITIOS CONTIGUOS DE LOS BRONQUIOS Y DEL PULMON",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 284,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 285,
+    "code": "R521",
+    "description": "DOLOR CRONICO INTRATABLE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 285,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 285,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 285,
+    "code": "M541",
+    "description": "RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 286,
+    "code": "S618",
+    "description": "HERIDAS DE OTRAS PARTES DE LA MUÑECA Y DE LA MANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 287,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 288,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 288,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 288,
+    "code": "M419",
+    "description": "ESCOLIOSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 289,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 289,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 290,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 290,
+    "code": "M653",
+    "description": "DEDO EN GATILLO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 291,
+    "code": "G551",
+    "description": "COMPRESIONES DE LAS RAICES Y PLEXOS NERVIOSOS EN TRASTORNOS DE LOS DISCOS INTERVERTEBRALES (M50",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 292,
+    "code": "Z359",
+    "description": "SUPERVISION DE EMBARAZO DE ALTO RIESGO, SIN OTRA ESPECIFICACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 293,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 293,
+    "code": "R522",
+    "description": "OTRO DOLOR CRONICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 293,
+    "code": "M238",
+    "description": "OTROS TRASTORNOS INTERNOS DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 294,
+    "code": "S099",
+    "description": "TRAUMATISMO DE LA CABEZA, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 294,
+    "code": "S525",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL RADIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 294,
+    "code": "Z988",
+    "description": "OTROS ESTADOS POSTQUIRURGICOS ESPECIFICADOS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 295,
+    "code": "S821",
+    "description": "FRACTURA DE LA EPIFISIS SUPERIOR DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 295,
+    "code": "S820",
+    "description": "FRACTURA DE LA ROTULA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 295,
+    "code": "S724",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL FEMUR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 295,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 296,
+    "code": "M509",
+    "description": "TRASTORNO DE DISCO CERVICAL, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 296,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 296,
+    "code": "F313",
+    "description": "TRASTORNO AFECTIVO BIPOLAR, EPISODIO DEPRESIVO PRESENTE LEVE O MODERADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 297,
+    "code": "K36X",
+    "description": "OTROS TIPOS DE APENDICITIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 297,
+    "code": "S311",
+    "description": "HERIDA DE LA PARED ABDOMINAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 297,
+    "code": "R101",
+    "description": "DOLOR ABDOMINAL LOCALIZADO EN PARTE SUPERIOR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 297,
+    "code": "R103",
+    "description": "DOLOR LOCALIZADO EN OTRAS PARTES INFERIORES DEL ABDOMEN",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 297,
+    "code": "L905",
+    "description": "FIBROSIS Y AFECCIONES CICATRICIALES DE LA PIEL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 298,
+    "code": "S828",
+    "description": "FRACTURA DE OTRAS PARTES DE LA PIERNA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 299,
+    "code": "M545",
+    "description": "LUMBAGO NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 299,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 299,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 300,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 301,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 302,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 303,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 304,
+    "code": "M109",
+    "description": "GOTA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 304,
+    "code": "I828",
+    "description": "EMBOLIA Y TROMBOSIS DE OTRAS VENAS ESPECIFICADAS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 304,
+    "code": "S824",
+    "description": "FRACTURA DEL PERONE SOLAMENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 304,
+    "code": "P140",
+    "description": "PARALISIS DE ERB DEBIDA A TRAUMATISMO DEL NACIMIENTO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 305,
+    "code": "F438",
+    "description": "OTRAS REACCIONES AL ESTRES GRAVE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 305,
+    "code": "F419",
+    "description": "TRASTORNO DE ANSIEDAD , NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 305,
+    "code": "M340",
+    "description": "ESCLEROSIS SISTEMICA PROGRESIVA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 305,
+    "code": "J841",
+    "description": "OTRAS ENFERMEDADES PULMONARES INTERSTICIALES CON FIBROSIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 306,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 306,
+    "code": "M961",
+    "description": "SINDROME POSTLAMINECTOMIA, NO CLASIFICADO EN OTRA PARTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 306,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 306,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 306,
+    "code": "F512",
+    "description": "TRASTORNO NO ORGANICO DEL CICLO SUEÑO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 306,
+    "code": "R522",
+    "description": "OTRO DOLOR CRONICO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 307,
+    "code": "S727",
+    "description": "FRACTURAS MULTIPLES DEL FEMUR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 307,
+    "code": "S822",
+    "description": "FRACTURA DE LA DIAFISIS DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 307,
+    "code": "S824",
+    "description": "FRACTURA DEL PERONE SOLAMENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 308,
+    "code": "S525",
+    "description": "FRACTURA DE LA EPIFISIS INFERIOR DEL RADIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 309,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 309,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 309,
+    "code": "R521",
+    "description": "DOLOR CRONICO INTRATABLE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 310,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 310,
+    "code": "M508",
+    "description": "OTROS TRASTORNOS DEL DISCO CERVICAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 311,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 312,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 313,
+    "code": "M150",
+    "description": "(OSTEO)ARTROSIS PRIMARIA GENERALIZADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 313,
+    "code": "M811",
+    "description": "OSTEOPOROSIS POSTOOFORECTOMIA, SIN FRACTURA PATOLOGICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 313,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 314,
+    "code": "M45X",
+    "description": "ESPONDILITIS ANQUILOSANTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 315,
+    "code": "S822",
+    "description": "FRACTURA DE LA DIAFISIS DE LA TIBIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 316,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 316,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 317,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 317,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 318,
+    "code": "I872",
+    "description": "INSUFICIENCIA VENOSA (CRONICA) (PERIFERICA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 319,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 320,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 321,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 322,
+    "code": "M518",
+    "description": "OTROS TRASTORNOS ESPECIFICADOS DE LOS DISCOS INTERVERTEBRALES",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 323,
+    "code": "K589",
+    "description": "SINDROME DEL COLON IRRITABLE SIN DIARREA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 323,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 323,
+    "code": "M797",
+    "description": "FIBROMIALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 323,
+    "code": "H402",
+    "description": "GLAUCOMA PRIMARIO DE ANGULO CERRADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 323,
+    "code": "I10X",
+    "description": "HIPERTENSION ESENCIAL (PRIMARIA)",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 323,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 324,
+    "code": "E039",
+    "description": "HIPOTIROIDISMO, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 324,
+    "code": "E790",
+    "description": "HIPERURICEMIA SIN SIGNOS DE ARTRITIS INFLAMATORIA Y ENFERMEDAD TOFACEA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 324,
+    "code": "F411",
+    "description": "TRASTORNO DE ANSIEDAD GENERALIZADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 324,
+    "code": "M255",
+    "description": "DOLOR EN ARTICULACION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 324,
+    "code": "K076",
+    "description": "TRASTORNOS DE LA ARTICULACION TEMPOROMAXILAR",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 324,
+    "code": "H919",
+    "description": "HIPOACUSIA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 325,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 325,
+    "code": "M509",
+    "description": "TRASTORNO DE DISCO CERVICAL, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 326,
+    "code": "H919",
+    "description": "HIPOACUSIA, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 327,
+    "code": "FB53.1",
+    "description": "SÍNDROME DEL MANGUITO ROTADOR",
+    "cie_type": 11,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 327,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 328,
+    "code": "M238",
+    "description": "OTROS TRASTORNOS INTERNOS DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 328,
+    "code": "S835",
+    "description": "ESGUINCES Y TORCEDURAS QUE COMPROMETEN EL LIGAMENTO CRUZADO (ANTERIOR) (POSTERIOR) DE LA RODILLA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 329,
+    "code": "M512",
+    "description": "OTROS DESPLAZAMIENTOS ESPECIFICADOS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 329,
+    "code": "M513",
+    "description": "OTRAS DEGENERACIONES ESPECIFICADAS DE DISCO INTERVERTEBRAL",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 329,
+    "code": "K801",
+    "description": "CALCULO DE LA VESICULA BILIAR CON OTRA COLECISTITIS",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 329,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 330,
+    "code": "M519",
+    "description": "TRASTORNOS DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 330,
+    "code": "M544",
+    "description": "LUMBAGO CON CIATICA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 330,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 331,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 331,
+    "code": "F331",
+    "description": "TRASTORNO DEPRESIVO RECURRENTE, EPISODIO MODERADO PRESENTE",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 331,
+    "code": "F430",
+    "description": "REACCION AL ESTRES AGUDO",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  },
+  {
+    "recommendation_id": 331,
+    "code": "M511",
+    "description": "TRASTORNO DE DISCO LUMBAR Y OTROS, CON RADICULOPATIA",
+    "cie_type": 10,
+    "created_at": "2025-07-22 12:58:03",
+    "updated_at": "2025-07-22 12:58:03"
+  }
+]

@@ -1,0 +1,2176 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model action_fields {
+  id                     Int                      @id @default(autoincrement()) @db.UnsignedInt
+  action_id              Int                      @db.UnsignedInt
+  type                   String
+  name                   String
+  values                 String?                  @db.Text
+  required               Boolean                  @default(false)
+  a2af                   Boolean                  @default(false)
+  created_at             DateTime?                @db.Timestamp(0)
+  updated_at             DateTime?                @db.Timestamp(0)
+  deleted_at             DateTime?                @db.Timestamp(0)
+  actions                actions                  @relation(fields: [action_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_action_fields_actions")
+  activity_action_fields activity_action_fields[]
+
+  @@index([action_id], map: "fk_action_fields_actions")
+}
+
+model action_service_states {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  action_id  Int       @db.UnsignedInt
+  state_id   Int?      @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  actions    actions   @relation(fields: [action_id], references: [id], onDelete: Cascade, map: "fk_action_service_states_actions")
+  services   services  @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_action_service_states_services")
+  states     states?   @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_action_service_states_states")
+
+  @@index([action_id], map: "fk_action_service_states_actions")
+  @@index([service_id], map: "fk_action_service_states_services")
+  @@index([state_id], map: "fk_action_service_states_states")
+}
+
+model actions {
+  id                      Int                     @id @default(autoincrement()) @db.UnsignedInt
+  name                    String
+  state_id                Int?
+  created_at              DateTime?               @db.Timestamp(0)
+  updated_at              DateTime?               @db.Timestamp(0)
+  deleted_at              DateTime?               @db.Timestamp(0)
+  required_dictum         Boolean?
+  required_employment     Boolean?
+  required_documents      Boolean?
+  required_diagnostic     Boolean?
+  required_fulldiagnostic Boolean?
+  restore_user            Boolean?
+  required_fields         Boolean?
+  documents               String?
+  send_targets            String?
+  dictum_dates            String?
+  new_service             Int?
+  required_list_documents String?
+  auto_alert              Int?
+  auto_alert_calendar     Int?
+  action_fields           action_fields[]
+  action_service_states   action_service_states[]
+  activity_actions        activity_actions[]
+  service_actions         service_actions[]
+  state_actions           state_actions[]
+}
+
+model activities {
+  id                                    Int                                     @id @default(autoincrement()) @db.UnsignedInt
+  parent_id                             Int?                                    @db.UnsignedInt
+  client_id                             Int                                     @db.UnsignedInt
+  affiliate_id                          Int                                     @db.UnsignedInt
+  service_id                            Int                                     @db.UnsignedInt
+  employment_id                         Int?                                    @db.UnsignedInt
+  information_source                    Int?
+  auth_number                           String?
+  state_id                              Int                                     @db.UnsignedInt
+  user_id                               Int                                     @db.UnsignedInt
+  finished_at                           DateTime?                               @db.Timestamp(0)
+  created_at                            DateTime?                               @db.DateTime(0)
+  updated_at                            DateTime?                               @db.DateTime(0)
+  deleted_at                            DateTime?                               @db.Timestamp(0)
+  invoiced                              Boolean?
+  invoice_id                            Int?                                    @db.UnsignedInt
+  audited_sicat                         String?                                 @db.VarChar(10)
+  activities                            activities?                             @relation("activitiesToactivities", fields: [parent_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_activities")
+  other_activities                      activities[]                            @relation("activitiesToactivities")
+  affiliates                            affiliates                              @relation(fields: [affiliate_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_affiliates")
+  clients                               clients                                 @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_clients")
+  employments                           employments?                            @relation(fields: [employment_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_employments")
+  services                              services                                @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_services")
+  states                                states                                  @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_states")
+  users                                 users                                   @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activities_users")
+  activity_actions                      activity_actions[]
+  activity_documents                    activity_documents[]
+  activity_service_fields               activity_service_fields[]
+  correspondence_items                  correspondence_items[]
+  dicta                                 dicta[]
+  docinvoice_activities                 docinvoice_activities[]
+  glosas                                glosas[]
+  life_debtor_insurance_without_reports life_debtor_insurance_without_reports[]
+  life_debtor_insurances                life_debtor_insurances[]
+  life_insurance_without_reports        life_insurance_without_reports[]
+  life_insurances                       life_insurances[]
+  pcls                                  pcls[]
+  personal_accident_without_reports     personal_accident_without_reports[]
+  personal_accidents                    personal_accidents[]
+  personal_injuries                     personal_injuries[]
+  personal_injury_without_reports       personal_injury_without_reports[]
+  quotes                                quotes[]
+  rehabilitations                       rehabilitations[]
+  wheaters                              wheaters[]
+
+  @@index([parent_id], map: "fk_activities_activities")
+  @@index([affiliate_id], map: "fk_activities_affiliates")
+  @@index([client_id], map: "fk_activities_clients")
+  @@index([employment_id], map: "fk_activities_employments")
+  @@index([service_id], map: "fk_activities_services")
+  @@index([state_id], map: "fk_activities_states")
+  @@index([user_id], map: "fk_activities_users")
+}
+
+model activity_action_deletes {
+  id                 Int              @id @default(autoincrement()) @db.UnsignedInt
+  activity_action_id Int              @db.UnsignedInt
+  activity_id        Int?
+  action_id          Int?
+  author_id          Int              @db.UnsignedInt
+  deleted_date       DateTime?        @db.DateTime(0)
+  created_at         DateTime?        @db.Timestamp(0)
+  updated_at         DateTime?        @db.Timestamp(0)
+  activity_actions   activity_actions @relation(fields: [activity_action_id], references: [id], onUpdate: Restrict, map: "fk_activity_action_deletes_activity_actions")
+
+  @@index([activity_action_id], map: "fk_activity_action_deletes_activity_actions")
+}
+
+model activity_action_documents {
+  id                   Int                    @id @default(autoincrement()) @db.UnsignedInt
+  activity_action_id   Int                    @db.UnsignedInt
+  name                 String
+  path                 String
+  created_at           DateTime?              @db.Timestamp(0)
+  updated_at           DateTime?              @db.Timestamp(0)
+  deleted_at           DateTime?              @db.Timestamp(0)
+  activity_actions     activity_actions       @relation(fields: [activity_action_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_action_documents_activity_actions")
+  correspondence_items correspondence_items[]
+
+  @@index([activity_action_id], map: "fk_activity_action_documents_activity_actions")
+}
+
+model activity_action_fields {
+  id                 Int              @id @default(autoincrement()) @db.UnsignedInt
+  activity_action_id Int              @db.UnsignedInt
+  action_field_id    Int              @db.UnsignedInt
+  value              String?          @db.Text
+  created_at         DateTime?        @db.Timestamp(0)
+  updated_at         DateTime?        @db.Timestamp(0)
+  action_fields      action_fields    @relation(fields: [action_field_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_action_fields_action_fields")
+  activity_actions   activity_actions @relation(fields: [activity_action_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_action_fields_activity_actions")
+
+  @@index([action_field_id], map: "fk_activity_action_fields_action_fields")
+  @@index([activity_action_id], map: "fk_activity_action_fields_activity_actions")
+}
+
+model activity_actions {
+  id                                           Int                         @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                                  Int                         @db.UnsignedInt
+  action_id                                    Int                         @db.UnsignedInt
+  old_state_id                                 Int                         @db.UnsignedInt
+  new_state_id                                 Int                         @db.UnsignedInt
+  alert_date                                   DateTime?                   @db.Date
+  description                                  String?                     @db.Text
+  old_user_id                                  Int?                        @db.UnsignedInt
+  new_user_id                                  Int?                        @db.UnsignedInt
+  author_id                                    Int                         @db.UnsignedInt
+  created_at                                   DateTime?                   @db.DateTime(0)
+  updated_at                                   DateTime?                   @db.DateTime(0)
+  deleted_at                                   DateTime?                   @db.Timestamp(0)
+  old_id                                       Int?
+  activity_action_deletes                      activity_action_deletes[]
+  activity_action_documents                    activity_action_documents[]
+  activity_action_fields                       activity_action_fields[]
+  actions                                      actions                     @relation(fields: [action_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_actions_actions")
+  activities                                   activities                  @relation(fields: [activity_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_actions_activities")
+  states_activity_actions_old_state_idTostates states                      @relation("activity_actions_old_state_idTostates", fields: [old_state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_actions_states")
+  states_activity_actions_new_state_idTostates states                      @relation("activity_actions_new_state_idTostates", fields: [new_state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_actions_states2")
+  users_activity_actions_old_user_idTousers    users?                      @relation("activity_actions_old_user_idTousers", fields: [old_user_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_actions_users")
+  users_activity_actions_new_user_idTousers    users?                      @relation("activity_actions_new_user_idTousers", fields: [new_user_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_actions_users2")
+  correspondence_items                         correspondence_items[]
+
+  @@index([action_id], map: "fk_activity_actions_actions")
+  @@index([activity_id], map: "fk_activity_actions_activities")
+  @@index([old_state_id], map: "fk_activity_actions_states")
+  @@index([new_state_id], map: "fk_activity_actions_states2")
+  @@index([old_user_id], map: "fk_activity_actions_users")
+  @@index([new_user_id], map: "fk_activity_actions_users2")
+}
+
+model activity_documents {
+  id                  Int                @id @default(autoincrement()) @db.UnsignedInt
+  document_id         Int?               @db.UnsignedInt
+  activity_id         Int                @db.UnsignedInt
+  path                String?
+  uploaded_at         DateTime?          @db.Timestamp(0)
+  summary             String?            @db.Text
+  include_in_dictamen Boolean            @default(false)
+  include_in_others   Boolean            @default(false)
+  created_at          DateTime?          @db.Timestamp(0)
+  updated_at          DateTime?          @db.Timestamp(0)
+  deleted_at          DateTime?          @db.Timestamp(0)
+  physical            Boolean            @default(false)
+  activities          activities         @relation(fields: [activity_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_documents_activities")
+  service_documents   service_documents? @relation(fields: [document_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_documents_service_documents")
+
+  @@index([activity_id], map: "fk_activity_documents_activities")
+  @@index([document_id], map: "fk_activity_documents_service_documents")
+}
+
+model activity_service_fields {
+  id               Int            @id @default(autoincrement()) @db.UnsignedInt
+  activity_id      Int            @db.UnsignedInt
+  service_field_id Int            @db.UnsignedInt
+  value            String?        @db.Text
+  created_at       DateTime?      @db.Timestamp(0)
+  updated_at       DateTime?      @db.Timestamp(0)
+  activities       activities     @relation(fields: [activity_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_service_fields_activities")
+  service_fields   service_fields @relation(fields: [service_field_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_activity_service_fields_service_fields")
+
+  @@index([activity_id], map: "fk_activity_service_fields_activities")
+  @@index([service_field_id], map: "fk_activity_service_fields_service_fields")
+}
+
+model affiliate_files {
+  id           Int       @id @default(autoincrement()) @db.UnsignedInt
+  affiliate_id Int
+  category     String
+  path         String
+  comment      String
+  created_at   DateTime? @db.Timestamp(0)
+  updated_at   DateTime? @db.Timestamp(0)
+  deleted_at   DateTime? @db.Timestamp(0)
+}
+
+model affiliates {
+  id                       Int           @id @default(autoincrement()) @db.UnsignedInt
+  client_id                Int           @db.UnsignedInt
+  doc_type                 String
+  doc_number               String
+  first_name               String
+  last_name                String
+  birthday                 DateTime?     @db.Date
+  gender                   String?
+  address                  String?       @db.VarChar(255)
+  phone                    String?
+  cellphone                String?
+  email                    String?
+  department               Int?
+  municipality             Int?
+  civil_status             Int?
+  school_level             Int?
+  ibc                      Float?
+  affiliation_type         Int
+  eps                      Int
+  arl                      Int
+  afp                      Int
+  regimen                  String?       @db.VarChar(100)
+  clinical_history_summary String?       @db.Text
+  created_at               DateTime?     @db.DateTime(0)
+  updated_at               DateTime?     @db.DateTime(0)
+  deleted_at               DateTime?     @db.Timestamp(0)
+  regional                 Int?
+  type_user                String?       @db.VarChar(50)
+  dominance                String?
+  stratum                  String?
+  kind_house               String?
+  dependents               String?
+  country                  String?       @db.VarChar(250)
+  claimant_type            String?       @db.VarChar(250)
+  insurance_carrier        String?       @db.VarChar(250)
+  policy_num               String?       @db.VarChar(250)
+  plan                     String?       @db.VarChar(250)
+  type_plan                String?       @db.VarChar(250)
+  department_text          String?       @db.VarChar(250)
+  municipality_text        String?       @db.VarChar(250)
+  pension                  String?
+  prepaid_medical          String?
+  plan_prepaid_medical     String?
+  activities               activities[]
+  clients                  clients       @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_affiliates_clients")
+  employments              employments[]
+
+  @@index([client_id], map: "fk_affiliates_clients")
+}
+
+model areas {
+  id          Int           @id @default(autoincrement()) @db.UnsignedInt
+  name        String
+  created_at  DateTime?     @db.Timestamp(0)
+  updated_at  DateTime?     @db.Timestamp(0)
+  state_areas state_areas[]
+  users       users[]
+}
+
+model branches {
+  id           Int           @id @default(autoincrement()) @db.UnsignedInt
+  employer_id  Int           @db.UnsignedInt
+  name         String
+  department   Int
+  municipality Int
+  address      String
+  contact      String
+  phone        String
+  cellphone    String
+  email        String
+  created_at   DateTime?     @db.Timestamp(0)
+  updated_at   DateTime?     @db.Timestamp(0)
+  deleted_at   DateTime?     @db.Timestamp(0)
+  employers    employers     @relation(fields: [employer_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_branches_employers")
+  employments  employments[]
+
+  @@index([employer_id], map: "fk_branches_employers")
+}
+
+model busy_schedules {
+  id                   Int       @id @default(autoincrement()) @db.UnsignedInt
+  user_id              Int       @db.UnsignedInt
+  type                 String    @db.VarChar(50)
+  name_affiliate       String?   @db.VarChar(255)
+  doc_type_affiliate   String?   @db.VarChar(255)
+  doc_number_affiliate String?   @db.VarChar(255)
+  email_affiliate      String?   @db.VarChar(255)
+  date_schedule        DateTime  @db.Date
+  time_init            DateTime  @db.Time(0)
+  time_end             DateTime  @db.Time(0)
+  id_renapp            Int?
+  client_id            Int?
+  observation          String?   @db.Text
+  message_deleted      String?   @db.Text
+  created_at           DateTime? @db.Timestamp(0)
+  updated_at           DateTime? @db.Timestamp(0)
+  deleted_at           DateTime? @db.Timestamp(0)
+  users                users     @relation(fields: [user_id], references: [id], onUpdate: Restrict, map: "busy_schedules_users_id_fk")
+
+  @@index([user_id], map: "busy_schedules_users_id_fk")
+}
+
+model cache {
+  key        String @unique(map: "cache_key_unique")
+  value      String @db.Text
+  expiration Int
+}
+
+model calendar_month {
+  start_day DateTime @unique(map: "calendar_month_start_day_uindex") @db.Date
+  end_day   DateTime @unique(map: "calendar_month_end_day_uindex") @db.Date
+}
+
+model charges {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  id_charge  String    @db.VarChar(255)
+  file       String    @db.Text
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  retry_url  String    @db.Text
+  total      Int?      @db.UnsignedInt
+  name       String?   @db.VarChar(255)
+}
+
+model ciius {
+  id           Int       @id @default(autoincrement()) @db.UnsignedInt
+  cod          String
+  descriptions String?   @db.Text
+  industrial   String?   @db.Text
+  created_at   DateTime? @db.Timestamp(0)
+  updated_at   DateTime? @db.Timestamp(0)
+  deleted_at   DateTime? @db.Timestamp(0)
+}
+
+model client_services {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  client_id  Int       @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  services   services  @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_client_services_services")
+
+  @@index([service_id], map: "fk_client_services_services")
+}
+
+model clients {
+  id                        Int                   @id @default(autoincrement()) @db.UnsignedInt
+  path                      String
+  name                      String
+  color                     String                @default("black")
+  logo                      String?
+  client_type               Int
+  client_default            Int?
+  created_at                DateTime?             @db.Timestamp(0)
+  updated_at                DateTime?             @db.Timestamp(0)
+  deleted_at                DateTime?             @db.Timestamp(0)
+  nickname                  String?
+  footer                    String?               @db.Text
+  email                     String?
+  address                   String?
+  phone                     String?
+  productivity_profesionals String?               @db.Text
+  productivity_assistants   String?               @db.Text
+  activities                activities[]
+  affiliates                affiliates[]
+  correspondences           correspondences[]
+  information_sources       information_sources[]
+  service_billings          service_billings[]
+  service_projections       service_projections[]
+}
+
+model correspondence_items {
+  id                          Int                        @id @default(autoincrement()) @db.UnsignedInt
+  state                       Int                        @default(1)
+  correspondence_id           Int                        @db.UnsignedInt
+  order                       Int?
+  entity_type                 String
+  name                        String
+  address                     String                     @db.VarChar(255)
+  phone                       String
+  department                  Int
+  municipality                Int
+  guide                       String?
+  activity_id                 Int?                       @db.UnsignedInt
+  activity_action_id          Int?                       @db.UnsignedInt
+  activity_action_document_id Int?                       @db.UnsignedInt
+  notified_at                 DateTime?                  @db.Date
+  main                        Boolean                    @default(false)
+  path                        String?
+  created_at                  DateTime?                  @db.Timestamp(0)
+  updated_at                  DateTime?                  @db.Timestamp(0)
+  deleted_at                  DateTime?                  @db.Timestamp(0)
+  cause_of_return             String?                    @db.Text
+  internal                    String?                    @db.VarChar(250)
+  activities                  activities?                @relation(fields: [activity_id], references: [id], onDelete: Restrict, onUpdate: Restrict, map: "fk_correspondence_items_activities")
+  activity_action_documents   activity_action_documents? @relation(fields: [activity_action_document_id], references: [id], onDelete: Restrict, onUpdate: Restrict, map: "fk_correspondence_items_activity_action_documents")
+  activity_actions            activity_actions?          @relation(fields: [activity_action_id], references: [id], onDelete: Restrict, onUpdate: Restrict, map: "fk_correspondence_items_activity_actions")
+  correspondences             correspondences            @relation(fields: [correspondence_id], references: [id], onUpdate: Restrict, map: "fk_correspondence_items_correspondences")
+
+  @@index([activity_id], map: "fk_correspondence_items_activities")
+  @@index([activity_action_document_id], map: "fk_correspondence_items_activity_action_documents")
+  @@index([activity_action_id], map: "fk_correspondence_items_activity_actions")
+  @@index([correspondence_id], map: "fk_correspondence_items_correspondences")
+}
+
+model correspondences {
+  id                   Int                    @id @default(autoincrement()) @db.UnsignedInt
+  client_id            Int                    @db.UnsignedInt
+  consecutive          Int
+  counter              Int                    @default(1)
+  send_at              DateTime?              @db.Date
+  order_type           Int                    @default(1)
+  closed               Boolean                @default(false)
+  created_at           DateTime?              @db.Timestamp(0)
+  updated_at           DateTime?              @db.Timestamp(0)
+  correspondence_items correspondence_items[]
+  clients              clients                @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_correspondences_clients")
+
+  @@index([client_id], map: "fk_correspondences_clients")
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model departments {
+  iddepartment     Int?
+  namedepartment   String? @db.Text
+  idmunicipality   Int?
+  namemunicipality String? @db.Text
+
+  @@ignore
+}
+
+model dicta {
+  id                                 Int                         @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                        Int                         @db.UnsignedInt
+  qualification_date                 DateTime?                   @db.Date
+  committee_date                     DateTime?                   @db.Date
+  radication_jr_date                 DateTime?                   @db.Date
+  radication_jn_date                 DateTime?                   @db.Date
+  firm_date                          DateTime?                   @db.Date
+  pcl_first_percentage               Float?
+  pcl_first_date                     DateTime?                   @db.Date
+  pcl_first_qualifier                String?
+  pcl_jr_percentage                  Float?
+  pcl_jr_date                        DateTime?                   @db.Date
+  pcl_jn_percentage                  Float?
+  pcl_jn_date                        DateTime?                   @db.Date
+  pcl_rq_percentage                  Float?
+  pcl_rq_date                        DateTime?                   @db.Date
+  description_and_evolution          String?                     @db.Text
+  support                            String?                     @db.Text
+  controversy_summary                String?                     @db.Text
+  dictum_adjustation                 String?                     @db.Text
+  created_at                         DateTime?                   @db.Timestamp(0)
+  updated_at                         DateTime?                   @db.Timestamp(0)
+  deleted_at                         DateTime?                   @db.Timestamp(0)
+  controversy_arl_radication         DateTime?                   @db.Date
+  controversy_arl_date               DateTime?                   @db.Date
+  controversy_afp_radication         DateTime?                   @db.Date
+  controversy_afp_date               DateTime?                   @db.Date
+  controversy_employer_radication    DateTime?                   @db.Date
+  controversy_employer_date          DateTime?                   @db.Date
+  controversy_affiliate_radication   DateTime?                   @db.Date
+  controversy_affiliate_date         DateTime?                   @db.Date
+  controversy_regional_board         Int?
+  controversy_details                String?                     @db.Text
+  execution_date                     DateTime?                   @db.Date
+  jr_dictum_date                     DateTime?                   @db.Date
+  jn_dictum_date                     DateTime?                   @db.Date
+  observations                       String?                     @db.Text
+  jr_dictum_number                   String?
+  jr_bill_number                     String?
+  eid                                String?
+  controversy_eps_radication         DateTime?                   @db.Date
+  ph_medic                           String?
+  ph_surgical                        String?
+  ph_pharmacological                 String?
+  ph_hospital                        String?
+  ph_traumatic                       String?
+  ph_toxic                           String?
+  ph_allergic                        String?
+  ph_gynec                           String?
+  ph_extra                           String?
+  height                             Float?
+  weight                             Float?
+  ta                                 Float?
+  ta2                                Float?
+  fc                                 Float?
+  fr                                 Float?
+  psy_description                    String?                     @db.Text
+  temperature                        Float?
+  dominance                          String?
+  psy_date_diagnostic                DateTime?                   @db.Date
+  psy_findings                       String?                     @db.Text
+  psy_pathologies                    String?                     @db.Text
+  psy_extra_labor                    String?                     @db.Text
+  decret_presence_risk_factor        Boolean?
+  decret_presence_diagnostic_disease Boolean?
+  decret_etiological_agent           String?                     @db.Text
+  decret_diseases_group              String?                     @db.Text
+  activities                         activities                  @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_dicta_activities")
+  dictum_diagnostics                 dictum_diagnostics[]
+  dictum_interconsultations          dictum_interconsultations[]
+  dictum_work_histories              dictum_work_histories[]
+
+  @@index([activity_id], map: "fk_dicta_activities")
+}
+
+model dictum_diagnostics {
+  id                   Int       @id @default(autoincrement()) @db.UnsignedInt
+  dictum_id            Int       @db.UnsignedInt
+  code                 String
+  description          String    @db.VarChar(255)
+  d_date               DateTime? @db.Date
+  origin               String?
+  qualifier            String?
+  origin_jr            String?
+  origin_jn            String?
+  origin_firm          String?
+  firm_date            DateTime? @db.Date
+  created_at           DateTime? @db.Timestamp(0)
+  updated_at           DateTime? @db.Timestamp(0)
+  deleted_at           DateTime? @db.Timestamp(0)
+  controversy_author   String?
+  description_editable String?   @db.Text
+  laterality           String?   @db.VarChar(100)
+  dicta                dicta     @relation(fields: [dictum_id], references: [id], onUpdate: Restrict, map: "fk_dictum_diagnostics_dicta")
+
+  @@index([dictum_id], map: "fk_dictum_diagnostics_dicta")
+}
+
+model dictum_interconsultations {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  dictum_id   Int       @db.UnsignedInt
+  exam_date   DateTime? @db.Date
+  exam_name   String?
+  exam_result String?   @db.Text
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+  deleted_at  DateTime? @db.Timestamp(0)
+  dicta       dicta     @relation(fields: [dictum_id], references: [id], onUpdate: Restrict, map: "fk_dictum_interconsultations_dicta")
+
+  @@index([dictum_id], map: "fk_dictum_interconsultations_dicta")
+}
+
+model dictum_work_histories {
+  id                Int       @id @default(autoincrement()) @db.UnsignedInt
+  dictum_id         Int       @db.UnsignedInt
+  company           String?
+  position          String?
+  risk_factor       String?
+  exposition_time   Int?
+  created_at        DateTime? @db.Timestamp(0)
+  updated_at        DateTime? @db.Timestamp(0)
+  deleted_at        DateTime? @db.Timestamp(0)
+  economic_activity String?   @db.Text
+  dicta             dicta     @relation(fields: [dictum_id], references: [id], onUpdate: Restrict, map: "fk_dictum_work_histories_dicta")
+
+  @@index([dictum_id], map: "fk_dictum_work_histories_dicta")
+}
+
+model docinvoice_activities {
+  id            BigInt       @unique(map: "id") @default(autoincrement()) @db.UnsignedBigInt
+  docinvoice_id Int?         @db.UnsignedInt
+  activity_id   Int?         @db.UnsignedInt
+  type          String?      @db.VarChar(250)
+  created_at    DateTime?    @db.Timestamp(0)
+  updated_at    DateTime?    @db.Timestamp(0)
+  deleted_at    DateTime?    @db.Timestamp(0)
+  activities    activities?  @relation(fields: [activity_id], references: [id], onDelete: Restrict, onUpdate: Restrict, map: "docinvoice_activities_activities_id_fk")
+  docinvoices   docinvoices? @relation(fields: [docinvoice_id], references: [id], onDelete: Restrict, onUpdate: Restrict, map: "docinvoice_activities_docinvoices_id_fk")
+
+  @@index([activity_id], map: "docinvoice_activities_activities_id_fk")
+  @@index([docinvoice_id], map: "docinvoice_activities_docinvoices_id_fk")
+}
+
+model docinvoices {
+  id                    Int                     @id @default(autoincrement()) @db.UnsignedInt
+  quantity              Int?
+  invoice_id            Int?                    @db.UnsignedInt
+  user_id               Int?                    @db.UnsignedInt
+  user_name             String?                 @db.VarChar(250)
+  invoice_number        String?                 @db.VarChar(30)
+  date_invoice          DateTime?               @db.Date
+  init_date             DateTime?               @db.Date
+  last_date             DateTime?               @db.Date
+  payed                 Int?                    @default(0)
+  created_at            DateTime?               @db.Timestamp(0)
+  updated_at            DateTime?               @db.Timestamp(0)
+  deleted_at            DateTime?               @db.Timestamp(0)
+  client_id             Int?
+  docinvoice_activities docinvoice_activities[]
+}
+
+model doctors {
+  id             BigInt  @id @unique(map: "id") @default(autoincrement()) @db.UnsignedBigInt
+  city           String? @db.VarChar(250)
+  name           String? @db.VarChar(250)
+  doc_type       String? @db.VarChar(250)
+  doc_number     String? @db.VarChar(250)
+  medical_record String? @db.VarChar(250)
+  speciality     String? @db.VarChar(250)
+  license        String? @db.VarChar(250)
+}
+
+model emails {
+  id                 Int       @id @default(autoincrement()) @db.UnsignedInt
+  emails             String?   @db.Text
+  subject            String?   @db.Text
+  files              String?   @db.Text
+  text               String?   @db.LongText
+  sender             String?   @db.Text
+  activity_id        Int?
+  activity_action_id Int?
+  created_at         DateTime  @db.Timestamp(0)
+  updated_at         DateTime  @db.Timestamp(0)
+  request            DateTime? @db.DateTime(0)
+  delivered          DateTime? @db.DateTime(0)
+  unique_opened      DateTime? @db.DateTime(0)
+  opened             DateTime? @db.DateTime(0)
+  click              DateTime? @db.DateTime(0)
+  soft_bounce        DateTime? @db.DateTime(0)
+  hard_bounce        DateTime? @db.DateTime(0)
+  invalid_email      DateTime? @db.DateTime(0)
+  deferred           DateTime? @db.DateTime(0)
+  spam               DateTime? @db.DateTime(0)
+  unsubscribed       DateTime? @db.DateTime(0)
+  blocked            DateTime? @db.DateTime(0)
+  error              DateTime? @db.DateTime(0)
+  message_id         String?   @db.VarChar(255)
+  service_id         Int?
+  email_id           Int?
+  client_id          Int?
+  fromE              String?   @db.VarChar(255)
+  fromName           String?   @db.VarChar(255)
+
+  @@index([client_id], map: "idx_client_id")
+  @@index([email_id], map: "idx_email_id")
+  @@index([emails(length: 255)], map: "idx_emails")
+}
+
+model employers {
+  id               Int           @id @default(autoincrement()) @db.UnsignedInt
+  nit              String
+  nit_digit        Int
+  name             String
+  activity         Int
+  arl              Int
+  created_at       DateTime?     @db.Timestamp(0)
+  updated_at       DateTime?     @db.Timestamp(0)
+  deleted_at       DateTime?     @db.Timestamp(0)
+  mission_employer String?
+  ind_qualy        String?
+  branches         branches[]
+  employments      employments[]
+}
+
+model employments {
+  id                      Int          @id @default(autoincrement()) @db.UnsignedInt
+  affiliate_id            Int          @db.UnsignedInt
+  employer_id             Int?         @db.UnsignedInt
+  branch_id               Int?         @db.UnsignedInt
+  actual                  Boolean
+  position                String
+  position_functions      String       @db.Text
+  ocupation               String       @db.VarChar(11)
+  start_date              DateTime     @db.Date
+  end_date                DateTime?    @db.Date
+  company_time            Int
+  position_time           Int
+  description             String?      @db.Text
+  mission_employer        String?      @db.Text
+  use_protection_elements String?      @db.Text
+  kind_of_position        String?      @db.Text
+  kind_of_contract        String?      @db.Text
+  hours                   String?
+  kind_of_salary          String?      @db.Text
+  position_type           String?
+  position_type_desc      String?
+  created_at              DateTime?    @db.Timestamp(0)
+  updated_at              DateTime?    @db.Timestamp(0)
+  deleted_at              DateTime?    @db.Timestamp(0)
+  activities              activities[]
+  affiliates              affiliates   @relation(fields: [affiliate_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_employments_affiliates")
+  branches                branches?    @relation(fields: [branch_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_employments_branches")
+  employers               employers?   @relation(fields: [employer_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_employments_employers")
+
+  @@index([affiliate_id], map: "fk_employments_affiliates")
+  @@index([branch_id], map: "fk_employments_branches")
+  @@index([employer_id], map: "fk_employments_employers")
+}
+
+model feedback {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  id_charge  String    @db.VarChar(255)
+  row        Int?      @db.UnsignedInt
+  message    String?   @db.Text
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  error      Boolean?
+  data       Json?
+}
+
+model feedback_saved {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  id_charge  String    @db.VarChar(255)
+  row        Int?      @db.UnsignedInt
+  message    String?   @db.Text
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  error      Boolean?
+  data       Json?
+}
+
+model glosa_diagnostics {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  glosa_id    Int       @db.UnsignedInt
+  code        String
+  description String
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+  glosas      glosas    @relation(fields: [glosa_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_glosa_diagnostics_glosas")
+
+  @@index([glosa_id], map: "fk_glosa_diagnostics_glosas")
+}
+
+model glosa_invoices {
+  id             Int       @id @default(autoincrement()) @db.UnsignedInt
+  glosa_id       Int       @db.UnsignedInt
+  number         String?
+  value          Float?
+  cod            String?
+  description    String?
+  ips_type       String?
+  quantity       Float?
+  unit_value     Float?
+  radication_num String?
+  atenttion_date DateTime? @db.Date
+  mapiiss_code   String?
+  ips_nit        String?
+  ips_name       String?
+  created_at     DateTime? @db.Timestamp(0)
+  updated_at     DateTime? @db.Timestamp(0)
+  glosas         glosas    @relation(fields: [glosa_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_glosa_invoices_glosas")
+
+  @@index([glosa_id], map: "fk_glosa_invoices_glosas")
+}
+
+model glosas {
+  id                   Int                 @id @default(autoincrement()) @db.UnsignedInt
+  activity_id          Int                 @db.UnsignedInt
+  arl                  String?
+  regional             String?
+  event                String?
+  event_type           String?
+  event_date           DateTime?           @db.Date
+  dictum_id            Int?                @db.UnsignedInt
+  lastq_date           DateTime?           @db.Date
+  lastq_qualifier      String?
+  invoice_number       String?
+  invoice_date         DateTime?           @db.Date
+  invoice_total        Float?
+  start_date           DateTime?           @db.Date
+  end_date             DateTime?           @db.Date
+  arl_radication       DateTime?           @db.Date
+  payment_total        Float?
+  management_date      DateTime?           @db.Date
+  return_date          DateTime?           @db.Date
+  reason               String?
+  reason_std           String?             @db.VarChar(255)
+  reason_std_details   String?             @db.VarChar(255)
+  gvalue               Float?
+  gaccepted            Float?
+  ganswer              String?             @db.Text
+  rvalue               Float?
+  raccepted            Float?
+  ranswer              String?             @db.Text
+  conciliation_date    DateTime?           @db.Date
+  conciliation_number  String?
+  conciliation_value   Float?
+  conciliation_summary String?             @db.Text
+  created_at           DateTime?           @db.Timestamp(0)
+  updated_at           DateTime?           @db.Timestamp(0)
+  glosa_diagnostics    glosa_diagnostics[]
+  glosa_invoices       glosa_invoices[]
+  activities           activities          @relation(fields: [activity_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_glosas_activities")
+
+  @@index([activity_id], map: "fk_glosas_activities")
+}
+
+model holidays {
+  id          Int      @id @default(autoincrement())
+  holiday     DateTime @db.Date
+  day         String?  @db.VarChar(50)
+  description String?  @db.VarChar(50)
+}
+
+model information_sources {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  client_id  Int       @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  name       String
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  clients    clients   @relation(fields: [client_id], references: [id], onUpdate: Restrict, map: "information_sources_client_id_foreign")
+  services   services  @relation(fields: [service_id], references: [id], onUpdate: Restrict, map: "information_sources_service_id_foreign")
+
+  @@index([client_id], map: "information_sources_client_id_foreign")
+  @@index([service_id], map: "information_sources_service_id_foreign")
+}
+
+model jobs {
+  id           BigInt @id @default(autoincrement()) @db.UnsignedBigInt
+  queue        String
+  payload      String @db.LongText
+  attempts     Int    @db.UnsignedTinyInt
+  reserved_at  Int?   @db.UnsignedInt
+  available_at Int    @db.UnsignedInt
+  created_at   Int    @db.UnsignedInt
+
+  @@index([queue, reserved_at], map: "jobs_queue_reserved_at_index")
+}
+
+model life_debtor_insurance_without_reports {
+  id            Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id   Int        @db.UnsignedInt
+  id_credit     Int?
+  doc_number    String?    @db.VarChar(30)
+  client        String?    @db.VarChar(30)
+  req           String?
+  affiliate_id  String?
+  activity_2_id String?
+  cellphone     String?    @db.VarChar(30)
+  created_at    DateTime?  @db.DateTime(0)
+  updated_at    DateTime?  @db.DateTime(0)
+  activities    activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_life_debtor_insurance_without_reports_activities_")
+
+  @@index([activity_id], map: "fk_life_debtor_insurance_without_reports_activities_")
+}
+
+model life_debtor_insurances {
+  id                                 Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                        Int        @db.UnsignedInt
+  id_type                            String?
+  id_number                          Int?
+  name_lastname                      String?
+  cellphone                          String?    @db.VarChar(20)
+  nit_taker                          Int?
+  name_taker                         String?
+  policy_number                      Int?
+  plan_type                          String?
+  ramo                               String?
+  secure_prime_value                 Int?
+  expiration_date                    DateTime?  @db.Date
+  payment_freq                       String?
+  biweekly                           String?    @db.VarChar(60)
+  biweekly_premium                   String?    @db.VarChar(60)
+  disbursement_date                  DateTime?  @db.Date
+  policy_validity                    DateTime?  @db.Date
+  credit_number                      Int?
+  id_rank                            Int?
+  amount_approved                    Int?
+  requested_amount                   Int?
+  credit_prime_value                 String?
+  outlay_date                        DateTime?  @db.Date
+  end_date                           DateTime?  @db.Date
+  time_limit                         Int?
+  credit_state                       String?
+  capital_residue                    Int?
+  payment_type                       String?
+  beneficiaries                      String?    @db.Text
+  quota_number                       Int?
+  quota_in_arrears                   Int?
+  excel_report_date                  DateTime?  @db.Date
+  report_month                       String?
+  billing_palig_date                 DateTime?  @db.Date
+  billing_palig_number               String?
+  billing_global_value               Int?
+  billing_prime_value                Int?
+  prime_payment_type                 String?
+  excel_payment_date                 DateTime?  @db.Date
+  excel_payment_value                Int?
+  id_credit                          String?    @db.VarChar(255)
+  quantity_quotes                    String?    @db.VarChar(255)
+  disbursement_value                 String?    @db.VarChar(255)
+  sinister_number                    String?
+  sinister_date                      DateTime?  @db.Date
+  sinister_alert_date                DateTime?  @db.Date
+  age_claim                          Int?
+  amparo_affected                    String?
+  claim_value                        Int?
+  remanent_value                     Int?
+  regis_verify_date                  DateTime?  @db.Date
+  doc_cc                             Boolean?   @default(false)
+  doc_letter                         Boolean?   @default(false)
+  doc_state                          Boolean?   @default(false)
+  doc_declaration                    Boolean?   @default(false)
+  doc_certificate_unpaid             Boolean?   @default(false)
+  doc_rc_date                        Boolean?   @default(false)
+  doc_state_cc                       Boolean?   @default(false)
+  doc_clinical_history               Boolean?   @default(false)
+  doc_pcl_rating                     Boolean?   @default(false)
+  doc_bdua                           Boolean?   @default(false)
+  doc_other                          String?    @db.VarChar(255)
+  sinister_beneficiaries             String?    @db.Text
+  preli_value                        Int?
+  insurer_cliam_date                 DateTime?  @db.Date
+  insurer_state                      String?
+  payment_day_date                   DateTime?  @db.Date
+  cause                              String?    @db.VarChar(190)
+  occurrence_city                    String?    @db.VarChar(190)
+  occurrence_department              String?    @db.VarChar(190)
+  length_stay_day                    String?    @db.VarChar(255)
+  length_stay_month                  Int?
+  length_stay_year                   String?    @db.VarChar(255)
+  formalization_date                 String?    @db.VarChar(255)
+  age_admission                      String?    @db.VarChar(255)
+  initial_insured_value              Int?
+  reserve_value                      Int?
+  liquidation_value                  Int?
+  beneficiary_payment                String?    @db.VarChar(190)
+  status_remnant                     String?    @db.VarChar(190)
+  value_paid_unpaid_balance          Int?
+  remaining_beneficiary              String?    @db.VarChar(190)
+  remaining_paid_value               Int?
+  created_at                         DateTime?  @db.DateTime(0)
+  updated_at                         DateTime?  @db.DateTime(0)
+  remaining_payment_date             DateTime?  @db.Date
+  objetion_cause                     String?    @db.VarChar(190)
+  vigency_begin_date                 DateTime?  @db.Date
+  inscription_type                   String?
+  payment_objection_date_one         DateTime?  @db.Date
+  state_one                          String?    @db.VarChar(20)
+  payment_value_one                  String?
+  payment_objection_date_two         DateTime?  @db.Date
+  state_two                          String?    @db.VarChar(20)
+  payment_value_two                  String?
+  payment_objection_date_three       DateTime?  @db.Date
+  state_three                        String?    @db.VarChar(20)
+  payment_value_three                String?
+  payment_objection_date_four        DateTime?  @db.Date
+  state_four                         String?    @db.VarChar(20)
+  payment_value_four                 String?
+  payment_objection_date_five        DateTime?  @db.Date
+  state_five                         String?    @db.VarChar(20)
+  payment_value_five                 String?
+  payment_objection_date_six         DateTime?  @db.Date
+  state_six                          String?    @db.VarChar(20)
+  payment_value_six                  String?
+  payment_objection_date_seven       DateTime?  @db.Date
+  state_seven                        String?    @db.VarChar(20)
+  payment_value_seven                String?
+  payment_objection_date_eight       DateTime?  @db.Date
+  state_eight                        String?    @db.VarChar(20)
+  payment_value_eight                String?
+  payment_objection_date_nine        DateTime?  @db.Date
+  state_nine                         String?    @db.VarChar(20)
+  payment_value_nine                 String?
+  payment_objection_date_ten         DateTime?  @db.Date
+  state_ten                          String?    @db.VarChar(20)
+  payment_value_ten                  String?
+  payment_objection_date_eleven      DateTime?  @db.Date
+  state_eleven                       String?    @db.VarChar(20)
+  payment_value_eleven               String?
+  payment_objection_date_twelve      DateTime?  @db.Date
+  state_twelve                       String?    @db.VarChar(20)
+  payment_value_twelve               String?
+  policy_observations                String?    @db.Text
+  report_date                        DateTime?  @db.Date
+  report_bill_date                   DateTime?  @db.Date
+  report_bill_month                  String?
+  bill_date                          DateTime?  @db.Date
+  bill_number                        String?
+  global_bill_value                  String?
+  prime_bill_value_individual_credit String?
+  payment_bill_value                 String?
+  bill_payment_date                  DateTime?  @db.Date
+  activities                         activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_life_debtor_insurances_activities")
+
+  @@index([activity_id], map: "fk_life_debtor_insurances_activities")
+}
+
+model life_insurance_beneficiaries {
+  id                                 Int             @id @default(autoincrement()) @db.UnsignedInt
+  life_insurance_id                  Int             @db.UnsignedInt
+  doc_type_beneficiary               String?         @db.VarChar(10)
+  doc_number_beneficiary             String?         @db.VarChar(40)
+  name_lastname_beneficiary          String?         @db.VarChar(50)
+  birthday_beneficiary               DateTime?       @db.Date
+  gender_beneficiary                 String?         @db.VarChar(20)
+  relationship_beneficiary           String?         @db.VarChar(20)
+  beneficiary_percentage_beneficiary String?         @db.VarChar(20)
+  beneficiary_type_beneficiary       String?         @db.VarChar(20)
+  created_at                         DateTime?       @db.Timestamp(0)
+  updated_at                         DateTime?       @db.Timestamp(0)
+  life_insurances                    life_insurances @relation(fields: [life_insurance_id], references: [id], onUpdate: Restrict, map: "life_insurance_beneficiaries_life_insurances_id_foreign")
+
+  @@index([life_insurance_id], map: "life_insurance_beneficiaries_life_insurances_id_foreign")
+}
+
+model life_insurance_premium_billings {
+  id                Int             @id @default(autoincrement()) @db.UnsignedInt
+  life_insurance_id Int             @db.UnsignedInt
+  payment_date      DateTime?       @db.Date
+  paid_period       String?         @db.VarChar(12)
+  collection_status String?         @db.VarChar(20)
+  payment_value     String?         @db.VarChar(20)
+  observation       String?         @db.VarChar(190)
+  created_at        DateTime?       @db.Timestamp(0)
+  updated_at        DateTime?       @db.Timestamp(0)
+  paid_year         String?         @db.VarChar(6)
+  life_insurances   life_insurances @relation(fields: [life_insurance_id], references: [id], onUpdate: Restrict, map: "life_insurance_premium_billings_life_insurances_id_foreign")
+
+  @@index([life_insurance_id], map: "life_insurance_premium_billings_life_insurances_id_foreign")
+}
+
+model life_insurance_without_reports {
+  id            Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id   Int        @db.UnsignedInt
+  email         String?
+  doc_type      String?
+  doc_number    String?
+  credit_number String?
+  first_name    String?
+  last_name     String?
+  client        String?    @db.Text
+  req           String?
+  activity_2_id String?
+  created_at    DateTime?  @db.Timestamp(0)
+  updated_at    DateTime?  @db.Timestamp(0)
+  activities    activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_life_insurance_without_reports_activities_")
+
+  @@index([activity_id], map: "fk_life_insurance_without_reports_activities_")
+}
+
+model life_insurances {
+  id                              Int                               @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                     Int                               @db.UnsignedInt
+  id_type                         String?
+  id_number                       Int?
+  name_lastname                   String?
+  gender                          String?
+  birthday                        DateTime?                         @db.Date
+  nit_pay                         Int?
+  name_pay                        String?
+  nit_taker                       Int?
+  name_taker                      String?
+  policy_number                   Int?
+  plan_type                       String?
+  ramo                            String?
+  secure_prime_value              Int?
+  expiration_date                 DateTime?                         @db.Date
+  payment_freq                    String?
+  credit_number                   Int?
+  id_rank                         Int?
+  amount_approved                 Int?
+  requested_amount                Int?
+  credit_prime_value              String?
+  outlay_date                     DateTime?                         @db.Date
+  end_date                        DateTime?                         @db.Date
+  time_limit                      Int?
+  credit_state                    String?
+  capital_residue                 Int?
+  payment_type                    String?
+  beneficiaries_description       String?                           @db.Text
+  quota_number                    Int?
+  quota_in_arrears                Int?
+  excel_report_date               DateTime?                         @db.Date
+  report_month                    String?
+  billing_palig_date              DateTime?                         @db.Date
+  billing_palig_number            String?
+  billing_global_value            Int?
+  billing_prime_value             Int?
+  prime_payment_type              String?
+  excel_payment_date              DateTime?                         @db.Date
+  excel_payment_value             Int?
+  sinister_number                 String?
+  sinister_date                   DateTime?                         @db.Date
+  sinister_alert_date             DateTime?                         @db.Date
+  age_claim                       Int?
+  amparo_affected                 String?
+  claim_value                     Int?
+  remanent_value                  Int?
+  regis_verify_date               DateTime?                         @db.Date
+  doc_cc                          Boolean?                          @default(false)
+  doc_letter                      Boolean?                          @default(false)
+  doc_state                       Boolean?                          @default(false)
+  doc_declaration                 Boolean?                          @default(false)
+  doc_certificate_unpaid          Boolean?                          @default(false)
+  doc_rc_date                     Boolean?                          @default(false)
+  doc_state_cc                    Boolean?                          @default(false)
+  doc_clinical_history            Boolean?                          @default(false)
+  doc_pcl_rating                  Boolean?                          @default(false)
+  doc_bdua                        Boolean?                          @default(false)
+  doc_other                       String?                           @db.VarChar(255)
+  sinister_beneficiaries          String?                           @db.Text
+  preli_value                     Int?
+  insurer_cliam_date              DateTime?                         @db.Date
+  insurer_state                   String?
+  payment_day_date                DateTime?                         @db.Date
+  cause                           String?                           @db.VarChar(190)
+  occurrence_city                 String?                           @db.VarChar(190)
+  occurrence_department           String?                           @db.VarChar(190)
+  length_stay_day                 String?                           @db.VarChar(255)
+  length_stay_month               Int?
+  length_stay_year                String?                           @db.VarChar(255)
+  formalization_date              String?                           @db.VarChar(255)
+  age_admission                   String?                           @db.VarChar(255)
+  initial_insured_value           Int?
+  reserve_value                   Int?
+  liquidation_value               Int?
+  beneficiary_payment             String?                           @db.VarChar(190)
+  status_remnant                  String?                           @db.VarChar(190)
+  value_paid_unpaid_balance       Int?
+  remaining_beneficiary           String?                           @db.VarChar(190)
+  remaining_paid_value            Int?
+  created_at                      DateTime?                         @db.Timestamp(0)
+  updated_at                      DateTime?                         @db.Timestamp(0)
+  remaining_payment_date          DateTime?                         @db.Date
+  objetion_cause                  String?                           @db.VarChar(190)
+  vigency_begin_date              DateTime?                         @db.Date
+  cobro_type                      String?
+  inscription_type                String?
+  date_renew_1                    DateTime?                         @db.Date
+  date_renew_2                    DateTime?                         @db.Date
+  life_insurance_beneficiaries    life_insurance_beneficiaries[]
+  life_insurance_premium_billings life_insurance_premium_billings[]
+  activities                      activities                        @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_life_insurances_activities")
+
+  @@index([activity_id], map: "fk_life_insurances_activities")
+}
+
+model logs {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  model       String
+  model_id    Int
+  action      String
+  field       String?
+  old_value   String?   @db.Text
+  new_value   String?   @db.Text
+  description String?   @db.Text
+  author_id   Int
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+}
+
+model migrations {
+  id        Int    @id @default(autoincrement()) @db.UnsignedInt
+  migration String
+  batch     Int
+}
+
+model mobilities {
+  id                 Int       @id @default(autoincrement()) @db.UnsignedInt
+  activity_id        Int
+  grade              Int?
+  sender             String?
+  details            String?   @db.Text
+  description        String?   @db.Text
+  qualification_date DateTime? @db.Date
+  created_at         DateTime? @db.Timestamp(0)
+  updated_at         DateTime? @db.Timestamp(0)
+  validity           String?
+  treating_doctor    String?   @db.Text
+}
+
+model networks {
+  id       BigInt  @id @unique(map: "id") @default(autoincrement()) @db.UnsignedBigInt
+  regional String? @db.VarChar(250)
+  city     String? @db.VarChar(250)
+  name     String? @db.VarChar(250)
+  contact  String? @db.Text
+  phone    String? @db.VarChar(250)
+  address  String? @db.Text
+  email    String? @db.VarChar(250)
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model password_resets {
+  email      String
+  token      String
+  created_at DateTime? @db.Timestamp(0)
+
+  @@index([email], map: "password_resets_email_index")
+  @@ignore
+}
+
+model pcl_deficiences {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  pcl_id      Int       @db.UnsignedInt
+  table       String?
+  name        String?
+  percentage  Float?
+  class       String?
+  cfpfu       String?
+  cfm1        String?
+  cfm2        String?
+  cfm3        String?
+  class_final String?
+  cat         String?
+  ear         Boolean   @default(false)
+  dominant    Boolean   @default(false)
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+  deleted_at  DateTime? @db.Timestamp(0)
+  pcls        pcls      @relation(fields: [pcl_id], references: [id], onUpdate: Restrict, map: "fk_pcl_deficiences_pcls")
+
+  @@index([pcl_id], map: "fk_pcl_deficiences_pcls")
+}
+
+model pcl_diagnostics {
+  id                   Int       @id @default(autoincrement()) @db.UnsignedInt
+  pcl_id               Int       @db.UnsignedInt
+  code                 String
+  description          String
+  origin               String?
+  deficiences          String?
+  created_at           DateTime? @db.Timestamp(0)
+  updated_at           DateTime? @db.Timestamp(0)
+  description_editable String?   @db.Text
+  laterality           String?   @db.VarChar(100)
+  pcls                 pcls      @relation(fields: [pcl_id], references: [id], onUpdate: Restrict, map: "fk_pcl_diagnostics_pcls")
+
+  @@index([pcl_id], map: "fk_pcl_diagnostics_pcls")
+}
+
+model pcl_interconsultations {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  pcl_id      Int       @db.UnsignedInt
+  exam_date   DateTime? @db.Date
+  exam_name   String
+  exam_result String?   @db.Text
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+  deleted_at  DateTime? @db.Timestamp(0)
+  pcls        pcls      @relation(fields: [pcl_id], references: [id], onUpdate: Restrict, map: "fk_pcl_interconsultations_pcls")
+
+  @@index([pcl_id], map: "fk_pcl_interconsultations_pcls")
+}
+
+model pcl_table_datas {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  pcl_id     Int       @db.UnsignedInt
+  table      String
+  key        Int
+  value      Float
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  pcls       pcls      @relation(fields: [pcl_id], references: [id], onUpdate: Restrict, map: "fk_pcl_table_datas_pcls")
+
+  @@index([pcl_id], map: "fk_pcl_table_datas_pcls")
+}
+
+model pcls {
+  id                     Int                      @id @default(autoincrement()) @db.UnsignedInt
+  activity_id            Int                      @db.UnsignedInt
+  pcl_type               Int
+  qualification_date     DateTime?                @db.Date
+  committee_date         DateTime?                @db.Date
+  firm_date              DateTime?                @db.Date
+  attorney_name          String?
+  attorney_cc            String?
+  description            String?                  @db.Text
+  sender                 Int?
+  applicant              String?
+  dominance              Int?
+  require_3rd            Boolean?                 @default(false)
+  require_3rd_dk         Boolean?                 @default(false)
+  require_device         Boolean?                 @default(false)
+  required_support       String?                  @db.Text
+  disease_type           Int?
+  previous_pcl           Float?
+  ph_medical             String?                  @db.Text
+  ph_surgical            String?                  @db.Text
+  ph_toxic               String?                  @db.Text
+  ph_medicines           String?                  @db.Text
+  ph_gynecobotters       String?                  @db.Text
+  ph_traumatic           String?                  @db.Text
+  ph_family              String?                  @db.Text
+  doc_clinical_history   Boolean?                 @default(false)
+  doc_epicrisis          Boolean?                 @default(false)
+  doc_paraclinic         Boolean?                 @default(false)
+  doc_prehiring          Boolean?                 @default(false)
+  doc_periodics          Boolean?                 @default(false)
+  doc_post_occupational  Boolean?                 @default(false)
+  doc_health_concept     Boolean?                 @default(false)
+  doc_others             String?                  @db.Text
+  laborally_active       Boolean?                 @default(false)
+  use_laboral_role       Boolean?                 @default(false)
+  role_restriction       Float?
+  economic_self          Float?
+  role                   Int?
+  structuring_at         DateTime?                @db.Date
+  origin                 String?
+  event_type             Int?
+  event_date             DateTime?                @db.Date
+  sinister_number        String?
+  pension_review         Boolean?                 @default(false)
+  details                String?                  @db.Text
+  structuring_support    String?                  @db.Text
+  board                  Int?
+  created_at             DateTime?                @db.Timestamp(0)
+  updated_at             DateTime?                @db.Timestamp(0)
+  deleted_at             DateTime?                @db.Timestamp(0)
+  sender_name            String?
+  sender_doc             String?
+  sender_phone           String?
+  sender_address         String?
+  sender_email           String?
+  sender_city            String?
+  request_reason         Int                      @default(1)
+  catastrophic           Boolean?                 @default(false)
+  role_category          Int?
+  monetary_value         Float?
+  pcl_deficiences        pcl_deficiences[]
+  pcl_diagnostics        pcl_diagnostics[]
+  pcl_interconsultations pcl_interconsultations[]
+  pcl_table_datas        pcl_table_datas[]
+  activities             activities               @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_pcls_activities")
+
+  @@index([activity_id], map: "fk_pcls_activities")
+}
+
+model personal_accident_beneficiaries {
+  id                                 Int                @id @default(autoincrement()) @db.UnsignedInt
+  personal_accident_id               Int                @db.UnsignedInt
+  doc_type_beneficiary               String?            @db.VarChar(10)
+  doc_number_beneficiary             String?            @db.VarChar(40)
+  name_lastname_beneficiary          String?            @db.VarChar(50)
+  birthday_beneficiary               DateTime?          @db.Date
+  gender_beneficiary                 String?            @db.VarChar(20)
+  relationship_beneficiary           String?            @db.VarChar(20)
+  beneficiary_percentage_beneficiary String?            @db.VarChar(20)
+  beneficiary_type_beneficiary       String?            @db.VarChar(20)
+  created_at                         DateTime?          @db.Timestamp(0)
+  updated_at                         DateTime?          @db.Timestamp(0)
+  personal_accidents                 personal_accidents @relation(fields: [personal_accident_id], references: [id], onUpdate: Restrict, map: "personal_accident_beneficiaries_personal_accidents_id_foreign")
+
+  @@index([personal_accident_id], map: "personal_accident_beneficiaries_personal_accidents_id_foreign")
+}
+
+model personal_accident_without_reports {
+  id            Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id   Int        @db.UnsignedInt
+  email         String?
+  doc_type      String?
+  doc_number    String?
+  policy_number String?
+  first_name    String?
+  last_name     String?
+  client        String?    @db.Text
+  req           String?
+  activity_2_id String?
+  created_at    DateTime?  @db.Timestamp(0)
+  updated_at    DateTime?  @db.Timestamp(0)
+  plan_type     String?
+  activities    activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_personal_accident_without_reports_activities_")
+
+  @@index([activity_id], map: "fk_personal_accident_without_reports_activities_")
+}
+
+model personal_accidents {
+  id                                                      Int                               @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                                             Int                               @db.UnsignedInt
+  doc_type_insured                                        String?                           @db.VarChar(30)
+  doc_number_insured                                      String?                           @db.VarChar(40)
+  name_lastname_insured                                   String?
+  gender_insured                                          String?
+  birthday_insured                                        DateTime?                         @db.Date
+  address_insured                                         String?
+  departament_insured                                     String?                           @db.VarChar(40)
+  city_insured                                            String?                           @db.VarChar(40)
+  postal_code_insured                                     String?                           @db.VarChar(30)
+  country_insured                                         String?                           @db.VarChar(40)
+  effective_date_insured                                  DateTime?                         @db.Date
+  phone_insured                                           String?                           @db.VarChar(20)
+  email_insured                                           String?                           @db.VarChar(100)
+  ibc_insured                                             String?                           @db.VarChar(40)
+  type_inscription_insured                                String?                           @db.VarChar(30)
+  payment_periodicity_insured                             String?                           @db.VarChar(30)
+  employment_start_date_insured                           DateTime?                         @db.Date
+  retirement_date_employment_insured                      DateTime?                         @db.Date
+  exchange_rate_insured                                   String?                           @db.VarChar(20)
+  radication_date_policy                                  DateTime?                         @db.Date
+  nit_taker_policy                                        String?                           @db.VarChar(20)
+  taker_name_policy                                       String?                           @db.VarChar(20)
+  policy_number_policy                                    String?                           @db.VarChar(40)
+  assigned_plan_policy                                    String?                           @db.Text
+  insured_value_policy                                    String?                           @db.VarChar(90)
+  bouquet_policy                                          String?                           @db.Text
+  insurance_premium_value_policy                          String?                           @db.VarChar(40)
+  premium_maturity_date_policy                            DateTime?                         @db.Date
+  payment_frequency_policy                                String?                           @db.Text
+  observations_policy                                     String?                           @db.Text
+  beneficiary_type_beneficiary                            String?                           @db.VarChar(20)
+  report_date_credijamar_palig_premium_billing            DateTime?                         @db.Date
+  reporting_month_premium_billing                         String?                           @db.Text
+  invoice_date_palig_premium_billing                      DateTime?                         @db.Date
+  number_invoice_palig_premium_billing                    String?                           @db.VarChar(40)
+  overall_invoice_value_premium_billing                   String?                           @db.VarChar(40)
+  premium_invoice_value_individual_credit_premium_billing String?                           @db.VarChar(40)
+  premium_payment_type_premium_billing                    String?                           @db.VarChar(20)
+  payment_date_cedijamar_premium_billing                  DateTime?                         @db.Date
+  value_paid_credijamar_premium_billing                   String?                           @db.VarChar(40)
+  insurance_claim_number_claim_data                       String?                           @db.VarChar(40)
+  sinister_date_claim_data                                DateTime?                         @db.Date
+  credijamar_notice_date_claim_data                       DateTime?                         @db.Date
+  insurance_claim_filing_date_claim_data                  DateTime?                         @db.Date
+  protection_affected_claim_data                          String?                           @db.VarChar(90)
+  initial_insured_value_claim_data                        String?                           @db.VarChar(40)
+  cc_copy_claim_data                                      Int?
+  unpaid_balance_certificate_claim_data                   Int?
+  rc_death_claim_data                                     Int?
+  bills_claim_data                                        Int?
+  inability_claim_data                                    Int?
+  registration_certificate_status_claim_data              Int?
+  clinic_history_claim_data                               Int?
+  pcl_rating_claim_data                                   Int?
+  bdua_consultation_claim_data                            Int?
+  other_switch_claim_data                                 Int?
+  other_text_claim_data                                   String?                           @db.VarChar(50)
+  age_at_claim_date_claim_data                            String?                           @db.VarChar(50)
+  age_at_admission_claim_data                             String?                           @db.VarChar(50)
+  city_of_occurrence_claim_data                           String?                           @db.VarChar(100)
+  occurrence_department_claim_data                        String?                           @db.VarChar(100)
+  residence_time_in_days_claim_data                       String?                           @db.VarChar(40)
+  residence_time_in_months_claim_data                     String?                           @db.VarChar(40)
+  residence_time_in_years_claim_data                      String?                           @db.VarChar(40)
+  registry_verification_date_claim_data                   DateTime?                         @db.Date
+  claim_status_claim_data                                 String?                           @db.VarChar(40)
+  payment_date_insurance_objection_claim_data             DateTime?                         @db.Date
+  causes_the_accident_claim_data                          String?                           @db.Text
+  payee_claim_data                                        String?                           @db.Text
+  value_paid_claim_data                                   String?                           @db.VarChar(50)
+  grounds_objection_claim_data                            String?                           @db.VarChar(40)
+  created_at                                              DateTime?                         @db.Timestamp(0)
+  updated_at                                              DateTime?                         @db.Timestamp(0)
+  personal_accident_beneficiaries                         personal_accident_beneficiaries[]
+  activities                                              activities                        @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_personal_accidents_activities")
+
+  @@index([activity_id], map: "fk_personal_accidents_activities")
+}
+
+model personal_injuries {
+  id                                                      Int                                @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                                             Int                                @db.UnsignedInt
+  doc_type_insured                                        String?                            @db.VarChar(30)
+  doc_number_insured                                      String?                            @db.VarChar(40)
+  name_lastname_insured                                   String?
+  gender_insured                                          String?
+  birthday_insured                                        DateTime?                          @db.Date
+  address_insured                                         String?
+  departament_insured                                     String?                            @db.VarChar(40)
+  city_insured                                            String?                            @db.VarChar(40)
+  postal_code_insured                                     String?                            @db.VarChar(30)
+  country_insured                                         String?                            @db.VarChar(40)
+  effective_date_insured                                  DateTime?                          @db.Date
+  phone_insured                                           String?                            @db.VarChar(20)
+  email_insured                                           String?                            @db.VarChar(100)
+  ibc_insured                                             String?                            @db.VarChar(40)
+  type_inscription_insured                                String?                            @db.VarChar(30)
+  payment_periodicity_insured                             String?                            @db.VarChar(30)
+  employment_start_date_insured                           DateTime?                          @db.Date
+  retirement_date_employment_insured                      DateTime?                          @db.Date
+  exchange_rate_insured                                   String?                            @db.VarChar(20)
+  radication_date_policy                                  DateTime?                          @db.Date
+  nit_taker_policy                                        String?                            @db.VarChar(20)
+  taker_name_policy                                       String?                            @db.VarChar(20)
+  policy_number_policy                                    String?                            @db.VarChar(40)
+  assigned_plan_policy                                    String?                            @db.Text
+  insured_value_policy                                    String?                            @db.VarChar(90)
+  bouquet_policy                                          String?                            @db.Text
+  insurance_premium_value_policy                          String?                            @db.VarChar(40)
+  premium_maturity_date_policy                            DateTime?                          @db.Date
+  payment_frequency_policy                                String?                            @db.Text
+  observations_policy                                     String?                            @db.Text
+  cobro_type                                              String?
+  beneficiary_type_beneficiary                            String?                            @db.VarChar(20)
+  report_date_colsubsidio_palig_premium_billing           DateTime?                          @db.Date
+  reporting_month_premium_billing                         String?                            @db.Text
+  invoice_date_palig_premium_billing                      DateTime?                          @db.Date
+  number_invoice_palig_premium_billing                    String?                            @db.VarChar(40)
+  overall_invoice_value_premium_billing                   String?                            @db.VarChar(40)
+  premium_invoice_value_individual_credit_premium_billing String?                            @db.VarChar(40)
+  premium_payment_type_premium_billing                    String?                            @db.VarChar(20)
+  payment_date_cedijamar_premium_billing                  DateTime?                          @db.Date
+  value_paid_colsubsidio_premium_billing                  String?                            @db.VarChar(40)
+  insurance_claim_number_claim_data                       String?                            @db.VarChar(40)
+  sinister_date_claim_data                                DateTime?                          @db.Date
+  colsubsidio_notice_date_claim_data                      DateTime?                          @db.Date
+  insurance_claim_filing_date_claim_data                  DateTime?                          @db.Date
+  protection_affected_claim_data                          String?                            @db.VarChar(90)
+  initial_insured_value_claim_data                        String?                            @db.VarChar(40)
+  cc_copy_claim_data                                      Int?
+  unpaid_balance_certificate_claim_data                   Int?
+  rc_death_claim_data                                     Int?
+  bills_claim_data                                        Int?
+  inability_claim_data                                    Int?
+  registration_certificate_status_claim_data              Int?
+  clinic_history_claim_data                               Int?
+  pcl_rating_claim_data                                   Int?
+  bdua_consultation_claim_data                            Int?
+  other_switch_claim_data                                 Int?
+  other_text_claim_data                                   String?                            @db.VarChar(50)
+  age_at_claim_date_claim_data                            String?                            @db.VarChar(50)
+  age_at_admission_claim_data                             String?                            @db.VarChar(50)
+  city_of_occurrence_claim_data                           String?                            @db.VarChar(100)
+  occurrence_department_claim_data                        String?                            @db.VarChar(100)
+  residence_time_in_days_claim_data                       String?                            @db.VarChar(40)
+  residence_time_in_months_claim_data                     String?                            @db.VarChar(40)
+  residence_time_in_years_claim_data                      String?                            @db.VarChar(40)
+  registry_verification_date_claim_data                   DateTime?                          @db.Date
+  claim_status_claim_data                                 String?                            @db.VarChar(40)
+  payment_date_insurance_objection_claim_data             DateTime?                          @db.Date
+  causes_the_accident_claim_data                          String?                            @db.Text
+  payee_claim_data                                        String?                            @db.Text
+  value_paid_claim_data                                   String?                            @db.VarChar(50)
+  grounds_objection_claim_data                            String?                            @db.VarChar(40)
+  created_at                                              DateTime?                          @db.Timestamp(0)
+  updated_at                                              DateTime?                          @db.Timestamp(0)
+  vigency_begin_date                                      DateTime?                          @db.Date
+  inscription_type                                        String?
+  date_renew_1                                            DateTime?                          @db.Date
+  date_renew_2                                            DateTime?                          @db.Date
+  activities                                              activities                         @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_personal_injuries_activities")
+  personal_injury_beneficiaries                           personal_injury_beneficiaries[]
+  personal_injury_premium_billings                        personal_injury_premium_billings[]
+
+  @@index([activity_id], map: "fk_personal_injuries_activities")
+}
+
+model personal_injury_beneficiaries {
+  id                                 Int               @id @default(autoincrement()) @db.UnsignedInt
+  personal_injury_id                 Int               @db.UnsignedInt
+  doc_type_beneficiary               String?           @db.VarChar(10)
+  doc_number_beneficiary             String?           @db.VarChar(40)
+  name_lastname_beneficiary          String?           @db.VarChar(50)
+  birthday_beneficiary               DateTime?         @db.Date
+  gender_beneficiary                 String?           @db.VarChar(20)
+  relationship_beneficiary           String?           @db.VarChar(20)
+  beneficiary_percentage_beneficiary String?           @db.VarChar(20)
+  beneficiary_type_beneficiary       String?           @db.VarChar(20)
+  created_at                         DateTime?         @db.Timestamp(0)
+  updated_at                         DateTime?         @db.Timestamp(0)
+  personal_injuries                  personal_injuries @relation(fields: [personal_injury_id], references: [id], onUpdate: Restrict, map: "personal_injury_beneficiaries_personal_injuries_id_foreign")
+
+  @@index([personal_injury_id], map: "personal_injury_beneficiaries_personal_injuries_id_foreign")
+}
+
+model personal_injury_premium_billings {
+  id                 Int               @id @default(autoincrement()) @db.UnsignedInt
+  personal_injury_id Int               @db.UnsignedInt
+  payment_date       DateTime?         @db.Date
+  paid_period        String?           @db.VarChar(12)
+  collection_status  String?           @db.VarChar(20)
+  payment_value      String?           @db.VarChar(20)
+  observation        String?           @db.VarChar(190)
+  created_at         DateTime?         @db.Timestamp(0)
+  updated_at         DateTime?         @db.Timestamp(0)
+  paid_year          String?           @db.VarChar(6)
+  personal_injuries  personal_injuries @relation(fields: [personal_injury_id], references: [id], onUpdate: Restrict, map: "personal_injury_premium_billings_personal_injuries_id_foreign")
+
+  @@index([personal_injury_id], map: "personal_injury_premium_billings_personal_injuries_id_foreign")
+}
+
+model personal_injury_without_reports {
+  id            Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id   Int        @db.UnsignedInt
+  email         String?
+  doc_type      String?
+  doc_number    String?
+  policy_number String?
+  first_name    String?
+  last_name     String?
+  client        String?    @db.Text
+  req           String?
+  activity_2_id String?
+  created_at    DateTime?  @db.Timestamp(0)
+  updated_at    DateTime?  @db.Timestamp(0)
+  plan_type     String?
+  activities    activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_personal_injury_without_reports_activities")
+
+  @@index([activity_id], map: "fk_personal_injury_without_reports_activities")
+}
+
+model positions {
+  id              Int               @id @default(autoincrement()) @db.UnsignedInt
+  name            String
+  created_at      DateTime?         @db.Timestamp(0)
+  updated_at      DateTime?         @db.Timestamp(0)
+  state_positions state_positions[]
+  users           users[]
+}
+
+model pqrs {
+  id                         Int       @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                Int       @db.UnsignedInt
+  plaintiff_type_doc         String?   @db.VarChar(250)
+  plaintiff_num_doc          String?   @db.VarChar(250)
+  plaintiff_name             String?   @db.VarChar(250)
+  plaintiffs_radicate        String?   @db.VarChar(190)
+  plaintiffs_channel         String?   @db.VarChar(250)
+  attorney_name              String?   @db.VarChar(250)
+  attorney_address           String?   @db.VarChar(250)
+  attorney_department        String?   @db.VarChar(190)
+  attorney_municipality      String?   @db.VarChar(190)
+  attorney_doc_type          String?   @db.VarChar(10)
+  attorney_doc_number        String?   @db.VarChar(20)
+  attorney_record            String?
+  attorney_phone             String?
+  attorney_cellphone         String?
+  attorney_email             String?
+  court_name                 String?
+  court_department           String?
+  court_municipality         String?
+  court_file_number          String?
+  court_type_of_demand       String?
+  context                    String?   @db.Text
+  summary                    String?   @db.Text
+  response                   String?   @db.Text
+  is_coming                  String?
+  requires_periodic_tracking String?
+  findings                   String?   @db.Text
+  recommendations            String?   @db.Text
+  created_at                 DateTime? @db.Timestamp(0)
+  updated_at                 DateTime? @db.Timestamp(0)
+  deleted_at                 DateTime? @db.Timestamp(0)
+}
+
+model professionals {
+  id               BigInt  @unique(map: "id") @default(autoincrement()) @db.UnsignedBigInt
+  name_prof        String? @db.VarChar(250)
+  email            String? @db.VarChar(250)
+  calification_at  Float?
+  calification_el  Float?
+  calification_pcl Float?
+  rehabilitation   Float?
+  recommendation   Float?
+  disability       Float?
+  valoration       Float?
+  cc_nit           String? @db.VarChar(250)
+}
+
+model proyections {
+  id           BigInt  @unique(map: "id") @default(autoincrement()) @db.UnsignedBigInt
+  client_id    Int?
+  name_service String? @db.VarChar(250)
+  proyections  Int?
+}
+
+model quotes {
+  id                            Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                   Int        @db.UnsignedInt
+  affiliate_identification_type String?    @db.VarChar(120)
+  affiliate_identification      String?    @db.VarChar(120)
+  affiliate_first_name          String?    @db.VarChar(120)
+  affiliate_second_name         String?    @db.VarChar(120)
+  affiliate_first_surname       String?    @db.VarChar(120)
+  affiliate_second_surname      String?    @db.VarChar(120)
+  affiliate_birthdate           String?    @db.VarChar(120)
+  affiliate_gender              String?    @db.VarChar(120)
+  affiliate_address             String?    @db.VarChar(120)
+  affiliate_department          String?    @db.VarChar(120)
+  affiliate_city                String?    @db.VarChar(120)
+  affiliate_postal_code         String?    @db.VarChar(120)
+  affiliate_country             String?    @db.VarChar(120)
+  affiliate_phone               String?    @db.VarChar(120)
+  affiliate_email               String?    @db.VarChar(120)
+  affiliate_ibc                 String?    @db.VarChar(120)
+  radication_date               DateTime?  @db.DateTime(0)
+  nit                           String?    @db.VarChar(120)
+  policyholder_name             String?    @db.VarChar(120)
+  policy_number                 String?    @db.VarChar(120)
+  assigned_plan                 String?    @db.VarChar(120)
+  insured_value                 String?    @db.VarChar(120)
+  insurance_premium             String?    @db.VarChar(120)
+  payment_frequency             String?    @db.VarChar(120)
+  payment_periodicity           String?    @db.VarChar(120)
+  observation                   String?    @db.Text
+  created_at                    DateTime?  @db.Timestamp(0)
+  updated_at                    DateTime?  @db.Timestamp(0)
+  activities                    activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_quotes_activities")
+
+  @@index([activity_id], map: "fk_quotes_activities")
+}
+
+model radication_quota_beneficiaries {
+  id                                 Int               @id @default(autoincrement()) @db.UnsignedInt
+  radication_quota_id                Int               @db.UnsignedInt
+  name_lastname_beneficiary          String
+  doc_type_beneficiary               String
+  doc_number_beneficiary             String
+  gender_beneficiary                 String
+  relationship_beneficiary           String
+  beneficiary_percentage_beneficiary String
+  beneficiary_type_beneficiary       String
+  birthday_beneficiary               DateTime          @db.Date
+  created_at                         DateTime?         @db.Timestamp(0)
+  updated_at                         DateTime?         @db.Timestamp(0)
+  radication_quotas                  radication_quotas @relation(fields: [radication_quota_id], references: [id], onUpdate: Restrict, map: "fk_radication_quota_beneficiaries_radication_quotas")
+
+  @@index([radication_quota_id], map: "fk_radication_quota_beneficiaries_radication_quotas")
+}
+
+model radication_quotas {
+  id                                 Int                              @unique(map: "radication_quotas_id_uindex") @default(autoincrement()) @db.UnsignedInt
+  activity_id                        Int                              @db.UnsignedInt
+  doc_type                           String?                          @db.VarChar(250)
+  doc_number                         String?                          @db.VarChar(250)
+  first_name                         String?                          @db.VarChar(250)
+  last_name                          String?                          @db.VarChar(250)
+  birthday                           DateTime?                        @db.Date
+  gender                             String?                          @db.VarChar(250)
+  department                         String?                          @db.VarChar(250)
+  municipality                       String?                          @db.VarChar(250)
+  address                            Int?
+  phone                              Int?
+  email                              String?                          @db.VarChar(250)
+  occupation                         String?                          @db.VarChar(250)
+  assign_plan                        String?                          @db.VarChar(250)
+  insurance_value                    String?                          @db.VarChar(250)
+  ibc                                String?                          @db.VarChar(250)
+  payment_periodicity                String?                          @db.VarChar(250)
+  employment_start_date_insured      DateTime?                        @db.Date
+  retirement_date_employment_insured DateTime?                        @db.Date
+  employment_name                    String?                          @db.VarChar(250)
+  employment_position                String?                          @db.VarChar(250)
+  actual_employ                      String?                          @db.VarChar(250)
+  sale_confirmation                  String?                          @db.VarChar(250)
+  effective_date                     DateTime?                        @db.Date
+  observations                       String?                          @db.VarChar(250)
+  created_at                         DateTime?                        @db.Timestamp(0)
+  updated_at                         DateTime?                        @db.Timestamp(0)
+  deleted_at                         DateTime?                        @db.Timestamp(0)
+  radication_quota_beneficiaries     radication_quota_beneficiaries[]
+}
+
+model rehabilitation_aftermaths {
+  id                Int             @id @default(autoincrement()) @db.UnsignedInt
+  rehabilitation_id Int             @db.UnsignedInt
+  type              String
+  description       String          @db.VarChar(255)
+  forecast          String?
+  created_at        DateTime?       @db.Timestamp(0)
+  updated_at        DateTime?       @db.Timestamp(0)
+  deleted_at        DateTime?       @db.Timestamp(0)
+  rehabilitations   rehabilitations @relation(fields: [rehabilitation_id], references: [id], onUpdate: Restrict, map: "fk_rehabilitation_aftermaths_rehabilitation")
+
+  @@index([rehabilitation_id], map: "fk_rehabilitation_aftermaths_rehabilitation")
+}
+
+model rehabilitation_diagnostics {
+  id                Int             @id @default(autoincrement()) @db.UnsignedInt
+  rehabilitation_id Int             @db.UnsignedInt
+  code              String
+  description       String          @db.VarChar(255)
+  d_date            DateTime?       @db.Date
+  etiology          String?
+  created_at        DateTime?       @db.Timestamp(0)
+  updated_at        DateTime?       @db.Timestamp(0)
+  deleted_at        DateTime?       @db.Timestamp(0)
+  rehabilitations   rehabilitations @relation(fields: [rehabilitation_id], references: [id], onUpdate: Restrict, map: "fk_rehabilitation_diagnostics_rehabilitation")
+
+  @@index([rehabilitation_id], map: "fk_rehabilitation_diagnostics_rehabilitation")
+}
+
+model rehabilitations {
+  id                             Int                          @id @default(autoincrement()) @db.UnsignedInt
+  activity_id                    Int                          @db.UnsignedInt
+  dx_primary                     String?
+  dx_primary_description         String?
+  dx_secondary                   String?
+  dx_secondary_description       String?
+  dx_tertiary                    String?
+  dx_tertiary_description        String?
+  dx_origin                      String?
+  clinical_history               String?                      @db.Text
+  pcl_observations               String?                      @db.Text
+  rhb_percentage                 Float?
+  ips                            String?
+  inability_days                 Int?
+  catastrofic                    String?
+  format                         String?
+  terms                          String?
+  treatment_pharmacological      String?
+  treatment_surgical             String?
+  treatment_physical             String?
+  treatment_occupational         String?
+  treatment_speech               String?
+  treatment_others               String?
+  treatment_purpose              String?
+  treatment_duration             String?
+  abc_perfomance                 String?
+  avd_perfomance                 String?
+  avd_type                       String?
+  laboral_role                   String?
+  forecast                       String?
+  reability                      String?
+  created_at                     DateTime?                    @db.Timestamp(0)
+  updated_at                     DateTime?                    @db.Timestamp(0)
+  pcl_id                         Int?                         @db.UnsignedInt
+  requalification                String?
+  dx_quaternary                  String?
+  dx_quaternary_description      String?
+  comments                       String?                      @db.Text
+  treatment_pharmacological_date DateTime?                    @db.Date
+  treatment_surgical_date        DateTime?                    @db.Date
+  treatment_physical_date        DateTime?                    @db.Date
+  treatment_occupational_date    DateTime?                    @db.Date
+  treatment_speech_date          DateTime?                    @db.Date
+  treatment_others_date          DateTime?                    @db.Date
+  observations                   String?                      @db.Text
+  date_recalification            DateTime?                    @db.Date
+  structuration_pcl_entity       String?                      @db.VarChar(200)
+  rehabilitation_aftermaths      rehabilitation_aftermaths[]
+  rehabilitation_diagnostics     rehabilitation_diagnostics[]
+  activities                     activities                   @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_rehabilitations_activities")
+
+  @@index([activity_id], map: "fk_rehabilitations_activities")
+}
+
+model schedules {
+  id            Int     @id @default(autoincrement()) @db.UnsignedInt
+  user_id       Int     @unique(map: "schedule_psychology_user_id_uindex") @db.UnsignedInt
+  type          String  @default("ORIENTATION") @db.VarChar(25)
+  type_schedule String? @db.VarChar(20)
+  week          String? @db.Text
+  calendar      String? @db.Text
+  users         users   @relation(fields: [user_id], references: [id], onDelete: Cascade, map: "schedule_psychology_users_id_fk")
+}
+
+model service_actions {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  action_id  Int       @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  actions    actions   @relation(fields: [action_id], references: [id], onDelete: Cascade, map: "fk_service_actions_actions")
+  services   services  @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_service_actions_services")
+
+  @@index([action_id], map: "fk_service_actions_actions")
+  @@index([service_id], map: "fk_service_actions_services")
+}
+
+model service_billings {
+  id         Int       @id @default(autoincrement())
+  client_id  Int       @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  price      Decimal   @db.Decimal(15, 2)
+  author_id  Int       @db.UnsignedInt
+  date       DateTime  @db.Date
+  updated_at DateTime? @db.Timestamp(0)
+  created_at DateTime  @db.Timestamp(0)
+  clients    clients   @relation(fields: [client_id], references: [id], onUpdate: Restrict, map: "service_billings_clients_id_fk")
+  services   services  @relation(fields: [service_id], references: [id], onUpdate: Restrict, map: "service_billings_services_id_fk")
+  users      users     @relation(fields: [author_id], references: [id], onUpdate: Restrict, map: "service_billings_users_id_fk")
+
+  @@index([client_id], map: "service_billings_clients_id_fk")
+  @@index([service_id], map: "service_billings_services_id_fk")
+  @@index([author_id], map: "service_billings_users_id_fk")
+}
+
+model service_documents {
+  id                 Int                  @id @default(autoincrement()) @db.UnsignedInt
+  service_id         Int                  @db.UnsignedInt
+  code               Int
+  name               String
+  source             String?
+  required           Boolean              @default(false)
+  created_at         DateTime?            @db.Timestamp(0)
+  updated_at         DateTime?            @db.Timestamp(0)
+  deleted_at         DateTime?            @db.Timestamp(0)
+  activity_documents activity_documents[]
+  services           services             @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_service_documents_services")
+
+  @@index([service_id], map: "fk_service_documents_services")
+}
+
+model service_fields {
+  id                      Int                       @id @default(autoincrement()) @db.UnsignedInt
+  service_id              Int                       @db.UnsignedInt
+  type                    String
+  name                    String
+  values                  String?                   @db.Text
+  required                Boolean                   @default(false)
+  created_at              DateTime?                 @db.Timestamp(0)
+  updated_at              DateTime?                 @db.Timestamp(0)
+  deleted_at              DateTime?                 @db.Timestamp(0)
+  activity_service_fields activity_service_fields[]
+  services                services                  @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_service_fields_services")
+
+  @@index([service_id], map: "fk_service_fields_services")
+}
+
+model service_projections {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  client_id  Int?      @db.UnsignedInt
+  date       DateTime  @db.Date
+  quantity   Int       @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  clients    clients?  @relation(fields: [client_id], references: [id], onDelete: Restrict, onUpdate: Restrict, map: "service_projections_clients_id_fk")
+  services   services  @relation(fields: [service_id], references: [id], onUpdate: Restrict, map: "service_projections_services_id_fk")
+
+  @@index([client_id], map: "service_projections_clients_id_fk")
+  @@index([service_id], map: "service_projections_services_id_fk")
+}
+
+model service_states {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  service_id Int       @db.UnsignedInt
+  state_id   Int       @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  services   services  @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_service_states_services")
+  states     states    @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_service_states_states")
+
+  @@index([service_id], map: "fk_service_states_services")
+  @@index([state_id], map: "fk_service_states_states")
+}
+
+model services {
+  id                    Int                     @id @default(autoincrement()) @db.UnsignedInt
+  name                  String
+  default_state_id      Int                     @db.UnsignedInt
+  required_employment   Boolean?
+  required_infosource   Boolean?
+  created_at            DateTime?               @db.Timestamp(0)
+  updated_at            DateTime?               @db.Timestamp(0)
+  action_service_states action_service_states[]
+  activities            activities[]
+  client_services       client_services[]
+  information_sources   information_sources[]
+  service_actions       service_actions[]
+  service_billings      service_billings[]
+  service_documents     service_documents[]
+  service_fields        service_fields[]
+  service_projections   service_projections[]
+  service_states        service_states[]
+}
+
+model sessions {
+  id            String  @unique(map: "sessions_id_unique")
+  user_id       Int?
+  ip_address    String? @db.VarChar(45)
+  user_agent    String? @db.Text
+  payload       String  @db.Text
+  last_activity Int
+}
+
+model sms_messages {
+  id                         Int       @id @default(autoincrement()) @db.UnsignedInt
+  cellphone                  String?   @db.Text
+  text                       String?   @db.Text
+  activity_id                Int?
+  activity_action_id         Int?
+  activity_action_id_report  Int?
+  activity_action_id_error   Int?
+  activity_action_id_success Int?
+  request                    DateTime? @db.DateTime(0)
+  status_mess                String?   @db.VarChar(50)
+  des_mess                   String?   @db.Text
+  service_id                 Int?
+  message_id                 String?   @db.VarChar(100)
+  client_id                  Int?
+  client                     String?   @db.VarChar(50)
+  status_mess_detail         String?   @db.VarChar(255)
+  date_webhook               DateTime? @db.Timestamp(0)
+  activity_action_id_resend  Int?
+  created_at                 DateTime  @db.Timestamp(0)
+  updated_at                 DateTime  @db.Timestamp(0)
+
+  @@index([activity_action_id_error], map: "idx_activity_action_id_error")
+  @@index([activity_action_id_report], map: "idx_activity_action_id_report")
+  @@index([activity_action_id_success], map: "idx_activity_action_id_success")
+  @@index([client_id], map: "idx_client_id")
+  @@index([service_id], map: "idx_service_id")
+}
+
+model state_actions {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  state_id   Int       @db.UnsignedInt
+  action_id  Int       @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  actions    actions   @relation(fields: [action_id], references: [id], onDelete: Cascade, map: "fk_state_actions_actions")
+  states     states    @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_state_actions_states")
+
+  @@index([action_id], map: "fk_state_actions_actions")
+  @@index([state_id], map: "fk_state_actions_states")
+}
+
+model state_areas {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  state_id   Int       @db.UnsignedInt
+  area_id    Int       @db.UnsignedInt
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  areas      areas     @relation(fields: [area_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_state_areas_areas")
+  states     states    @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_state_areas_states")
+
+  @@index([area_id], map: "fk_state_areas_areas")
+  @@index([state_id], map: "fk_state_areas_states")
+}
+
+model state_positions {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  state_id    Int       @db.UnsignedInt
+  position_id Int       @db.UnsignedInt
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+  positions   positions @relation(fields: [position_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_state_positions_positions")
+  states      states    @relation(fields: [state_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_state_positions_states")
+
+  @@index([position_id], map: "fk_state_positions_positions")
+  @@index([state_id], map: "fk_state_positions_states")
+}
+
+model states {
+  id                                                     Int                     @id @default(autoincrement()) @db.UnsignedInt
+  name                                                   String
+  created_at                                             DateTime?               @db.Timestamp(0)
+  updated_at                                             DateTime?               @db.Timestamp(0)
+  deleted_at                                             DateTime?               @db.Timestamp(0)
+  action_service_states                                  action_service_states[]
+  activities                                             activities[]
+  activity_actions_activity_actions_old_state_idTostates activity_actions[]      @relation("activity_actions_old_state_idTostates")
+  activity_actions_activity_actions_new_state_idTostates activity_actions[]      @relation("activity_actions_new_state_idTostates")
+  service_states                                         service_states[]
+  state_actions                                          state_actions[]
+  state_areas                                            state_areas[]
+  state_positions                                        state_positions[]
+}
+
+model templates {
+  id          Int       @id @default(autoincrement()) @db.UnsignedInt
+  activity_id Int       @db.UnsignedInt
+  created_at  DateTime? @db.Timestamp(0)
+  updated_at  DateTime? @db.Timestamp(0)
+  deleted_at  DateTime? @db.Timestamp(0)
+}
+
+model user_clients {
+  id         Int       @id @default(autoincrement()) @db.UnsignedInt
+  user_id    Int       @db.UnsignedInt
+  client_id  Int
+  created_at DateTime? @db.Timestamp(0)
+  updated_at DateTime? @db.Timestamp(0)
+  users      users     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_user_clients_users")
+
+  @@index([user_id], map: "fk_user_clients_users")
+}
+
+model user_logs {
+  id              Int       @id @default(autoincrement()) @db.UnsignedInt
+  user_id         Int       @db.UnsignedInt
+  author_id       Int       @db.UnsignedInt
+  edit_date       DateTime? @db.DateTime(0)
+  change_active   Boolean?  @default(false)
+  change_password Boolean?  @default(false)
+  created_at      DateTime? @db.Timestamp(0)
+  updated_at      DateTime? @db.Timestamp(0)
+  users           users     @relation(fields: [user_id], references: [id], onUpdate: Restrict, map: "fk_user_logs_users")
+
+  @@index([user_id], map: "fk_user_logs_users")
+}
+
+model users {
+  id                                                   Int                @id @default(autoincrement()) @db.UnsignedInt
+  user_type                                            String
+  email                                                String             @unique(map: "users_email_unique")
+  password                                             String
+  remember_token                                       String?            @db.VarChar(100)
+  created_at                                           DateTime?          @db.Timestamp(0)
+  updated_at                                           DateTime?          @db.Timestamp(0)
+  full_name                                            String
+  username                                             String?            @unique(map: "users_username_uindex")
+  photo                                                String?
+  area_id                                              Int?               @db.UnsignedInt
+  position_id                                          Int?               @db.UnsignedInt
+  active                                               Boolean            @default(true)
+  deleted_at                                           DateTime?          @db.Timestamp(0)
+  ascribed                                             Int?               @default(0)
+  old_password1                                        String?
+  old_password2                                        String?
+  old_password3                                        String?
+  last_login                                           DateTime?          @db.Timestamp(0)
+  next_update                                          DateTime?          @db.Timestamp(0)
+  extra_data                                           String?            @default("") @db.VarChar(300)
+  zoom_api_key                                         String?            @db.VarChar(150)
+  zoom_api_secret                                      String?            @db.VarChar(150)
+  identification_number                                String?
+  creator                                              Int?
+  has_schedule                                         String?            @db.VarChar(6)
+  activities                                           activities[]
+  activity_actions_activity_actions_old_user_idTousers activity_actions[] @relation("activity_actions_old_user_idTousers")
+  activity_actions_activity_actions_new_user_idTousers activity_actions[] @relation("activity_actions_new_user_idTousers")
+  busy_schedules                                       busy_schedules[]
+  schedules                                            schedules?
+  service_billings                                     service_billings[]
+  user_clients                                         user_clients[]
+  user_logs                                            user_logs[]
+  areas                                                areas?             @relation(fields: [area_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_users_areas")
+  positions                                            positions?         @relation(fields: [position_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_users_positions")
+
+  @@index([area_id], map: "fk_users_areas")
+  @@index([position_id], map: "fk_users_positions")
+}
+
+model wheaters {
+  id          Int        @id @default(autoincrement()) @db.UnsignedInt
+  activity_id Int        @db.UnsignedInt
+  question1   String     @db.VarChar(10)
+  question2   String     @db.VarChar(10)
+  question3   String     @db.VarChar(10)
+  question4   String     @db.VarChar(10)
+  question5   String     @db.VarChar(10)
+  question6   String     @db.VarChar(10)
+  question7   String     @db.VarChar(10)
+  question8   String     @db.VarChar(10)
+  question9   String     @db.VarChar(10)
+  question10  String     @db.VarChar(10)
+  created_at  DateTime?  @db.Timestamp(0)
+  updated_at  DateTime?  @db.Timestamp(0)
+  deleted_at  DateTime?  @db.Timestamp(0)
+  activities  activities @relation(fields: [activity_id], references: [id], onUpdate: Restrict, map: "fk_wheaters_activities")
+
+  @@index([activity_id], map: "fk_wheaters_activities")
+}

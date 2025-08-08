@@ -1,0 +1,7807 @@
+[
+  {
+    "codigo": 91263,
+    "departamento": "Amazonas",
+    "municipio": "El Encanto",
+    "codigo_postal_urbano": 913010,
+    "codigo_postal_rural": "913019,913018,913017"
+  },
+  {
+    "codigo": 91405,
+    "departamento": "Amazonas",
+    "municipio": "La Chorrera",
+    "codigo_postal_urbano": 914050,
+    "codigo_postal_rural": 914057
+  },
+  {
+    "codigo": 91407,
+    "departamento": "Amazonas",
+    "municipio": "La Pedrera",
+    "codigo_postal_urbano": 917010,
+    "codigo_postal_rural": 917017.917018
+  },
+  {
+    "codigo": 91430,
+    "departamento": "Amazonas",
+    "municipio": "La Victoria",
+    "codigo_postal_urbano": 916017,
+    "codigo_postal_rural": 916017
+  },
+  {
+    "codigo": 91001,
+    "departamento": "Amazonas",
+    "municipio": "Leticia",
+    "codigo_postal_urbano": 910001,
+    "codigo_postal_rural": 910007.910008
+  },
+  {
+    "codigo": 91530,
+    "departamento": "Amazonas",
+    "municipio": "Puerto Alegría",
+    "codigo_postal_urbano": 913050,
+    "codigo_postal_rural": 913057
+  },
+  {
+    "codigo": 91536,
+    "departamento": "Amazonas",
+    "municipio": "Puerto Arica",
+    "codigo_postal_urbano": 912010,
+    "codigo_postal_rural": "912018,912019,912017"
+  },
+  {
+    "codigo": 91540,
+    "departamento": "Amazonas",
+    "municipio": "Puerto Nariño",
+    "codigo_postal_urbano": 911010,
+    "codigo_postal_rural": 911017.911018
+  },
+  {
+    "codigo": 91669,
+    "departamento": "Amazonas",
+    "municipio": "Puerto Santander",
+    "codigo_postal_urbano": 915010,
+    "codigo_postal_rural": "915019,915018,915017"
+  },
+  {
+    "codigo": 91798,
+    "departamento": "Amazonas",
+    "municipio": "Tarapacá",
+    "codigo_postal_urbano": 911030,
+    "codigo_postal_rural": "911037,911039,911038"
+  },
+  {
+    "codigo": 5002,
+    "departamento": "Antioquia",
+    "municipio": "ABEJORRAL",
+    "codigo_postal_urbano": 55030,
+    "codigo_postal_rural": 55038.055037
+  },
+  {
+    "codigo": 5004,
+    "departamento": "Antioquia",
+    "municipio": "ABRIAQUI",
+    "codigo_postal_urbano": 57460,
+    "codigo_postal_rural": 57467
+  },
+  {
+    "codigo": 5021,
+    "departamento": "Antioquia",
+    "municipio": "ALEJANDRIA",
+    "codigo_postal_urbano": 53820,
+    "codigo_postal_rural": 53827
+  },
+  {
+    "codigo": 5030,
+    "departamento": "Antioquia",
+    "municipio": "AMAGA",
+    "codigo_postal_urbano": 55840,
+    "codigo_postal_rural": 55847.055848
+  },
+  {
+    "codigo": 5031,
+    "departamento": "Antioquia",
+    "municipio": "AMALFI",
+    "codigo_postal_urbano": 52840,
+    "codigo_postal_rural": 52848.052847
+  },
+  {
+    "codigo": 5034,
+    "departamento": "Antioquia",
+    "municipio": "ANDES",
+    "codigo_postal_urbano": 56060,
+    "codigo_postal_rural": 56068.056067
+  },
+  {
+    "codigo": 5036,
+    "departamento": "Antioquia",
+    "municipio": "ANGELOPOLIS",
+    "codigo_postal_urbano": 55830,
+    "codigo_postal_rural": 55837
+  },
+  {
+    "codigo": 5038,
+    "departamento": "Antioquia",
+    "municipio": "ANGOSTURA",
+    "codigo_postal_urbano": 51810,
+    "codigo_postal_rural": 51818.051817
+  },
+  {
+    "codigo": 5040,
+    "departamento": "Antioquia",
+    "municipio": "ANORI",
+    "codigo_postal_urbano": 52850,
+    "codigo_postal_rural": 52857
+  },
+  {
+    "codigo": 5044,
+    "departamento": "Antioquia",
+    "municipio": "ANZA",
+    "codigo_postal_urbano": 56850,
+    "codigo_postal_rural": 56858.056857
+  },
+  {
+    "codigo": 5045,
+    "departamento": "Antioquia",
+    "municipio": "Apartadó",
+    "codigo_postal_urbano": 57840,
+    "codigo_postal_rural": 57841.057847
+  },
+  {
+    "codigo": 5051,
+    "departamento": "Antioquia",
+    "municipio": "ARBOLETES",
+    "codigo_postal_urbano": 57820,
+    "codigo_postal_rural": "057828,057827,057829"
+  },
+  {
+    "codigo": 5055,
+    "departamento": "Antioquia",
+    "municipio": "ARGELIA",
+    "codigo_postal_urbano": 54830,
+    "codigo_postal_rural": 54838.054837
+  },
+  {
+    "codigo": 5059,
+    "departamento": "Antioquia",
+    "municipio": "ARMENIA",
+    "codigo_postal_urbano": 55860,
+    "codigo_postal_rural": 55867
+  },
+  {
+    "codigo": 5079,
+    "departamento": "Antioquia",
+    "municipio": "BARBOSA",
+    "codigo_postal_urbano": 51020,
+    "codigo_postal_rural": 51028.051027
+  },
+  {
+    "codigo": 5088,
+    "departamento": "Antioquia",
+    "municipio": "Bello",
+    "codigo_postal_urbano": "051050,051051,051052,051053,051054",
+    "codigo_postal_rural": "051057,051059,051058"
+  },
+  {
+    "codigo": 5086,
+    "departamento": "Antioquia",
+    "municipio": "BELMIRA",
+    "codigo_postal_urbano": 51420,
+    "codigo_postal_rural": 51427
+  },
+  {
+    "codigo": 5091,
+    "departamento": "Antioquia",
+    "municipio": "BETANIA",
+    "codigo_postal_urbano": 56070,
+    "codigo_postal_rural": 56077
+  },
+  {
+    "codigo": 5093,
+    "departamento": "Antioquia",
+    "municipio": "BETULIA",
+    "codigo_postal_urbano": 56860,
+    "codigo_postal_rural": 56867.056868
+  },
+  {
+    "codigo": 5107,
+    "departamento": "Antioquia",
+    "municipio": "BRICEÑO",
+    "codigo_postal_urbano": 52060,
+    "codigo_postal_rural": 52067.052068
+  },
+  {
+    "codigo": 5113,
+    "departamento": "Antioquia",
+    "municipio": "BURITICA",
+    "codigo_postal_urbano": 57030,
+    "codigo_postal_rural": 57037.057038
+  },
+  {
+    "codigo": 5120,
+    "departamento": "Antioquia",
+    "municipio": "CACERES",
+    "codigo_postal_urbano": 52450,
+    "codigo_postal_rural": 52458.052457
+  },
+  {
+    "codigo": 5125,
+    "departamento": "Antioquia",
+    "municipio": "CAICEDO",
+    "codigo_postal_urbano": 56840,
+    "codigo_postal_rural": 56847
+  },
+  {
+    "codigo": 5129,
+    "departamento": "Antioquia",
+    "municipio": "CALDAS",
+    "codigo_postal_urbano": 55440,
+    "codigo_postal_rural": 55448.055447
+  },
+  {
+    "codigo": 5134,
+    "departamento": "Antioquia",
+    "municipio": "CAMPAMENTO",
+    "codigo_postal_urbano": 52020,
+    "codigo_postal_rural": 52027
+  },
+  {
+    "codigo": 5138,
+    "departamento": "Antioquia",
+    "municipio": "CAÑASGORDAS",
+    "codigo_postal_urbano": 57060,
+    "codigo_postal_rural": 57067.057068
+  },
+  {
+    "codigo": 5142,
+    "departamento": "Antioquia",
+    "municipio": "CARACOLI",
+    "codigo_postal_urbano": 53450,
+    "codigo_postal_rural": 53457
+  },
+  {
+    "codigo": 5145,
+    "departamento": "Antioquia",
+    "municipio": "CARAMANTA",
+    "codigo_postal_urbano": 56040,
+    "codigo_postal_rural": 56047
+  },
+  {
+    "codigo": 5147,
+    "departamento": "Antioquia",
+    "municipio": "CAREPA",
+    "codigo_postal_urbano": 57850,
+    "codigo_postal_rural": 57857.057858
+  },
+  {
+    "codigo": 5150,
+    "departamento": "Antioquia",
+    "municipio": "CAROLINA",
+    "codigo_postal_urbano": 51840,
+    "codigo_postal_rural": 51847
+  },
+  {
+    "codigo": 5154,
+    "departamento": "Antioquia",
+    "municipio": "CAUCASIA",
+    "codigo_postal_urbano": 52410,
+    "codigo_postal_rural": 52418.052417
+  },
+  {
+    "codigo": 5172,
+    "departamento": "Antioquia",
+    "municipio": "CHIGORODO",
+    "codigo_postal_urbano": 57410,
+    "codigo_postal_rural": 57417.057418
+  },
+  {
+    "codigo": 5190,
+    "departamento": "Antioquia",
+    "municipio": "CISNEROS",
+    "codigo_postal_urbano": 53050,
+    "codigo_postal_rural": 53057
+  },
+  {
+    "codigo": 5101,
+    "departamento": "Antioquia",
+    "municipio": "CIUDAD BOLIVAR",
+    "codigo_postal_urbano": 56460,
+    "codigo_postal_rural": 56467.056468
+  },
+  {
+    "codigo": 5197,
+    "departamento": "Antioquia",
+    "municipio": "COCORNA",
+    "codigo_postal_urbano": 54440,
+    "codigo_postal_rural": 54447.054448
+  },
+  {
+    "codigo": 5206,
+    "departamento": "Antioquia",
+    "municipio": "CONCEPCION",
+    "codigo_postal_urbano": 53810,
+    "codigo_postal_rural": 53817
+  },
+  {
+    "codigo": 5209,
+    "departamento": "Antioquia",
+    "municipio": "CONCORDIA",
+    "codigo_postal_urbano": 56410,
+    "codigo_postal_rural": 56417
+  },
+  {
+    "codigo": 5212,
+    "departamento": "Antioquia",
+    "municipio": "COPACABANA",
+    "codigo_postal_urbano": 51040,
+    "codigo_postal_rural": 51047.051048
+  },
+  {
+    "codigo": 5234,
+    "departamento": "Antioquia",
+    "municipio": "DABEIBA",
+    "codigo_postal_urbano": 57430,
+    "codigo_postal_rural": 57437.057438
+  },
+  {
+    "codigo": 5237,
+    "departamento": "Antioquia",
+    "municipio": "DON MATIAS",
+    "codigo_postal_urbano": 51850,
+    "codigo_postal_rural": 51858.051857
+  },
+  {
+    "codigo": 5240,
+    "departamento": "Antioquia",
+    "municipio": "EBEJICO",
+    "codigo_postal_urbano": 55810,
+    "codigo_postal_rural": 55817.055818
+  },
+  {
+    "codigo": 5250,
+    "departamento": "Antioquia",
+    "municipio": "EL BAGRE",
+    "codigo_postal_urbano": 52430,
+    "codigo_postal_rural": 52437.052438
+  },
+  {
+    "codigo": 5148,
+    "departamento": "Antioquia",
+    "municipio": "EL CARMEN DE VIBORAL",
+    "codigo_postal_urbano": 54030,
+    "codigo_postal_rural": 54037.054038
+  },
+  {
+    "codigo": 5697,
+    "departamento": "Antioquia",
+    "municipio": "EL SANTUARIO",
+    "codigo_postal_urbano": 54450,
+    "codigo_postal_rural": 54457
+  },
+  {
+    "codigo": 5264,
+    "departamento": "Antioquia",
+    "municipio": "ENTRERRIOS",
+    "codigo_postal_urbano": 51430,
+    "codigo_postal_rural": 51437
+  },
+  {
+    "codigo": 5266,
+    "departamento": "Antioquia",
+    "municipio": "ENVIGADO",
+    "codigo_postal_urbano": "055421,055422,055420",
+    "codigo_postal_rural": 55428.055427
+  },
+  {
+    "codigo": 5282,
+    "departamento": "Antioquia",
+    "municipio": "FREDONIA",
+    "codigo_postal_urbano": 55070,
+    "codigo_postal_rural": 55077.055078
+  },
+  {
+    "codigo": 5284,
+    "departamento": "Antioquia",
+    "municipio": "FRONTINO",
+    "codigo_postal_urbano": 57450,
+    "codigo_postal_rural": 57457.057458
+  },
+  {
+    "codigo": 5306,
+    "departamento": "Antioquia",
+    "municipio": "GIRALDO",
+    "codigo_postal_urbano": 57040,
+    "codigo_postal_rural": 57047
+  },
+  {
+    "codigo": 5308,
+    "departamento": "Antioquia",
+    "municipio": "GIRARDOTA",
+    "codigo_postal_urbano": 51030,
+    "codigo_postal_rural": 51038.051037
+  },
+  {
+    "codigo": 5310,
+    "departamento": "Antioquia",
+    "municipio": "GOMEZ PLATA",
+    "codigo_postal_urbano": 51830,
+    "codigo_postal_rural": 51838.051837
+  },
+  {
+    "codigo": 5313,
+    "departamento": "Antioquia",
+    "municipio": "GRANADA",
+    "codigo_postal_urbano": 54410,
+    "codigo_postal_rural": 54417
+  },
+  {
+    "codigo": 5315,
+    "departamento": "Antioquia",
+    "municipio": "GUADALUPE",
+    "codigo_postal_urbano": 51820,
+    "codigo_postal_rural": 51827
+  },
+  {
+    "codigo": 5318,
+    "departamento": "Antioquia",
+    "municipio": "GUARNE",
+    "codigo_postal_urbano": 54050,
+    "codigo_postal_rural": 54058.054057
+  },
+  {
+    "codigo": 5321,
+    "departamento": "Antioquia",
+    "municipio": "GUATAPE",
+    "codigo_postal_urbano": 53840,
+    "codigo_postal_rural": 53847
+  },
+  {
+    "codigo": 5347,
+    "departamento": "Antioquia",
+    "municipio": "HELICONIA",
+    "codigo_postal_urbano": 55820,
+    "codigo_postal_rural": 55827
+  },
+  {
+    "codigo": 5353,
+    "departamento": "Antioquia",
+    "municipio": "HISPANIA",
+    "codigo_postal_urbano": 56450,
+    "codigo_postal_rural": 56457
+  },
+  {
+    "codigo": 5360,
+    "departamento": "Antioquia",
+    "municipio": "ITAGUI",
+    "codigo_postal_urbano": "055411,055412,055410,055413",
+    "codigo_postal_rural": 55417
+  },
+  {
+    "codigo": 5361,
+    "departamento": "Antioquia",
+    "municipio": "ITUANGO",
+    "codigo_postal_urbano": 52070,
+    "codigo_postal_rural": "052079,052078,052077"
+  },
+  {
+    "codigo": 5364,
+    "departamento": "Antioquia",
+    "municipio": "JARDIN",
+    "codigo_postal_urbano": 56050,
+    "codigo_postal_rural": 56057
+  },
+  {
+    "codigo": 5368,
+    "departamento": "Antioquia",
+    "municipio": "JERICO",
+    "codigo_postal_urbano": 56010,
+    "codigo_postal_rural": 56017
+  },
+  {
+    "codigo": 5376,
+    "departamento": "Antioquia",
+    "municipio": "LA CEJA",
+    "codigo_postal_urbano": 55010,
+    "codigo_postal_rural": 55017.055018
+  },
+  {
+    "codigo": 5380,
+    "departamento": "Antioquia",
+    "municipio": "LA ESTRELLA",
+    "codigo_postal_urbano": 55460,
+    "codigo_postal_rural": 55467.055468
+  },
+  {
+    "codigo": 5390,
+    "departamento": "Antioquia",
+    "municipio": "LA PINTADA",
+    "codigo_postal_urbano": 55060,
+    "codigo_postal_rural": 55067.055068
+  },
+  {
+    "codigo": 5400,
+    "departamento": "Antioquia",
+    "municipio": "LA UNION",
+    "codigo_postal_urbano": 55020,
+    "codigo_postal_rural": 55027.055028
+  },
+  {
+    "codigo": 5411,
+    "departamento": "Antioquia",
+    "municipio": "LIBORINA",
+    "codigo_postal_urbano": 51460,
+    "codigo_postal_rural": 51468.051467
+  },
+  {
+    "codigo": 5425,
+    "departamento": "Antioquia",
+    "municipio": "MACEO",
+    "codigo_postal_urbano": 53460,
+    "codigo_postal_rural": 53467
+  },
+  {
+    "codigo": 5440,
+    "departamento": "Antioquia",
+    "municipio": "MARINILLA",
+    "codigo_postal_urbano": 54020,
+    "codigo_postal_rural": 54027.054028
+  },
+  {
+    "codigo": 5001,
+    "departamento": "Antioquia",
+    "municipio": "MEDELLIN",
+    "codigo_postal_urbano": "050013,050017,050002,050007,050041,050021,050024,050006,050020,050016,050014,050043",
+    "codigo_postal_rural": ""
+  },
+  {
+    "codigo": "",
+    "departamento": "",
+    "municipio": "",
+    "codigo_postal_urbano": "050037,050048,050031,050025,050030,050018,050015,050027,050044,050003,050004,050011",
+    "codigo_postal_rural": ""
+  },
+  {
+    "codigo": "",
+    "departamento": "",
+    "municipio": "",
+    "codigo_postal_urbano": 50047.050035,
+    "codigo_postal_rural": ""
+  },
+  {
+    "codigo": 5467,
+    "departamento": "Antioquia",
+    "municipio": "MONTEBELLO",
+    "codigo_postal_urbano": 55040,
+    "codigo_postal_rural": 55047.055048
+  },
+  {
+    "codigo": 5475,
+    "departamento": "Antioquia",
+    "municipio": "MURINDO",
+    "codigo_postal_urbano": 56810,
+    "codigo_postal_rural": 56817.056818
+  },
+  {
+    "codigo": 5480,
+    "departamento": "Antioquia",
+    "municipio": "MUTATA",
+    "codigo_postal_urbano": 57420,
+    "codigo_postal_rural": 57427.057428
+  },
+  {
+    "codigo": 5483,
+    "departamento": "Antioquia",
+    "municipio": "NARIÑO",
+    "codigo_postal_urbano": 54840,
+    "codigo_postal_rural": 54848.054847
+  },
+  {
+    "codigo": 5495,
+    "departamento": "Antioquia",
+    "municipio": "NECHI",
+    "codigo_postal_urbano": 52420,
+    "codigo_postal_rural": 52427.052428
+  },
+  {
+    "codigo": 5490,
+    "departamento": "Antioquia",
+    "municipio": "NECOCLI",
+    "codigo_postal_urbano": 57870,
+    "codigo_postal_rural": 57877.057878
+  },
+  {
+    "codigo": 5501,
+    "departamento": "Antioquia",
+    "municipio": "OLAYA",
+    "codigo_postal_urbano": 51450,
+    "codigo_postal_rural": 51457
+  },
+  {
+    "codigo": 5541,
+    "departamento": "Antioquia",
+    "municipio": "PEÐOL",
+    "codigo_postal_urbano": 53850,
+    "codigo_postal_rural": 53857
+  },
+  {
+    "codigo": 5543,
+    "departamento": "Antioquia",
+    "municipio": "PEQUE",
+    "codigo_postal_urbano": 57010,
+    "codigo_postal_rural": 57017.057018
+  },
+  {
+    "codigo": 5576,
+    "departamento": "Antioquia",
+    "municipio": "PUEBLORRICO",
+    "codigo_postal_urbano": 56440,
+    "codigo_postal_rural": 56447
+  },
+  {
+    "codigo": 5579,
+    "departamento": "Antioquia",
+    "municipio": "PUERTO BERRIO",
+    "codigo_postal_urbano": 53420,
+    "codigo_postal_rural": 53427.053428
+  },
+  {
+    "codigo": 5585,
+    "departamento": "Antioquia",
+    "municipio": "PUERTO NARE",
+    "codigo_postal_urbano": 53430,
+    "codigo_postal_rural": 53437
+  },
+  {
+    "codigo": 5591,
+    "departamento": "Antioquia",
+    "municipio": "PUERTO TRIUNFO",
+    "codigo_postal_urbano": 53440,
+    "codigo_postal_rural": 53448.053447
+  },
+  {
+    "codigo": 5604,
+    "departamento": "Antioquia",
+    "municipio": "REMEDIOS",
+    "codigo_postal_urbano": 52820,
+    "codigo_postal_rural": 52827.052828
+  },
+  {
+    "codigo": 5607,
+    "departamento": "Antioquia",
+    "municipio": "RETIRO",
+    "codigo_postal_urbano": 55430,
+    "codigo_postal_rural": 55438.055437
+  },
+  {
+    "codigo": 5615,
+    "departamento": "Antioquia",
+    "municipio": "RIONEGRO",
+    "codigo_postal_urbano": 54040,
+    "codigo_postal_rural": 54047.054048
+  },
+  {
+    "codigo": 5628,
+    "departamento": "Antioquia",
+    "municipio": "SABANALARGA",
+    "codigo_postal_urbano": 57020,
+    "codigo_postal_rural": 57028.057027
+  },
+  {
+    "codigo": 5631,
+    "departamento": "Antioquia",
+    "municipio": "SABANETA",
+    "codigo_postal_urbano": 55450,
+    "codigo_postal_rural": 55457
+  },
+  {
+    "codigo": 5642,
+    "departamento": "Antioquia",
+    "municipio": "SALGAR",
+    "codigo_postal_urbano": 56470,
+    "codigo_postal_rural": 56478.056477
+  },
+  {
+    "codigo": 5647,
+    "departamento": "Antioquia",
+    "municipio": "SAN ANDRES DE CUERQUIA",
+    "codigo_postal_urbano": 52040,
+    "codigo_postal_rural": 52047
+  },
+  {
+    "codigo": 5649,
+    "departamento": "Antioquia",
+    "municipio": "SAN CARLOS",
+    "codigo_postal_urbano": 54420,
+    "codigo_postal_rural": 54427.054428
+  },
+  {
+    "codigo": 5652,
+    "departamento": "Antioquia",
+    "municipio": "SAN FRANCISCO",
+    "codigo_postal_urbano": 54810,
+    "codigo_postal_rural": 54818.054817
+  },
+  {
+    "codigo": 5656,
+    "departamento": "Antioquia",
+    "municipio": "SAN JERONIMO",
+    "codigo_postal_urbano": 51070,
+    "codigo_postal_rural": 51077
+  },
+  {
+    "codigo": 5658,
+    "departamento": "Antioquia",
+    "municipio": "SAN JOSE DE LA MONTAÑA",
+    "codigo_postal_urbano": 51410,
+    "codigo_postal_rural": 51417
+  },
+  {
+    "codigo": 5659,
+    "departamento": "Antioquia",
+    "municipio": "SAN JUAN DE URABA",
+    "codigo_postal_urbano": 57810,
+    "codigo_postal_rural": 57817
+  },
+  {
+    "codigo": 5660,
+    "departamento": "Antioquia",
+    "municipio": "SAN LUIS",
+    "codigo_postal_urbano": 54430,
+    "codigo_postal_rural": 54437.054438
+  },
+  {
+    "codigo": 5664,
+    "departamento": "Antioquia",
+    "municipio": "SAN PEDRO",
+    "codigo_postal_urbano": 51010,
+    "codigo_postal_rural": 51017
+  },
+  {
+    "codigo": 5665,
+    "departamento": "Antioquia",
+    "municipio": "SAN PEDRO DE URABA",
+    "codigo_postal_urbano": 57830,
+    "codigo_postal_rural": "057839,057838,057837"
+  },
+  {
+    "codigo": 5667,
+    "departamento": "Antioquia",
+    "municipio": "SAN RAFAEL",
+    "codigo_postal_urbano": 53830,
+    "codigo_postal_rural": 53838.053837
+  },
+  {
+    "codigo": 5670,
+    "departamento": "Antioquia",
+    "municipio": "SAN ROQUE",
+    "codigo_postal_urbano": 53030,
+    "codigo_postal_rural": 53037
+  },
+  {
+    "codigo": 5679,
+    "departamento": "Antioquia",
+    "municipio": "SANTA BARBARA",
+    "codigo_postal_urbano": 55050,
+    "codigo_postal_rural": 55057.055058
+  },
+  {
+    "codigo": 5042,
+    "departamento": "Antioquia",
+    "municipio": "SANTAFE DE ANTIOQUIA",
+    "codigo_postal_urbano": 57050,
+    "codigo_postal_rural": 57057.057058
+  },
+  {
+    "codigo": 5686,
+    "departamento": "Antioquia",
+    "municipio": "SANTA ROSA DE OSOS",
+    "codigo_postal_urbano": 51860,
+    "codigo_postal_rural": 51868.051867
+  },
+  {
+    "codigo": 5690,
+    "departamento": "Antioquia",
+    "municipio": "SANTO DOMINGO",
+    "codigo_postal_urbano": 53040,
+    "codigo_postal_rural": 53048.053047
+  },
+  {
+    "codigo": 5674,
+    "departamento": "Antioquia",
+    "municipio": "SAN VICENTE",
+    "codigo_postal_urbano": 54010,
+    "codigo_postal_rural": 54017.054018
+  },
+  {
+    "codigo": 5736,
+    "departamento": "Antioquia",
+    "municipio": "SEGOVIA",
+    "codigo_postal_urbano": 52810,
+    "codigo_postal_rural": 52818.052817
+  },
+  {
+    "codigo": 5756,
+    "departamento": "Antioquia",
+    "municipio": "SONSON",
+    "codigo_postal_urbano": 54820,
+    "codigo_postal_rural": "054827,054829,054828"
+  },
+  {
+    "codigo": 5761,
+    "departamento": "Antioquia",
+    "municipio": "SOPETRAN",
+    "codigo_postal_urbano": 51440,
+    "codigo_postal_rural": 51448.051447
+  },
+  {
+    "codigo": 5789,
+    "departamento": "Antioquia",
+    "municipio": "TAMESIS",
+    "codigo_postal_urbano": 56020,
+    "codigo_postal_rural": 56027.056028
+  },
+  {
+    "codigo": 5790,
+    "departamento": "Antioquia",
+    "municipio": "TARAZA",
+    "codigo_postal_urbano": 52460,
+    "codigo_postal_rural": 52467.052468
+  },
+  {
+    "codigo": 5792,
+    "departamento": "Antioquia",
+    "municipio": "TARSO",
+    "codigo_postal_urbano": 56430,
+    "codigo_postal_rural": 56437.056438
+  },
+  {
+    "codigo": 5809,
+    "departamento": "Antioquia",
+    "municipio": "TITIRIBI",
+    "codigo_postal_urbano": 55850,
+    "codigo_postal_rural": 55858.055857
+  },
+  {
+    "codigo": 5819,
+    "departamento": "Antioquia",
+    "municipio": "TOLEDO",
+    "codigo_postal_urbano": 52050,
+    "codigo_postal_rural": 52057
+  },
+  {
+    "codigo": 5837,
+    "departamento": "Antioquia",
+    "municipio": "TURBO",
+    "codigo_postal_urbano": 57860,
+    "codigo_postal_rural": "057869,057868,057867"
+  },
+  {
+    "codigo": 5842,
+    "departamento": "Antioquia",
+    "municipio": "URAMITA",
+    "codigo_postal_urbano": 57440,
+    "codigo_postal_rural": 57447
+  },
+  {
+    "codigo": 5847,
+    "departamento": "Antioquia",
+    "municipio": "URRAO",
+    "codigo_postal_urbano": 56830,
+    "codigo_postal_rural": 56838.056837
+  },
+  {
+    "codigo": 5854,
+    "departamento": "Antioquia",
+    "municipio": "VALDIVIA",
+    "codigo_postal_urbano": 52010,
+    "codigo_postal_rural": 52018.052017
+  },
+  {
+    "codigo": 5856,
+    "departamento": "Antioquia",
+    "municipio": "VALPARAISO",
+    "codigo_postal_urbano": 56030,
+    "codigo_postal_rural": 56037
+  },
+  {
+    "codigo": 5858,
+    "departamento": "Antioquia",
+    "municipio": "VEGACHI",
+    "codigo_postal_urbano": 52830,
+    "codigo_postal_rural": 52837
+  },
+  {
+    "codigo": 5861,
+    "departamento": "Antioquia",
+    "municipio": "VENECIA",
+    "codigo_postal_urbano": 56420,
+    "codigo_postal_rural": 56427
+  },
+  {
+    "codigo": 5873,
+    "departamento": "Antioquia",
+    "municipio": "VIGIA DEL FUERTE",
+    "codigo_postal_urbano": 56820,
+    "codigo_postal_rural": 56828.056827
+  },
+  {
+    "codigo": 5885,
+    "departamento": "Antioquia",
+    "municipio": "YALI",
+    "codigo_postal_urbano": 53010,
+    "codigo_postal_rural": 53017
+  },
+  {
+    "codigo": 5887,
+    "departamento": "Antioquia",
+    "municipio": "YARUMAL",
+    "codigo_postal_urbano": 52030,
+    "codigo_postal_rural": 52037.052038
+  },
+  {
+    "codigo": 5890,
+    "departamento": "Antioquia",
+    "municipio": "YOLOMBO",
+    "codigo_postal_urbano": 53020,
+    "codigo_postal_rural": 53028.053027
+  },
+  {
+    "codigo": 5893,
+    "departamento": "Antioquia",
+    "municipio": "YONDO",
+    "codigo_postal_urbano": 53410,
+    "codigo_postal_rural": 53417.053418
+  },
+  {
+    "codigo": 5895,
+    "departamento": "Antioquia",
+    "municipio": "ZARAGOZA",
+    "codigo_postal_urbano": 52440,
+    "codigo_postal_rural": 52447.052448
+  },
+  {
+    "codigo": 81001,
+    "departamento": "Arauca",
+    "municipio": "Arauca",
+    "codigo_postal_urbano": 810001,
+    "codigo_postal_rural": "810007,810008,810009"
+  },
+  {
+    "codigo": 81065,
+    "departamento": "Arauca",
+    "municipio": "Arauquita",
+    "codigo_postal_urbano": 816010,
+    "codigo_postal_rural": "816017,816019,816018"
+  },
+  {
+    "codigo": 81220,
+    "departamento": "Arauca",
+    "municipio": "Cravo Norte",
+    "codigo_postal_urbano": 812010,
+    "codigo_postal_rural": "812018,812017,812019"
+  },
+  {
+    "codigo": 81300,
+    "departamento": "Arauca",
+    "municipio": "Fortul",
+    "codigo_postal_urbano": 814050,
+    "codigo_postal_rural": 814057.814058
+  },
+  {
+    "codigo": 81591,
+    "departamento": "Arauca",
+    "municipio": "Puerto Rondón",
+    "codigo_postal_urbano": 813010,
+    "codigo_postal_rural": 813017.813018
+  },
+  {
+    "codigo": 81736,
+    "departamento": "Arauca",
+    "municipio": "Saravena",
+    "codigo_postal_urbano": 815010,
+    "codigo_postal_rural": 815018.815017
+  },
+  {
+    "codigo": 81794,
+    "departamento": "Arauca",
+    "municipio": "Tame",
+    "codigo_postal_urbano": 814010,
+    "codigo_postal_rural": 814018.814017
+  },
+  {
+    "codigo": 8001,
+    "departamento": "Atlantico",
+    "municipio": "BARRANQUILLA",
+    "codigo_postal_urbano": "080010,080004,080002,080001,080005,080003,080020",
+    "codigo_postal_rural": "080010,080016,080004,080002,080007,080014,080012,080001"
+  },
+  {
+    "codigo": "",
+    "departamento": "",
+    "municipio": "",
+    "codigo_postal_urbano": "",
+    "codigo_postal_rural": "080005,080011,080013,080003,080015,080006,080020"
+  },
+  {
+    "codigo": 8137,
+    "departamento": "Atlantico",
+    "municipio": "CAMPO DE LA CRUZ",
+    "codigo_postal_urbano": 84040,
+    "codigo_postal_rural": 84047
+  },
+  {
+    "codigo": 8141,
+    "departamento": "Atlantico",
+    "municipio": "CANDELARIA",
+    "codigo_postal_urbano": 84020,
+    "codigo_postal_rural": 84027
+  },
+  {
+    "codigo": 8296,
+    "departamento": "Atlantico",
+    "municipio": "GALAPA",
+    "codigo_postal_urbano": 82001,
+    "codigo_postal_rural": 82007
+  },
+  {
+    "codigo": 8372,
+    "departamento": "Atlantico",
+    "municipio": "JUAN DE ACOSTA",
+    "codigo_postal_urbano": 81040,
+    "codigo_postal_rural": 81048.081047
+  },
+  {
+    "codigo": 8421,
+    "departamento": "Atlantico",
+    "municipio": "LURUACO",
+    "codigo_postal_urbano": 85060,
+    "codigo_postal_rural": 85068.085067
+  },
+  {
+    "codigo": 8433,
+    "departamento": "Atlantico",
+    "municipio": "MALAMBO",
+    "codigo_postal_urbano": 83020,
+    "codigo_postal_rural": "083027,083028,083021"
+  },
+  {
+    "codigo": 8436,
+    "departamento": "Atlantico",
+    "municipio": "MANATI",
+    "codigo_postal_urbano": 85020,
+    "codigo_postal_rural": 85027
+  },
+  {
+    "codigo": 8520,
+    "departamento": "Atlantico",
+    "municipio": "PALMAR DE VARELA",
+    "codigo_postal_urbano": 83080,
+    "codigo_postal_rural": 83087
+  },
+  {
+    "codigo": 8549,
+    "departamento": "Atlantico",
+    "municipio": "PIOJO",
+    "codigo_postal_urbano": 81060,
+    "codigo_postal_rural": 81067
+  },
+  {
+    "codigo": 8558,
+    "departamento": "Atlantico",
+    "municipio": "POLONUEVO",
+    "codigo_postal_urbano": 82040,
+    "codigo_postal_rural": 82047
+  },
+  {
+    "codigo": 8560,
+    "departamento": "Atlantico",
+    "municipio": "PONEDERA",
+    "codigo_postal_urbano": 84001,
+    "codigo_postal_rural": 84007.084008
+  },
+  {
+    "codigo": 8573,
+    "departamento": "Atlantico",
+    "municipio": "PUERTO COLOMBIA",
+    "codigo_postal_urbano": 81001,
+    "codigo_postal_rural": 81008.081007
+  },
+  {
+    "codigo": 8606,
+    "departamento": "Atlantico",
+    "municipio": "REPELON",
+    "codigo_postal_urbano": 85040,
+    "codigo_postal_rural": 85048.085047
+  },
+  {
+    "codigo": 8634,
+    "departamento": "Atlantico",
+    "municipio": "SABANAGRANDE",
+    "codigo_postal_urbano": 83040,
+    "codigo_postal_rural": 83047
+  },
+  {
+    "codigo": 8638,
+    "departamento": "Atlantico",
+    "municipio": "SABANALARGA",
+    "codigo_postal_urbano": 85001,
+    "codigo_postal_rural": "085009,085007,085008"
+  },
+  {
+    "codigo": 8675,
+    "departamento": "Atlantico",
+    "municipio": "SANTA LUCIA",
+    "codigo_postal_urbano": 84080,
+    "codigo_postal_rural": 84087
+  },
+  {
+    "codigo": 8685,
+    "departamento": "Atlantico",
+    "municipio": "SANTO TOMAS",
+    "codigo_postal_urbano": 83060,
+    "codigo_postal_rural": 83067
+  },
+  {
+    "codigo": 8758,
+    "departamento": "Atlantico",
+    "municipio": "SOLEDAD",
+    "codigo_postal_urbano": "083005,083003,083002,083004,083010,083001,083006",
+    "codigo_postal_rural": 83007
+  },
+  {
+    "codigo": 8770,
+    "departamento": "Atlantico",
+    "municipio": "SUAN",
+    "codigo_postal_urbano": 84060,
+    "codigo_postal_rural": 84067
+  },
+  {
+    "codigo": 8832,
+    "departamento": "Atlantico",
+    "municipio": "TUBARA",
+    "codigo_postal_urbano": 81020,
+    "codigo_postal_rural": 81027.081028
+  },
+  {
+    "codigo": 8849,
+    "departamento": "Atlantico",
+    "municipio": "USIACURI",
+    "codigo_postal_urbano": 82060,
+    "codigo_postal_rural": 82067
+  },
+  {
+    "codigo": 11001,
+    "departamento": "Bogotá",
+    "municipio": "Bogotá, D.C.",
+    "codigo_postal_urbano": "111971,111981,112041,112031,112021,112011,110561,110571,110551",
+    "codigo_postal_rural": "111511,111221,111211,110721,110741,110711,110731"
+  },
+  {
+    "codigo": "",
+    "departamento": "",
+    "municipio": "",
+    "codigo_postal_urbano": "",
+    "codigo_postal_rural": "111711,110221,110211,110231,111961,111921,111911,111951,11193"
+  },
+  {
+    "codigo": 13006,
+    "departamento": "Bolívar",
+    "municipio": "ACHI",
+    "codigo_postal_urbano": 134020,
+    "codigo_postal_rural": 134028.134027
+  },
+  {
+    "codigo": 13030,
+    "departamento": "Bolívar",
+    "municipio": "ALTOS DEL ROSARIO",
+    "codigo_postal_urbano": 133501,
+    "codigo_postal_rural": 133508.133507
+  },
+  {
+    "codigo": 13042,
+    "departamento": "Bolívar",
+    "municipio": "ARENAL",
+    "codigo_postal_urbano": 134520,
+    "codigo_postal_rural": 134527
+  },
+  {
+    "codigo": 13052,
+    "departamento": "Bolívar",
+    "municipio": "ARJONA",
+    "codigo_postal_urbano": 131020,
+    "codigo_postal_rural": "131028,131029,131027"
+  },
+  {
+    "codigo": 13062,
+    "departamento": "Bolívar",
+    "municipio": "ARROYOHONDO",
+    "codigo_postal_urbano": 131560,
+    "codigo_postal_rural": 131567
+  },
+  {
+    "codigo": 13074,
+    "departamento": "Bolívar",
+    "municipio": "BARRANCO DE LOBA",
+    "codigo_postal_urbano": 133510,
+    "codigo_postal_rural": 133517.133518
+  },
+  {
+    "codigo": 13140,
+    "departamento": "Bolívar",
+    "municipio": "CALAMAR",
+    "codigo_postal_urbano": 131540,
+    "codigo_postal_rural": 131547.131548
+  },
+  {
+    "codigo": 13160,
+    "departamento": "Bolívar",
+    "municipio": "CANTAGALLO",
+    "codigo_postal_urbano": 135060,
+    "codigo_postal_rural": 135067
+  },
+  {
+    "codigo": 13001,
+    "departamento": "Bolívar",
+    "municipio": "CARTAGENA",
+    "codigo_postal_urbano": "130019,130018,130005,130008,130027,130009,130017,130007,130001,130006,130012,130014",
+    "codigo_postal_rural": "130019,130018,130008,130027"
+  },
+  {
+    "codigo": "",
+    "departamento": "",
+    "municipio": "",
+    "codigo_postal_urbano": "130004,130002,130013,130015,130010,130011,130003",
+    "codigo_postal_rural": 130009.130017
+  },
+  {
+    "codigo": 13188,
+    "departamento": "Bolívar",
+    "municipio": "CICUCO",
+    "codigo_postal_urbano": 132550,
+    "codigo_postal_rural": 132557
+  },
+  {
+    "codigo": 13222,
+    "departamento": "Bolívar",
+    "municipio": "CLEMENCIA",
+    "codigo_postal_urbano": 130510,
+    "codigo_postal_rural": 130517
+  },
+  {
+    "codigo": 13212,
+    "departamento": "Bolívar",
+    "municipio": "CORDOBA",
+    "codigo_postal_urbano": 132501,
+    "codigo_postal_rural": 132507.132508
+  },
+  {
+    "codigo": 13244,
+    "departamento": "Bolívar",
+    "municipio": "EL CARMEN DE BOLIVAR",
+    "codigo_postal_urbano": 132050,
+    "codigo_postal_rural": "132058,132057,132059"
+  },
+  {
+    "codigo": 13248,
+    "departamento": "Bolívar",
+    "municipio": "EL GUAMO",
+    "codigo_postal_urbano": 132001,
+    "codigo_postal_rural": 132007
+  },
+  {
+    "codigo": 13268,
+    "departamento": "Bolívar",
+    "municipio": "EL PEÑON",
+    "codigo_postal_urbano": 133550,
+    "codigo_postal_rural": 133558.133557
+  },
+  {
+    "codigo": 13300,
+    "departamento": "Bolívar",
+    "municipio": "HATILLO DE LOBA",
+    "codigo_postal_urbano": 133040,
+    "codigo_postal_rural": "133048,133047,133049"
+  },
+  {
+    "codigo": 13430,
+    "departamento": "Bolívar",
+    "municipio": "MAGANGUE",
+    "codigo_postal_urbano": 132512.132511,
+    "codigo_postal_rural": "132518,132519,132517,132527"
+  },
+  {
+    "codigo": 13433,
+    "departamento": "Bolívar",
+    "municipio": "MAHATES",
+    "codigo_postal_urbano": 131040,
+    "codigo_postal_rural": 131048.131047
+  },
+  {
+    "codigo": 13440,
+    "departamento": "Bolívar",
+    "municipio": "MARGARITA",
+    "codigo_postal_urbano": 133020,
+    "codigo_postal_rural": 133027.133028
+  },
+  {
+    "codigo": 13442,
+    "departamento": "Bolívar",
+    "municipio": "MARIA LA BAJA",
+    "codigo_postal_urbano": 131060,
+    "codigo_postal_rural": "131077,131069,131068,131067"
+  },
+  {
+    "codigo": 13468,
+    "departamento": "Bolívar",
+    "municipio": "MOMPOS",
+    "codigo_postal_urbano": 132560,
+    "codigo_postal_rural": 132568.132567
+  },
+  {
+    "codigo": 13458,
+    "departamento": "Bolívar",
+    "municipio": "MONTECRISTO",
+    "codigo_postal_urbano": 134070,
+    "codigo_postal_rural": 134077
+  },
+  {
+    "codigo": 13473,
+    "departamento": "Bolívar",
+    "municipio": "MORALES",
+    "codigo_postal_urbano": 134540,
+    "codigo_postal_rural": 134548.134547
+  },
+  {
+    "codigo": 13490,
+    "departamento": "Bolívar",
+    "municipio": "NOROSI",
+    "codigo_postal_urbano": 134510,
+    "codigo_postal_rural": 134517
+  },
+  {
+    "codigo": 13549,
+    "departamento": "Bolívar",
+    "municipio": "PINILLOS",
+    "codigo_postal_urbano": 134001,
+    "codigo_postal_rural": 134007.134008
+  },
+  {
+    "codigo": 13580,
+    "departamento": "Bolívar",
+    "municipio": "REGIDOR",
+    "codigo_postal_urbano": 133560,
+    "codigo_postal_rural": 133567
+  },
+  {
+    "codigo": 13600,
+    "departamento": "Bolívar",
+    "municipio": "RIO VIEJO",
+    "codigo_postal_urbano": 134501,
+    "codigo_postal_rural": 134507
+  },
+  {
+    "codigo": 13620,
+    "departamento": "Bolívar",
+    "municipio": "SAN CRISTOBAL",
+    "codigo_postal_urbano": 131520,
+    "codigo_postal_rural": 131527
+  },
+  {
+    "codigo": 13647,
+    "departamento": "Bolívar",
+    "municipio": "SAN ESTANISLAO",
+    "codigo_postal_urbano": 130540,
+    "codigo_postal_rural": 130547
+  },
+  {
+    "codigo": 13650,
+    "departamento": "Bolívar",
+    "municipio": "SAN FERNANDO",
+    "codigo_postal_urbano": 133001,
+    "codigo_postal_rural": 133007.133008
+  },
+  {
+    "codigo": 13654,
+    "departamento": "Bolívar",
+    "municipio": "SAN JACINTO",
+    "codigo_postal_urbano": 132030,
+    "codigo_postal_rural": 132037
+  },
+  {
+    "codigo": 13655,
+    "departamento": "Bolívar",
+    "municipio": "SAN JACINTO DEL CAUCA",
+    "codigo_postal_urbano": 134060,
+    "codigo_postal_rural": 134068.134067
+  },
+  {
+    "codigo": 13657,
+    "departamento": "Bolívar",
+    "municipio": "SAN JUAN NEPOMUCENO",
+    "codigo_postal_urbano": 132010,
+    "codigo_postal_rural": 132017.132018
+  },
+  {
+    "codigo": 13667,
+    "departamento": "Bolívar",
+    "municipio": "SAN MARTIN DE LOBA",
+    "codigo_postal_urbano": 133530,
+    "codigo_postal_rural": 133538.133537
+  },
+  {
+    "codigo": 13670,
+    "departamento": "Bolívar",
+    "municipio": "SAN PABLO",
+    "codigo_postal_urbano": 135040,
+    "codigo_postal_rural": 135047.135048
+  },
+  {
+    "codigo": 13673,
+    "departamento": "Bolívar",
+    "municipio": "SANTA CATALINA",
+    "codigo_postal_urbano": 130501,
+    "codigo_postal_rural": 130507.130508
+  },
+  {
+    "codigo": 13683,
+    "departamento": "Bolívar",
+    "municipio": "SANTA ROSA",
+    "codigo_postal_urbano": 130520,
+    "codigo_postal_rural": 130527.130528
+  },
+  {
+    "codigo": 13688,
+    "departamento": "Bolívar",
+    "municipio": "SANTA ROSA DEL SUR",
+    "codigo_postal_urbano": 135001,
+    "codigo_postal_rural": 135007.135008
+  },
+  {
+    "codigo": 13744,
+    "departamento": "Bolívar",
+    "municipio": "SIMITI",
+    "codigo_postal_urbano": 135020,
+    "codigo_postal_rural": 135028.135027
+  },
+  {
+    "codigo": 13760,
+    "departamento": "Bolívar",
+    "municipio": "SOPLAVIENTO",
+    "codigo_postal_urbano": 131501,
+    "codigo_postal_rural": 131507
+  },
+  {
+    "codigo": 13780,
+    "departamento": "Bolívar",
+    "municipio": "TALAIGUA NUEVO",
+    "codigo_postal_urbano": 132540,
+    "codigo_postal_rural": 132548.132547
+  },
+  {
+    "codigo": 13810,
+    "departamento": "Bolívar",
+    "municipio": "TIQUISIO",
+    "codigo_postal_urbano": 134040,
+    "codigo_postal_rural": 134048.134047
+  },
+  {
+    "codigo": 13836,
+    "departamento": "Bolívar",
+    "municipio": "TURBACO",
+    "codigo_postal_urbano": 131001,
+    "codigo_postal_rural": 131007.131008
+  },
+  {
+    "codigo": 13838,
+    "departamento": "Bolívar",
+    "municipio": "TURBANA",
+    "codigo_postal_urbano": 131010,
+    "codigo_postal_rural": 131017
+  },
+  {
+    "codigo": 13873,
+    "departamento": "Bolívar",
+    "municipio": "VILLANUEVA",
+    "codigo_postal_urbano": 130530,
+    "codigo_postal_rural": 130537
+  },
+  {
+    "codigo": 13894,
+    "departamento": "Bolívar",
+    "municipio": "ZAMBRANO",
+    "codigo_postal_urbano": 132040,
+    "codigo_postal_rural": 132047
+  },
+  {
+    "codigo": 15022,
+    "departamento": "Boyaca",
+    "municipio": "ALMEIDA",
+    "codigo_postal_urbano": 153020,
+    "codigo_postal_rural": 153027
+  },
+  {
+    "codigo": 15047,
+    "departamento": "Boyaca",
+    "municipio": "AQUITANIA",
+    "codigo_postal_urbano": 152420,
+    "codigo_postal_rural": "152429,152427,152428"
+  },
+  {
+    "codigo": 15051,
+    "departamento": "Boyaca",
+    "municipio": "ARCABUCO",
+    "codigo_postal_urbano": 154201,
+    "codigo_postal_rural": 154207
+  },
+  {
+    "codigo": 15087,
+    "departamento": "Boyaca",
+    "municipio": "BELEN",
+    "codigo_postal_urbano": 150640,
+    "codigo_postal_rural": 150647
+  },
+  {
+    "codigo": 15090,
+    "departamento": "Boyaca",
+    "municipio": "BERBEO",
+    "codigo_postal_urbano": 152610,
+    "codigo_postal_rural": 152617
+  },
+  {
+    "codigo": 15092,
+    "departamento": "Boyaca",
+    "municipio": "BETEITIVA",
+    "codigo_postal_urbano": 150610,
+    "codigo_postal_rural": 150617
+  },
+  {
+    "codigo": 15097,
+    "departamento": "Boyaca",
+    "municipio": "BOAVITA",
+    "codigo_postal_urbano": 151060,
+    "codigo_postal_rural": 151067
+  },
+  {
+    "codigo": 15104,
+    "departamento": "Boyaca",
+    "municipio": "BOYACA",
+    "codigo_postal_urbano": 153610,
+    "codigo_postal_rural": 153617
+  },
+  {
+    "codigo": 15106,
+    "departamento": "Boyaca",
+    "municipio": "BRICEÑO",
+    "codigo_postal_urbano": 154670,
+    "codigo_postal_rural": 154677
+  },
+  {
+    "codigo": 15109,
+    "departamento": "Boyaca",
+    "municipio": "BUENAVISTA",
+    "codigo_postal_urbano": 154840,
+    "codigo_postal_rural": 154847.154848
+  },
+  {
+    "codigo": 15114,
+    "departamento": "Boyaca",
+    "municipio": "BUSBANZA",
+    "codigo_postal_urbano": 152080,
+    "codigo_postal_rural": 152087
+  },
+  {
+    "codigo": 15131,
+    "departamento": "Boyaca",
+    "municipio": "CALDAS",
+    "codigo_postal_urbano": 154660,
+    "codigo_postal_rural": 154667
+  },
+  {
+    "codigo": 15135,
+    "departamento": "Boyaca",
+    "municipio": "CAMPOHERMOSO",
+    "codigo_postal_urbano": 152640,
+    "codigo_postal_rural": 152647
+  },
+  {
+    "codigo": 15162,
+    "departamento": "Boyaca",
+    "municipio": "CERINZA",
+    "codigo_postal_urbano": 150620,
+    "codigo_postal_rural": 150627
+  },
+  {
+    "codigo": 15172,
+    "departamento": "Boyaca",
+    "municipio": "CHINAVITA",
+    "codigo_postal_urbano": 153280,
+    "codigo_postal_rural": 153287
+  },
+  {
+    "codigo": 15176,
+    "departamento": "Boyaca",
+    "municipio": "CHIQUINQUIRA",
+    "codigo_postal_urbano": 154640,
+    "codigo_postal_rural": 154647.154648
+  },
+  {
+    "codigo": 15232,
+    "departamento": "Boyaca",
+    "municipio": "CHIQUIZA",
+    "codigo_postal_urbano": 154020,
+    "codigo_postal_rural": 154027
+  },
+  {
+    "codigo": 15180,
+    "departamento": "Boyaca",
+    "municipio": "CHISCAS",
+    "codigo_postal_urbano": 151401,
+    "codigo_postal_rural": 151407
+  },
+  {
+    "codigo": 15183,
+    "departamento": "Boyaca",
+    "municipio": "CHITA",
+    "codigo_postal_urbano": 151601,
+    "codigo_postal_rural": "151609,151608,151607"
+  },
+  {
+    "codigo": 15185,
+    "departamento": "Boyaca",
+    "municipio": "CHITARAQUE",
+    "codigo_postal_urbano": 154420,
+    "codigo_postal_rural": 154428.154427
+  },
+  {
+    "codigo": 15187,
+    "departamento": "Boyaca",
+    "municipio": "CHIVATA",
+    "codigo_postal_urbano": 150240,
+    "codigo_postal_rural": 150247
+  },
+  {
+    "codigo": 15236,
+    "departamento": "Boyaca",
+    "municipio": "CHIVOR",
+    "codigo_postal_urbano": 153001,
+    "codigo_postal_rural": 153007
+  },
+  {
+    "codigo": 15189,
+    "departamento": "Boyaca",
+    "municipio": "CIENEGA",
+    "codigo_postal_urbano": 153440,
+    "codigo_postal_rural": 153447
+  },
+  {
+    "codigo": 15204,
+    "departamento": "Boyaca",
+    "municipio": "COMBITA",
+    "codigo_postal_urbano": 150201,
+    "codigo_postal_rural": 150208.150207
+  },
+  {
+    "codigo": 15212,
+    "departamento": "Boyaca",
+    "municipio": "COPER",
+    "codigo_postal_urbano": 154860,
+    "codigo_postal_rural": 154867
+  },
+  {
+    "codigo": 15215,
+    "departamento": "Boyaca",
+    "municipio": "CORRALES",
+    "codigo_postal_urbano": 152060,
+    "codigo_postal_rural": 152067
+  },
+  {
+    "codigo": 15218,
+    "departamento": "Boyaca",
+    "municipio": "COVARACHIA",
+    "codigo_postal_urbano": 151040,
+    "codigo_postal_rural": 151047
+  },
+  {
+    "codigo": 15223,
+    "departamento": "Boyaca",
+    "municipio": "CUBARA",
+    "codigo_postal_urbano": 151420,
+    "codigo_postal_rural": 151427
+  },
+  {
+    "codigo": 15224,
+    "departamento": "Boyaca",
+    "municipio": "CUCAITA",
+    "codigo_postal_urbano": 154060,
+    "codigo_postal_rural": 154067
+  },
+  {
+    "codigo": 15226,
+    "departamento": "Boyaca",
+    "municipio": "CUITIVA",
+    "codigo_postal_urbano": 152230,
+    "codigo_postal_rural": 152237
+  },
+  {
+    "codigo": 15238,
+    "departamento": "Boyaca",
+    "municipio": "DUITAMA",
+    "codigo_postal_urbano": 150461.150462,
+    "codigo_postal_rural": "150467,150468,150469,150477"
+  },
+  {
+    "codigo": 15244,
+    "departamento": "Boyaca",
+    "municipio": "EL COCUY",
+    "codigo_postal_urbano": 151280,
+    "codigo_postal_rural": 151287
+  },
+  {
+    "codigo": 15248,
+    "departamento": "Boyaca",
+    "municipio": "EL ESPINO",
+    "codigo_postal_urbano": 151240,
+    "codigo_postal_rural": 151247
+  },
+  {
+    "codigo": 15272,
+    "departamento": "Boyaca",
+    "municipio": "FIRAVITOBA",
+    "codigo_postal_urbano": 152250,
+    "codigo_postal_rural": 152257
+  },
+  {
+    "codigo": 15276,
+    "departamento": "Boyaca",
+    "municipio": "FLORESTA",
+    "codigo_postal_urbano": 150601,
+    "codigo_postal_rural": 150607
+  },
+  {
+    "codigo": 15293,
+    "departamento": "Boyaca",
+    "municipio": "GACHANTIVA",
+    "codigo_postal_urbano": 154220,
+    "codigo_postal_rural": 154227
+  },
+  {
+    "codigo": 15296,
+    "departamento": "Boyaca",
+    "municipio": "GAMEZA",
+    "codigo_postal_urbano": 152020,
+    "codigo_postal_rural": 152027
+  },
+  {
+    "codigo": 15299,
+    "departamento": "Boyaca",
+    "municipio": "GARAGOA",
+    "codigo_postal_urbano": 152860,
+    "codigo_postal_rural": 152867
+  },
+  {
+    "codigo": 15332,
+    "departamento": "Boyaca",
+    "municipio": "GsICAN",
+    "codigo_postal_urbano": 151440,
+    "codigo_postal_rural": 151447.151448
+  },
+  {
+    "codigo": 15317,
+    "departamento": "Boyaca",
+    "municipio": "GUACAMAYAS",
+    "codigo_postal_urbano": 151220,
+    "codigo_postal_rural": 151227
+  },
+  {
+    "codigo": 15322,
+    "departamento": "Boyaca",
+    "municipio": "GUATEQUE",
+    "codigo_postal_urbano": 153050,
+    "codigo_postal_rural": 153057
+  },
+  {
+    "codigo": 15325,
+    "departamento": "Boyaca",
+    "municipio": "GUAYATA",
+    "codigo_postal_urbano": 153040,
+    "codigo_postal_rural": 153047
+  },
+  {
+    "codigo": 15362,
+    "departamento": "Boyaca",
+    "municipio": "IZA",
+    "codigo_postal_urbano": 152240,
+    "codigo_postal_rural": 152247
+  },
+  {
+    "codigo": 15367,
+    "departamento": "Boyaca",
+    "municipio": "JENESANO",
+    "codigo_postal_urbano": 153601,
+    "codigo_postal_rural": 153608.153607
+  },
+  {
+    "codigo": 15368,
+    "departamento": "Boyaca",
+    "municipio": "JERICO",
+    "codigo_postal_urbano": 150840,
+    "codigo_postal_rural": 150847
+  },
+  {
+    "codigo": 15377,
+    "departamento": "Boyaca",
+    "municipio": "LABRANZAGRANDE",
+    "codigo_postal_urbano": 151840,
+    "codigo_postal_rural": 151847
+  },
+  {
+    "codigo": 15380,
+    "departamento": "Boyaca",
+    "municipio": "LA CAPILLA",
+    "codigo_postal_urbano": 153220,
+    "codigo_postal_rural": 153227
+  },
+  {
+    "codigo": 15403,
+    "departamento": "Boyaca",
+    "municipio": "LA UVITA",
+    "codigo_postal_urbano": 150860,
+    "codigo_postal_rural": 150867
+  },
+  {
+    "codigo": 15401,
+    "departamento": "Boyaca",
+    "municipio": "LA VICTORIA",
+    "codigo_postal_urbano": 155001,
+    "codigo_postal_rural": 155007
+  },
+  {
+    "codigo": 15425,
+    "departamento": "Boyaca",
+    "municipio": "MACANAL",
+    "codigo_postal_urbano": 152840,
+    "codigo_postal_rural": 152847
+  },
+  {
+    "codigo": 15442,
+    "departamento": "Boyaca",
+    "municipio": "MARIPI",
+    "codigo_postal_urbano": 154820,
+    "codigo_postal_rural": 154827.154828
+  },
+  {
+    "codigo": 15455,
+    "departamento": "Boyaca",
+    "municipio": "MIRAFLORES",
+    "codigo_postal_urbano": 152660,
+    "codigo_postal_rural": 152667
+  },
+  {
+    "codigo": 15464,
+    "departamento": "Boyaca",
+    "municipio": "MONGUA",
+    "codigo_postal_urbano": 152001,
+    "codigo_postal_rural": 152007
+  },
+  {
+    "codigo": 15466,
+    "departamento": "Boyaca",
+    "municipio": "Monguí",
+    "codigo_postal_urbano": 152201,
+    "codigo_postal_rural": 152207
+  },
+  {
+    "codigo": 15469,
+    "departamento": "Boyaca",
+    "municipio": "MONIQUIRA",
+    "codigo_postal_urbano": 154260,
+    "codigo_postal_rural": "154267,154269,154268"
+  },
+  {
+    "codigo": 15476,
+    "departamento": "Boyaca",
+    "municipio": "MOTAVITA",
+    "codigo_postal_urbano": 154080,
+    "codigo_postal_rural": 154087
+  },
+  {
+    "codigo": 15480,
+    "departamento": "Boyaca",
+    "municipio": "MUZO",
+    "codigo_postal_urbano": 154880,
+    "codigo_postal_rural": 154887
+  },
+  {
+    "codigo": 15491,
+    "departamento": "Boyaca",
+    "municipio": "NOBSA",
+    "codigo_postal_urbano": 152280,
+    "codigo_postal_rural": 152287.152288
+  },
+  {
+    "codigo": 15494,
+    "departamento": "Boyaca",
+    "municipio": "NUEVO COLON",
+    "codigo_postal_urbano": 153620,
+    "codigo_postal_rural": 153627
+  },
+  {
+    "codigo": 15500,
+    "departamento": "Boyaca",
+    "municipio": "OICATA",
+    "codigo_postal_urbano": 150220,
+    "codigo_postal_rural": 150227
+  },
+  {
+    "codigo": 15507,
+    "departamento": "Boyaca",
+    "municipio": "OTANCHE",
+    "codigo_postal_urbano": 155060,
+    "codigo_postal_rural": 155068.155067
+  },
+  {
+    "codigo": 15511,
+    "departamento": "Boyaca",
+    "municipio": "PACHAVITA",
+    "codigo_postal_urbano": 153210,
+    "codigo_postal_rural": 153217
+  },
+  {
+    "codigo": 15514,
+    "departamento": "Boyaca",
+    "municipio": "PAEZ",
+    "codigo_postal_urbano": 152620,
+    "codigo_postal_rural": 152627
+  },
+  {
+    "codigo": 15516,
+    "departamento": "Boyaca",
+    "municipio": "PAIPA",
+    "codigo_postal_urbano": 150440,
+    "codigo_postal_rural": "150447,150449,150448"
+  },
+  {
+    "codigo": 15518,
+    "departamento": "Boyaca",
+    "municipio": "PAJARITO",
+    "codigo_postal_urbano": 152401,
+    "codigo_postal_rural": 152401
+  },
+  {
+    "codigo": 15522,
+    "departamento": "Boyaca",
+    "municipio": "PANQUEBA",
+    "codigo_postal_urbano": 151260,
+    "codigo_postal_rural": 151267
+  },
+  {
+    "codigo": 15531,
+    "departamento": "Boyaca",
+    "municipio": "PAUNA",
+    "codigo_postal_urbano": 154801,
+    "codigo_postal_rural": 154807.154808
+  },
+  {
+    "codigo": 15533,
+    "departamento": "Boyaca",
+    "municipio": "PAYA",
+    "codigo_postal_urbano": 151820,
+    "codigo_postal_rural": 151827
+  },
+  {
+    "codigo": 15537,
+    "departamento": "Boyaca",
+    "municipio": "PAZ DE RIO",
+    "codigo_postal_urbano": 150680,
+    "codigo_postal_rural": 150687
+  },
+  {
+    "codigo": 15542,
+    "departamento": "Boyaca",
+    "municipio": "PESCA",
+    "codigo_postal_urbano": 152460,
+    "codigo_postal_rural": "152468,152469,152467"
+  },
+  {
+    "codigo": 15550,
+    "departamento": "Boyaca",
+    "municipio": "PISBA",
+    "codigo_postal_urbano": 151801,
+    "codigo_postal_rural": 151807
+  },
+  {
+    "codigo": 15572,
+    "departamento": "Boyaca",
+    "municipio": "PUERTO BOYACA",
+    "codigo_postal_urbano": 155201,
+    "codigo_postal_rural": "155208,155209,155218,155207,155217"
+  },
+  {
+    "codigo": 15580,
+    "departamento": "Boyaca",
+    "municipio": "QUIPAMA",
+    "codigo_postal_urbano": 155020,
+    "codigo_postal_rural": 155027.155028
+  },
+  {
+    "codigo": 15599,
+    "departamento": "Boyaca",
+    "municipio": "RAMIRIQUI",
+    "codigo_postal_urbano": 153401,
+    "codigo_postal_rural": 153407.153408
+  },
+  {
+    "codigo": 15600,
+    "departamento": "Boyaca",
+    "municipio": "RAQUIRA",
+    "codigo_postal_urbano": 153801,
+    "codigo_postal_rural": "153807,153808,153809"
+  },
+  {
+    "codigo": 15621,
+    "departamento": "Boyaca",
+    "municipio": "RONDON",
+    "codigo_postal_urbano": 153420,
+    "codigo_postal_rural": 153427
+  },
+  {
+    "codigo": 15632,
+    "departamento": "Boyaca",
+    "municipio": "SABOYA",
+    "codigo_postal_urbano": 154601,
+    "codigo_postal_rural": "154617,154608,154609,154607"
+  },
+  {
+    "codigo": 15638,
+    "departamento": "Boyaca",
+    "municipio": "SACHICA",
+    "codigo_postal_urbano": 153880,
+    "codigo_postal_rural": 153887
+  },
+  {
+    "codigo": 15646,
+    "departamento": "Boyaca",
+    "municipio": "SAMACA",
+    "codigo_postal_urbano": 153660,
+    "codigo_postal_rural": 153667.153668
+  },
+  {
+    "codigo": 15660,
+    "departamento": "Boyaca",
+    "municipio": "SAN EDUARDO",
+    "codigo_postal_urbano": 152601,
+    "codigo_postal_rural": 152607
+  },
+  {
+    "codigo": 15664,
+    "departamento": "Boyaca",
+    "municipio": "SAN JOSE DE PARE",
+    "codigo_postal_urbano": 154460,
+    "codigo_postal_rural": 154467
+  },
+  {
+    "codigo": 15667,
+    "departamento": "Boyaca",
+    "municipio": "SAN LUIS DE GACENO",
+    "codigo_postal_urbano": 152801,
+    "codigo_postal_rural": 152807
+  },
+  {
+    "codigo": 15673,
+    "departamento": "Boyaca",
+    "municipio": "SAN MATEO",
+    "codigo_postal_urbano": 151201,
+    "codigo_postal_rural": 151207
+  },
+  {
+    "codigo": 15676,
+    "departamento": "Boyaca",
+    "municipio": "SAN MIGUEL DE SEMA",
+    "codigo_postal_urbano": 153820,
+    "codigo_postal_rural": 153827
+  },
+  {
+    "codigo": 15681,
+    "departamento": "Boyaca",
+    "municipio": "SAN PABLO DE BORBUR",
+    "codigo_postal_urbano": 155040,
+    "codigo_postal_rural": 155047.155048
+  },
+  {
+    "codigo": 15690,
+    "departamento": "Boyaca",
+    "municipio": "SANTA MARIA",
+    "codigo_postal_urbano": 152820,
+    "codigo_postal_rural": 152827
+  },
+  {
+    "codigo": 15686,
+    "departamento": "Boyaca",
+    "municipio": "SANTANA",
+    "codigo_postal_urbano": 154440,
+    "codigo_postal_rural": 154448.154447
+  },
+  {
+    "codigo": 15693,
+    "departamento": "Boyaca",
+    "municipio": "SANTA ROSA DE VITERBO",
+    "codigo_postal_urbano": 150480,
+    "codigo_postal_rural": 150488.150487
+  },
+  {
+    "codigo": 15696,
+    "departamento": "Boyaca",
+    "municipio": "SANTA SOFIA",
+    "codigo_postal_urbano": 154240,
+    "codigo_postal_rural": 154247
+  },
+  {
+    "codigo": 15720,
+    "departamento": "Boyaca",
+    "municipio": "SATIVANORTE",
+    "codigo_postal_urbano": 150820,
+    "codigo_postal_rural": 150827
+  },
+  {
+    "codigo": 15723,
+    "departamento": "Boyaca",
+    "municipio": "SATIVASUR",
+    "codigo_postal_urbano": 150801,
+    "codigo_postal_rural": 150807
+  },
+  {
+    "codigo": 15740,
+    "departamento": "Boyaca",
+    "municipio": "SIACHOQUE",
+    "codigo_postal_urbano": 153460,
+    "codigo_postal_rural": 153468.153467
+  },
+  {
+    "codigo": 15753,
+    "departamento": "Boyaca",
+    "municipio": "SOATA",
+    "codigo_postal_urbano": 151001,
+    "codigo_postal_rural": 151007
+  },
+  {
+    "codigo": 15757,
+    "departamento": "Boyaca",
+    "municipio": "SOCHA",
+    "codigo_postal_urbano": 151640,
+    "codigo_postal_rural": 151647
+  },
+  {
+    "codigo": 15755,
+    "departamento": "Boyaca",
+    "municipio": "SOCOTA",
+    "codigo_postal_urbano": 151620,
+    "codigo_postal_rural": 151628.151627
+  },
+  {
+    "codigo": 15759,
+    "departamento": "Boyaca",
+    "municipio": "SOGAMOSO",
+    "codigo_postal_urbano": 152210.152211,
+    "codigo_postal_rural": "152217,152219,152218"
+  },
+  {
+    "codigo": 15761,
+    "departamento": "Boyaca",
+    "municipio": "SOMONDOCO",
+    "codigo_postal_urbano": 153030,
+    "codigo_postal_rural": 153037
+  },
+  {
+    "codigo": 15762,
+    "departamento": "Boyaca",
+    "municipio": "SORA",
+    "codigo_postal_urbano": 154040,
+    "codigo_postal_rural": 154047
+  },
+  {
+    "codigo": 15764,
+    "departamento": "Boyaca",
+    "municipio": "SORACA",
+    "codigo_postal_urbano": 153480,
+    "codigo_postal_rural": 153487
+  },
+  {
+    "codigo": 15763,
+    "departamento": "Boyaca",
+    "municipio": "SOTAQUIRA",
+    "codigo_postal_urbano": 150420,
+    "codigo_postal_rural": 150428.150427
+  },
+  {
+    "codigo": 15774,
+    "departamento": "Boyaca",
+    "municipio": "SUSACON",
+    "codigo_postal_urbano": 150880,
+    "codigo_postal_rural": 150887
+  },
+  {
+    "codigo": 15776,
+    "departamento": "Boyaca",
+    "municipio": "SUTAMARCHAN",
+    "codigo_postal_urbano": 153860,
+    "codigo_postal_rural": 153867
+  },
+  {
+    "codigo": 15778,
+    "departamento": "Boyaca",
+    "municipio": "SUTATENZA",
+    "codigo_postal_urbano": 153060,
+    "codigo_postal_rural": 153067
+  },
+  {
+    "codigo": 15790,
+    "departamento": "Boyaca",
+    "municipio": "TASCO",
+    "codigo_postal_urbano": 151660,
+    "codigo_postal_rural": 151667
+  },
+  {
+    "codigo": 15798,
+    "departamento": "Boyaca",
+    "municipio": "TENZA",
+    "codigo_postal_urbano": 153201,
+    "codigo_postal_rural": 153207
+  },
+  {
+    "codigo": 15804,
+    "departamento": "Boyaca",
+    "municipio": "TIBANA",
+    "codigo_postal_urbano": 153260,
+    "codigo_postal_rural": 153268.153267
+  },
+  {
+    "codigo": 15806,
+    "departamento": "Boyaca",
+    "municipio": "TIBASOSA",
+    "codigo_postal_urbano": 152260,
+    "codigo_postal_rural": 152268.152267
+  },
+  {
+    "codigo": 15808,
+    "departamento": "Boyaca",
+    "municipio": "TINJACA",
+    "codigo_postal_urbano": 153840,
+    "codigo_postal_rural": 153847
+  },
+  {
+    "codigo": 15810,
+    "departamento": "Boyaca",
+    "municipio": "TIPACOQUE",
+    "codigo_postal_urbano": 151020,
+    "codigo_postal_rural": 151027
+  },
+  {
+    "codigo": 15814,
+    "departamento": "Boyaca",
+    "municipio": "TOCA",
+    "codigo_postal_urbano": 150260,
+    "codigo_postal_rural": 150268.150267
+  },
+  {
+    "codigo": 15816,
+    "departamento": "Boyaca",
+    "municipio": "TOGsI",
+    "codigo_postal_urbano": 154401,
+    "codigo_postal_rural": "154407,152047,152040"
+  },
+  {
+    "codigo": 15822,
+    "departamento": "Boyaca",
+    "municipio": "TOTA",
+    "codigo_postal_urbano": 152440,
+    "codigo_postal_rural": 152447.152448
+  },
+  {
+    "codigo": 15001,
+    "departamento": "Boyaca",
+    "municipio": "TUNJA",
+    "codigo_postal_urbano": "150003,150002,150001",
+    "codigo_postal_rural": "150009,150007,150008"
+  },
+  {
+    "codigo": 15832,
+    "departamento": "Boyaca",
+    "municipio": "TUNUNGUA",
+    "codigo_postal_urbano": 154680,
+    "codigo_postal_rural": 154680
+  },
+  {
+    "codigo": 15835,
+    "departamento": "Boyaca",
+    "municipio": "TURMEQUE",
+    "codigo_postal_urbano": 153630,
+    "codigo_postal_rural": 153637
+  },
+  {
+    "codigo": 15837,
+    "departamento": "Boyaca",
+    "municipio": "TUTA",
+    "codigo_postal_urbano": 150401,
+    "codigo_postal_rural": 150407.150408
+  },
+  {
+    "codigo": 15839,
+    "departamento": "Boyaca",
+    "municipio": "TUTAZA",
+    "codigo_postal_urbano": 150660,
+    "codigo_postal_rural": 150667
+  },
+  {
+    "codigo": 15842,
+    "departamento": "Boyaca",
+    "municipio": "UMBITA",
+    "codigo_postal_urbano": 153240,
+    "codigo_postal_rural": 153247.153248
+  },
+  {
+    "codigo": 15861,
+    "departamento": "Boyaca",
+    "municipio": "VENTAQUEMADA",
+    "codigo_postal_urbano": 153640,
+    "codigo_postal_rural": "153649,153648,153647"
+  },
+  {
+    "codigo": 15407,
+    "departamento": "Boyaca",
+    "municipio": "VILLA DE LEYVA",
+    "codigo_postal_urbano": 154001,
+    "codigo_postal_rural": 154007
+  },
+  {
+    "codigo": 15879,
+    "departamento": "Boyaca",
+    "municipio": "VIRACACHA",
+    "codigo_postal_urbano": 153450,
+    "codigo_postal_rural": 153457
+  },
+  {
+    "codigo": 15897,
+    "departamento": "Boyaca",
+    "municipio": "ZETAQUIRA",
+    "codigo_postal_urbano": 152680,
+    "codigo_postal_rural": 152687
+  },
+  {
+    "codigo": 17013,
+    "departamento": "Caldas",
+    "municipio": "Aguadas",
+    "codigo_postal_urbano": 172020,
+    "codigo_postal_rural": "172029,172027,172028"
+  },
+  {
+    "codigo": 17042,
+    "departamento": "Caldas",
+    "municipio": "Anserma",
+    "codigo_postal_urbano": 177080,
+    "codigo_postal_rural": "177089,177088,177087"
+  },
+  {
+    "codigo": 17050,
+    "departamento": "Caldas",
+    "municipio": "Aranzazu",
+    "codigo_postal_urbano": 171040,
+    "codigo_postal_rural": 171047
+  },
+  {
+    "codigo": 17088,
+    "departamento": "Caldas",
+    "municipio": "Belalcázar",
+    "codigo_postal_urbano": 177001,
+    "codigo_postal_rural": 177007
+  },
+  {
+    "codigo": 17174,
+    "departamento": "Caldas",
+    "municipio": "Chinchiná",
+    "codigo_postal_urbano": 176020,
+    "codigo_postal_rural": 176027.176028
+  },
+  {
+    "codigo": 17272,
+    "departamento": "Caldas",
+    "municipio": "Filadelfia",
+    "codigo_postal_urbano": 171020,
+    "codigo_postal_rural": 171027.171028
+  },
+  {
+    "codigo": 17380,
+    "departamento": "Caldas",
+    "municipio": "La Dorada",
+    "codigo_postal_urbano": 175030,
+    "codigo_postal_rural": "175038,175037,175031"
+  },
+  {
+    "codigo": 17388,
+    "departamento": "Caldas",
+    "municipio": "La Merced",
+    "codigo_postal_urbano": 172060,
+    "codigo_postal_rural": 172067
+  },
+  {
+    "codigo": 17001,
+    "departamento": "Caldas",
+    "municipio": "Manizales",
+    "codigo_postal_urbano": "170001,170004,170003,170006,170002",
+    "codigo_postal_rural": "170007,170017,170008,170009"
+  },
+  {
+    "codigo": 17433,
+    "departamento": "Caldas",
+    "municipio": "Manzanares",
+    "codigo_postal_urbano": 173020,
+    "codigo_postal_rural": 173028.173027
+  },
+  {
+    "codigo": 17442,
+    "departamento": "Caldas",
+    "municipio": "Marmato",
+    "codigo_postal_urbano": 178001,
+    "codigo_postal_rural": 178007
+  },
+  {
+    "codigo": 17444,
+    "departamento": "Caldas",
+    "municipio": "Marquetalia",
+    "codigo_postal_urbano": 173040,
+    "codigo_postal_rural": 173047.173048
+  },
+  {
+    "codigo": 17446,
+    "departamento": "Caldas",
+    "municipio": "Marulanda",
+    "codigo_postal_urbano": 173001,
+    "codigo_postal_rural": 173007
+  },
+  {
+    "codigo": 17486,
+    "departamento": "Caldas",
+    "municipio": "Neira",
+    "codigo_postal_urbano": 171001,
+    "codigo_postal_rural": 171008.171007
+  },
+  {
+    "codigo": 17495,
+    "departamento": "Caldas",
+    "municipio": "Norcasia",
+    "codigo_postal_urbano": 175001,
+    "codigo_postal_rural": 175007
+  },
+  {
+    "codigo": 17513,
+    "departamento": "Caldas",
+    "municipio": "Pácora",
+    "codigo_postal_urbano": 172040,
+    "codigo_postal_rural": 172047.172048
+  },
+  {
+    "codigo": 17524,
+    "departamento": "Caldas",
+    "municipio": "Palestina",
+    "codigo_postal_urbano": 176040,
+    "codigo_postal_rural": 176048.176047
+  },
+  {
+    "codigo": 17541,
+    "departamento": "Caldas",
+    "municipio": "Pensilvania",
+    "codigo_postal_urbano": 173060,
+    "codigo_postal_rural": "173069,173068,173067"
+  },
+  {
+    "codigo": 17614,
+    "departamento": "Caldas",
+    "municipio": "Riosucio",
+    "codigo_postal_urbano": 178040,
+    "codigo_postal_rural": "178057,178049,178048,178047"
+  },
+  {
+    "codigo": 17616,
+    "departamento": "Caldas",
+    "municipio": "Risaralda",
+    "codigo_postal_urbano": 177060,
+    "codigo_postal_rural": 177068.177067
+  },
+  {
+    "codigo": 17653,
+    "departamento": "Caldas",
+    "municipio": "Salamina",
+    "codigo_postal_urbano": 172001,
+    "codigo_postal_rural": "172008,172007,172009"
+  },
+  {
+    "codigo": 17662,
+    "departamento": "Caldas",
+    "municipio": "Samaná",
+    "codigo_postal_urbano": 174001,
+    "codigo_postal_rural": "174009,174008,174007"
+  },
+  {
+    "codigo": 17665,
+    "departamento": "Caldas",
+    "municipio": "San José",
+    "codigo_postal_urbano": 177040,
+    "codigo_postal_rural": 177047
+  },
+  {
+    "codigo": 17777,
+    "departamento": "Caldas",
+    "municipio": "Supía",
+    "codigo_postal_urbano": 178020,
+    "codigo_postal_rural": 178028.178027
+  },
+  {
+    "codigo": 17867,
+    "departamento": "Caldas",
+    "municipio": "Victoria",
+    "codigo_postal_urbano": 174030,
+    "codigo_postal_rural": 174038.174037
+  },
+  {
+    "codigo": 17873,
+    "departamento": "Caldas",
+    "municipio": "Villamaría",
+    "codigo_postal_urbano": 176001,
+    "codigo_postal_rural": 176007.176008
+  },
+  {
+    "codigo": 17877,
+    "departamento": "Caldas",
+    "municipio": "Viterbo",
+    "codigo_postal_urbano": 177020,
+    "codigo_postal_rural": 177027
+  },
+  {
+    "codigo": 18029,
+    "departamento": "Caqueta",
+    "municipio": "ALBANIA",
+    "codigo_postal_urbano": 186030,
+    "codigo_postal_rural": 186038.186037
+  },
+  {
+    "codigo": 18094,
+    "departamento": "Caqueta",
+    "municipio": "BELEN DE LOS ANDAQUIES",
+    "codigo_postal_urbano": 186010,
+    "codigo_postal_rural": 186017.186018
+  },
+  {
+    "codigo": 18150,
+    "departamento": "Caqueta",
+    "municipio": "CARTAGENA DEL CHAIRA",
+    "codigo_postal_urbano": 183010,
+    "codigo_postal_rural": "183027,183017,183018,183019,"
+  },
+  {
+    "codigo": 18205,
+    "departamento": "Caqueta",
+    "municipio": "CURILLO",
+    "codigo_postal_urbano": 186050,
+    "codigo_postal_rural": "186059,186057,186058"
+  },
+  {
+    "codigo": 18247,
+    "departamento": "Caqueta",
+    "municipio": "EL DONCELLO",
+    "codigo_postal_urbano": 181010,
+    "codigo_postal_rural": "181017,181018,181019"
+  },
+  {
+    "codigo": 18256,
+    "departamento": "Caqueta",
+    "municipio": "EL PAUJIL",
+    "codigo_postal_urbano": 181030,
+    "codigo_postal_rural": "181037,181039,181038"
+  },
+  {
+    "codigo": 18001,
+    "departamento": "Caqueta",
+    "municipio": "FLORENCIA",
+    "codigo_postal_urbano": 180002.180001,
+    "codigo_postal_rural": "180009,180017,180008,180007"
+  },
+  {
+    "codigo": 18410,
+    "departamento": "Caqueta",
+    "municipio": "LA MONTAÑITA",
+    "codigo_postal_urbano": 181050,
+    "codigo_postal_rural": "181059,181067,181058,181057,"
+  },
+  {
+    "codigo": 18460,
+    "departamento": "Caqueta",
+    "municipio": "MILAN",
+    "codigo_postal_urbano": 185030,
+    "codigo_postal_rural": 185037.185038
+  },
+  {
+    "codigo": 18479,
+    "departamento": "Caqueta",
+    "municipio": "MORELIA",
+    "codigo_postal_urbano": 185010,
+    "codigo_postal_rural": 185017.185018
+  },
+  {
+    "codigo": 18592,
+    "departamento": "Caqueta",
+    "municipio": "PUERTO RICO",
+    "codigo_postal_urbano": 182050,
+    "codigo_postal_rural": "182057,182059,182058"
+  },
+  {
+    "codigo": 18610,
+    "departamento": "Caqueta",
+    "municipio": "SAN JOSE DEL FRAGUA",
+    "codigo_postal_urbano": 186070,
+    "codigo_postal_rural": 186077.186078
+  },
+  {
+    "codigo": 18753,
+    "departamento": "Caqueta",
+    "municipio": "SAN VICENTE DEL CAGUAN",
+    "codigo_postal_urbano": 182010,
+    "codigo_postal_rural": "182017,182018,182019"
+  },
+  {
+    "codigo": 18756,
+    "departamento": "Caqueta",
+    "municipio": "SOLANO",
+    "codigo_postal_urbano": 184010,
+    "codigo_postal_rural": "184019,184018,184017"
+  },
+  {
+    "codigo": 18785,
+    "departamento": "Caqueta",
+    "municipio": "SOLITA",
+    "codigo_postal_urbano": 185070,
+    "codigo_postal_rural": 185078.185077
+  },
+  {
+    "codigo": 18860,
+    "departamento": "Caqueta",
+    "municipio": "VALPARAISO",
+    "codigo_postal_urbano": 185050,
+    "codigo_postal_rural": 185058.185057
+  },
+  {
+    "codigo": 85010,
+    "departamento": "Casanare",
+    "municipio": "AGUAZUL",
+    "codigo_postal_urbano": 856010,
+    "codigo_postal_rural": "856017,856018,856019"
+  },
+  {
+    "codigo": 85015,
+    "departamento": "Casanare",
+    "municipio": "CHAMEZA",
+    "codigo_postal_urbano": 856030,
+    "codigo_postal_rural": 856038.856037
+  },
+  {
+    "codigo": 85125,
+    "departamento": "Casanare",
+    "municipio": "HATO COROZAL",
+    "codigo_postal_urbano": 852010,
+    "codigo_postal_rural": "852017,852019,852018"
+  },
+  {
+    "codigo": 85136,
+    "departamento": "Casanare",
+    "municipio": "LA SALINA",
+    "codigo_postal_urbano": 851010,
+    "codigo_postal_rural": 851017
+  },
+  {
+    "codigo": 85139,
+    "departamento": "Casanare",
+    "municipio": "MANI",
+    "codigo_postal_urbano": 854010,
+    "codigo_postal_rural": "854018,854019,854017"
+  },
+  {
+    "codigo": 85162,
+    "departamento": "Casanare",
+    "municipio": "MONTERREY",
+    "codigo_postal_urbano": 855010,
+    "codigo_postal_rural": 855017.855018
+  },
+  {
+    "codigo": 85225,
+    "departamento": "Casanare",
+    "municipio": "NUNCHIA",
+    "codigo_postal_urbano": 851070,
+    "codigo_postal_rural": 851078.851077
+  },
+  {
+    "codigo": 85230,
+    "departamento": "Casanare",
+    "municipio": "OROCUE",
+    "codigo_postal_urbano": 853050,
+    "codigo_postal_rural": "853059,853057,853058"
+  },
+  {
+    "codigo": 85250,
+    "departamento": "Casanare",
+    "municipio": "PAZ DE ARIPORO",
+    "codigo_postal_urbano": 852030,
+    "codigo_postal_rural": "852037,852038,852039"
+  },
+  {
+    "codigo": 85263,
+    "departamento": "Casanare",
+    "municipio": "PORE",
+    "codigo_postal_urbano": 852050,
+    "codigo_postal_rural": 852057.852058
+  },
+  {
+    "codigo": 85279,
+    "departamento": "Casanare",
+    "municipio": "RECETOR",
+    "codigo_postal_urbano": 856050,
+    "codigo_postal_rural": 856057.856058
+  },
+  {
+    "codigo": 85300,
+    "departamento": "Casanare",
+    "municipio": "SABANALARGA",
+    "codigo_postal_urbano": 855050,
+    "codigo_postal_rural": 855058.855057
+  },
+  {
+    "codigo": 85315,
+    "departamento": "Casanare",
+    "municipio": "SACAMA",
+    "codigo_postal_urbano": 851030,
+    "codigo_postal_rural": 851038.851037
+  },
+  {
+    "codigo": 85325,
+    "departamento": "Casanare",
+    "municipio": "SAN LUIS DE PALENQUE",
+    "codigo_postal_urbano": 853030,
+    "codigo_postal_rural": "853037,853038,853039"
+  },
+  {
+    "codigo": 85400,
+    "departamento": "Casanare",
+    "municipio": "TAMARA",
+    "codigo_postal_urbano": 851050,
+    "codigo_postal_rural": 851057.851058
+  },
+  {
+    "codigo": 85410,
+    "departamento": "Casanare",
+    "municipio": "TAURAMENA",
+    "codigo_postal_urbano": 854030,
+    "codigo_postal_rural": "854037,854038,854039"
+  },
+  {
+    "codigo": 85430,
+    "departamento": "Casanare",
+    "municipio": "TRINIDAD",
+    "codigo_postal_urbano": 853010,
+    "codigo_postal_rural": "853019,853018,853017"
+  },
+  {
+    "codigo": 85440,
+    "departamento": "Casanare",
+    "municipio": "VILLANUEVA",
+    "codigo_postal_urbano": 855030,
+    "codigo_postal_rural": "855039,855037,855038"
+  },
+  {
+    "codigo": 85001,
+    "departamento": "Casanare",
+    "municipio": "YOPAL",
+    "codigo_postal_urbano": 850002.850001,
+    "codigo_postal_rural": "850009,850008,850007,"
+  },
+  {
+    "codigo": 19022,
+    "departamento": "Cauca",
+    "municipio": "ALMAGUER",
+    "codigo_postal_urbano": 194080,
+    "codigo_postal_rural": "194088,194089,194087"
+  },
+  {
+    "codigo": 19050,
+    "departamento": "Cauca",
+    "municipio": "ARGELIA",
+    "codigo_postal_urbano": 195560,
+    "codigo_postal_rural": 195567
+  },
+  {
+    "codigo": 19075,
+    "departamento": "Cauca",
+    "municipio": "BALBOA",
+    "codigo_postal_urbano": 195530,
+    "codigo_postal_rural": "195539,195538,195537,195547"
+  },
+  {
+    "codigo": 19100,
+    "departamento": "Cauca",
+    "municipio": "BOLIVAR",
+    "codigo_postal_urbano": 195001,
+    "codigo_postal_rural": "195017,195007,195009,195019,195008"
+  },
+  {
+    "codigo": 19110,
+    "departamento": "Cauca",
+    "municipio": "BUENOS AIRES",
+    "codigo_postal_urbano": 191001,
+    "codigo_postal_rural": "191008,191009,191017,191007"
+  },
+  {
+    "codigo": 19130,
+    "departamento": "Cauca",
+    "municipio": "CAJIBIO",
+    "codigo_postal_urbano": 190501,
+    "codigo_postal_rural": "190518,190517,190507,190509,190508"
+  },
+  {
+    "codigo": 19137,
+    "departamento": "Cauca",
+    "municipio": "CALDONO",
+    "codigo_postal_urbano": 192040,
+    "codigo_postal_rural": "192047,192057,192048,192049"
+  },
+  {
+    "codigo": 19142,
+    "departamento": "Cauca",
+    "municipio": "CALOTO",
+    "codigo_postal_urbano": 191070,
+    "codigo_postal_rural": "191078,191079,191088,191077,191087"
+  },
+  {
+    "codigo": 19212,
+    "departamento": "Cauca",
+    "municipio": "CORINTO",
+    "codigo_postal_urbano": 191560,
+    "codigo_postal_rural": "191568,191567,191569"
+  },
+  {
+    "codigo": 19256,
+    "departamento": "Cauca",
+    "municipio": "EL TAMBO",
+    "codigo_postal_urbano": 193570,
+    "codigo_postal_rural": "193588,193589,193597,193577,193579"
+  },
+  {
+    "codigo": 19290,
+    "departamento": "Cauca",
+    "municipio": "FLORENCIA",
+    "codigo_postal_urbano": 195040,
+    "codigo_postal_rural": 195047
+  },
+  {
+    "codigo": 19318,
+    "departamento": "Cauca",
+    "municipio": "Guachené",
+    "codigo_postal_urbano": 19300,
+    "codigo_postal_rural": ""
+  },
+  {
+    "codigo": 19318,
+    "departamento": "Cauca",
+    "municipio": "GUAPI",
+    "codigo_postal_urbano": 196001,
+    "codigo_postal_rural": "196007,196009,196008"
+  },
+  {
+    "codigo": 19355,
+    "departamento": "Cauca",
+    "municipio": "INZA",
+    "codigo_postal_urbano": 192531,
+    "codigo_postal_rural": "192548,192539,192537,192547,192538"
+  },
+  {
+    "codigo": 19364,
+    "departamento": "Cauca",
+    "municipio": "JAMBALO",
+    "codigo_postal_urbano": 192020,
+    "codigo_postal_rural": "192029,192028,192027"
+  },
+  {
+    "codigo": 19392,
+    "departamento": "Cauca",
+    "municipio": "LA SIERRA",
+    "codigo_postal_urbano": 194001,
+    "codigo_postal_rural": 194007.194008
+  },
+  {
+    "codigo": 19397,
+    "departamento": "Cauca",
+    "municipio": "LA VEGA",
+    "codigo_postal_urbano": 194020,
+    "codigo_postal_rural": "194029,194027,194037,194038,194028"
+  },
+  {
+    "codigo": 19418,
+    "departamento": "Cauca",
+    "municipio": "LOPEZ",
+    "codigo_postal_urbano": 196060,
+    "codigo_postal_rural": 196068.196067
+  },
+  {
+    "codigo": 19450,
+    "departamento": "Cauca",
+    "municipio": "MERCADERES",
+    "codigo_postal_urbano": 195060,
+    "codigo_postal_rural": "195067,195068,195069"
+  },
+  {
+    "codigo": 19455,
+    "departamento": "Cauca",
+    "municipio": "MIRANDA",
+    "codigo_postal_urbano": 191520,
+    "codigo_postal_rural": "191528,191529,191527"
+  },
+  {
+    "codigo": 19473,
+    "departamento": "Cauca",
+    "municipio": "MORALES",
+    "codigo_postal_urbano": 190550,
+    "codigo_postal_rural": "190567,190557,190559,190558"
+  },
+  {
+    "codigo": 19513,
+    "departamento": "Cauca",
+    "municipio": "PADILLA",
+    "codigo_postal_urbano": 191540,
+    "codigo_postal_rural": 191547
+  },
+  {
+    "codigo": 19517,
+    "departamento": "Cauca",
+    "municipio": "PAEZ",
+    "codigo_postal_urbano": 192501,
+    "codigo_postal_rural": "192508,192518,192517,192507,192509"
+  },
+  {
+    "codigo": 19532,
+    "departamento": "Cauca",
+    "municipio": "PATIA",
+    "codigo_postal_urbano": 195501,
+    "codigo_postal_rural": "195507,195508,195509"
+  },
+  {
+    "codigo": 19533,
+    "departamento": "Cauca",
+    "municipio": "PIAMONTE",
+    "codigo_postal_urbano": 194550,
+    "codigo_postal_rural": 194557.194558
+  },
+  {
+    "codigo": 19548,
+    "departamento": "Cauca",
+    "municipio": "PIENDAMO",
+    "codigo_postal_urbano": 190530,
+    "codigo_postal_rural": "190548,190538,190547,190539,190537"
+  },
+  {
+    "codigo": 19001,
+    "departamento": "Cauca",
+    "municipio": "POPAYAN",
+    "codigo_postal_urbano": 190001.190002,
+    "codigo_postal_rural": "190008,190009,190018,190007"
+  },
+  {
+    "codigo": 19573,
+    "departamento": "Cauca",
+    "municipio": "PUERTO TEJADA",
+    "codigo_postal_urbano": 191501,
+    "codigo_postal_rural": 191507
+  },
+  {
+    "codigo": 19585,
+    "departamento": "Cauca",
+    "municipio": "PURACE",
+    "codigo_postal_urbano": 193001,
+    "codigo_postal_rural": "193007,193008,193009"
+  },
+  {
+    "codigo": 19622,
+    "departamento": "Cauca",
+    "municipio": "ROSAS",
+    "codigo_postal_urbano": 193550,
+    "codigo_postal_rural": 193558.193557
+  },
+  {
+    "codigo": 19693,
+    "departamento": "Cauca",
+    "municipio": "SAN SEBASTIAN",
+    "codigo_postal_urbano": 194501,
+    "codigo_postal_rural": "194508,194509,194507"
+  },
+  {
+    "codigo": 19698,
+    "departamento": "Cauca",
+    "municipio": "SANTANDER DE QUILICHAO",
+    "codigo_postal_urbano": 191030,
+    "codigo_postal_rural": "191048,191049,191038,191037,191039"
+  },
+  {
+    "codigo": 19701,
+    "departamento": "Cauca",
+    "municipio": "SANTA ROSA",
+    "codigo_postal_urbano": 194520,
+    "codigo_postal_rural": 194528.194527
+  },
+  {
+    "codigo": 19743,
+    "departamento": "Cauca",
+    "municipio": "SILVIA",
+    "codigo_postal_urbano": 192070,
+    "codigo_postal_rural": "192078,192079,192077,192087"
+  },
+  {
+    "codigo": 19760,
+    "departamento": "Cauca",
+    "municipio": "SOTARA",
+    "codigo_postal_urbano": 193501,
+    "codigo_postal_rural": 193508.193507
+  },
+  {
+    "codigo": 19780,
+    "departamento": "Cauca",
+    "municipio": "SUAREZ",
+    "codigo_postal_urbano": 190580,
+    "codigo_postal_rural": "190597,190588,190589,190587"
+  },
+  {
+    "codigo": 19785,
+    "departamento": "Cauca",
+    "municipio": "SUCRE",
+    "codigo_postal_urbano": 194060,
+    "codigo_postal_rural": 194067.194068
+  },
+  {
+    "codigo": 19807,
+    "departamento": "Cauca",
+    "municipio": "TIMBIO",
+    "codigo_postal_urbano": 193520,
+    "codigo_postal_rural": "193527,193528,193537,193529"
+  },
+  {
+    "codigo": 19809,
+    "departamento": "Cauca",
+    "municipio": "TIMBIQUI",
+    "codigo_postal_urbano": 196030,
+    "codigo_postal_rural": 196038.196037
+  },
+  {
+    "codigo": 19821,
+    "departamento": "Cauca",
+    "municipio": "TORIBIO",
+    "codigo_postal_urbano": 192001,
+    "codigo_postal_rural": "192008,192009,192007"
+  },
+  {
+    "codigo": 19824,
+    "departamento": "Cauca",
+    "municipio": "TOTORO",
+    "codigo_postal_urbano": 192570,
+    "codigo_postal_rural": "192577,192578,192579"
+  },
+  {
+    "codigo": 19845,
+    "departamento": "Cauca",
+    "municipio": "VILLA RICA",
+    "codigo_postal_urbano": 191060,
+    "codigo_postal_rural": 191067
+  },
+  {
+    "codigo": 20011,
+    "departamento": "Cesar",
+    "municipio": "AGUACHICA",
+    "codigo_postal_urbano": 205010,
+    "codigo_postal_rural": 205018.205017
+  },
+  {
+    "codigo": 20013,
+    "departamento": "Cesar",
+    "municipio": "AGUSTIN CODAZZI",
+    "codigo_postal_urbano": 202050,
+    "codigo_postal_rural": 202057.202058
+  },
+  {
+    "codigo": 20032,
+    "departamento": "Cesar",
+    "municipio": "ASTREA",
+    "codigo_postal_urbano": 201040,
+    "codigo_postal_rural": 201047.201048
+  },
+  {
+    "codigo": 20045,
+    "departamento": "Cesar",
+    "municipio": "BECERRIL",
+    "codigo_postal_urbano": 203001,
+    "codigo_postal_rural": 203007
+  },
+  {
+    "codigo": 20060,
+    "departamento": "Cesar",
+    "municipio": "BOSCONIA",
+    "codigo_postal_urbano": 201020,
+    "codigo_postal_rural": 201027
+  },
+  {
+    "codigo": 20175,
+    "departamento": "Cesar",
+    "municipio": "CHIMICHAGUA",
+    "codigo_postal_urbano": 201050,
+    "codigo_postal_rural": 201057.201058
+  },
+  {
+    "codigo": 20178,
+    "departamento": "Cesar",
+    "municipio": "CHIRIGUANA",
+    "codigo_postal_urbano": 203040,
+    "codigo_postal_rural": 203048.203047
+  },
+  {
+    "codigo": 20228,
+    "departamento": "Cesar",
+    "municipio": "CURUMANI",
+    "codigo_postal_urbano": 203060,
+    "codigo_postal_rural": 203067
+  },
+  {
+    "codigo": 20238,
+    "departamento": "Cesar",
+    "municipio": "EL COPEY",
+    "codigo_postal_urbano": 201010,
+    "codigo_postal_rural": 201017.201018
+  },
+  {
+    "codigo": 20250,
+    "departamento": "Cesar",
+    "municipio": "EL PASO",
+    "codigo_postal_urbano": 201030,
+    "codigo_postal_rural": 201037.201038
+  },
+  {
+    "codigo": 20295,
+    "departamento": "Cesar",
+    "municipio": "GAMARRA",
+    "codigo_postal_urbano": 205001,
+    "codigo_postal_rural": 205008.205007
+  },
+  {
+    "codigo": 20310,
+    "departamento": "Cesar",
+    "municipio": "GONZALEZ",
+    "codigo_postal_urbano": 205030,
+    "codigo_postal_rural": 205037
+  },
+  {
+    "codigo": 20383,
+    "departamento": "Cesar",
+    "municipio": "LA GLORIA",
+    "codigo_postal_urbano": 204060,
+    "codigo_postal_rural": 204068.204067
+  },
+  {
+    "codigo": 20400,
+    "departamento": "Cesar",
+    "municipio": "LA JAGUA DE IBIRICO",
+    "codigo_postal_urbano": 203020,
+    "codigo_postal_rural": 203027
+  },
+  {
+    "codigo": 20621,
+    "departamento": "Cesar",
+    "municipio": "LA PAZ",
+    "codigo_postal_urbano": 202010,
+    "codigo_postal_rural": 202018.202017
+  },
+  {
+    "codigo": 20443,
+    "departamento": "Cesar",
+    "municipio": "MANAURE",
+    "codigo_postal_urbano": 202001,
+    "codigo_postal_rural": 202007
+  },
+  {
+    "codigo": 20517,
+    "departamento": "Cesar",
+    "municipio": "PAILITAS",
+    "codigo_postal_urbano": 204001,
+    "codigo_postal_rural": 204007
+  },
+  {
+    "codigo": 20550,
+    "departamento": "Cesar",
+    "municipio": "PELAYA",
+    "codigo_postal_urbano": 204040,
+    "codigo_postal_rural": 204047
+  },
+  {
+    "codigo": 20570,
+    "departamento": "Cesar",
+    "municipio": "PUEBLO BELLO",
+    "codigo_postal_urbano": 201001,
+    "codigo_postal_rural": 201007.201008
+  },
+  {
+    "codigo": 20614,
+    "departamento": "Cesar",
+    "municipio": "RIO DE ORO",
+    "codigo_postal_urbano": 205040,
+    "codigo_postal_rural": 205047.205048
+  },
+  {
+    "codigo": 20710,
+    "departamento": "Cesar",
+    "municipio": "SAN ALBERTO",
+    "codigo_postal_urbano": 205070,
+    "codigo_postal_rural": 205077.205078
+  },
+  {
+    "codigo": 20750,
+    "departamento": "Cesar",
+    "municipio": "SAN DIEGO",
+    "codigo_postal_urbano": 202030,
+    "codigo_postal_rural": 202038.202037
+  },
+  {
+    "codigo": 20770,
+    "departamento": "Cesar",
+    "municipio": "SAN MARTIN",
+    "codigo_postal_urbano": 205050,
+    "codigo_postal_rural": "205057,205058,205059,"
+  },
+  {
+    "codigo": 20787,
+    "departamento": "Cesar",
+    "municipio": "TAMALAMEQUE",
+    "codigo_postal_urbano": 204020,
+    "codigo_postal_rural": 204027.204028
+  },
+  {
+    "codigo": 20001,
+    "departamento": "Cesar",
+    "municipio": "VALLEDUPAR",
+    "codigo_postal_urbano": "200004,200005,200001,200002,200003",
+    "codigo_postal_rural": "200018,200009,200017,200008"
+  },
+  {
+    "codigo": 27006,
+    "departamento": "Choco",
+    "municipio": "ACANDI",
+    "codigo_postal_urbano": 278010,
+    "codigo_postal_rural": 278017.278018
+  },
+  {
+    "codigo": 27025,
+    "departamento": "Choco",
+    "municipio": "ALTO BAUDO",
+    "codigo_postal_urbano": 276070,
+    "codigo_postal_rural": 276078.276077
+  },
+  {
+    "codigo": 27050,
+    "departamento": "Choco",
+    "municipio": "ATRATO",
+    "codigo_postal_urbano": 272010,
+    "codigo_postal_rural": 272017.272018
+  },
+  {
+    "codigo": 27073,
+    "departamento": "Choco",
+    "municipio": "BAGADO",
+    "codigo_postal_urbano": 271050,
+    "codigo_postal_rural": 271057.271058
+  },
+  {
+    "codigo": 27075,
+    "departamento": "Choco",
+    "municipio": "BAHIA SOLANO",
+    "codigo_postal_urbano": 276030,
+    "codigo_postal_rural": 276037.276038
+  },
+  {
+    "codigo": 27077,
+    "departamento": "Choco",
+    "municipio": "BAJO BAUDO",
+    "codigo_postal_urbano": 275030,
+    "codigo_postal_rural": 275037.275038
+  },
+  {
+    "codigo": 27099,
+    "departamento": "Choco",
+    "municipio": "BOJAYA",
+    "codigo_postal_urbano": 277050,
+    "codigo_postal_rural": 277057
+  },
+  {
+    "codigo": 27150,
+    "departamento": "Choco",
+    "municipio": "CARMEN DEL DARIEN",
+    "codigo_postal_urbano": 277030,
+    "codigo_postal_rural": 277037.277038
+  },
+  {
+    "codigo": 27160,
+    "departamento": "Choco",
+    "municipio": "CERTEGUI",
+    "codigo_postal_urbano": 272020,
+    "codigo_postal_rural": 272027
+  },
+  {
+    "codigo": 27205,
+    "departamento": "Choco",
+    "municipio": "CONDOTO",
+    "codigo_postal_urbano": 273030,
+    "codigo_postal_rural": 273037.273038
+  },
+  {
+    "codigo": 27135,
+    "departamento": "Choco",
+    "municipio": "EL CANTON DEL SAN PABLO",
+    "codigo_postal_urbano": 272040,
+    "codigo_postal_rural": 272048.272047
+  },
+  {
+    "codigo": 27245,
+    "departamento": "Choco",
+    "municipio": "EL CARMEN DE ATRATO",
+    "codigo_postal_urbano": 271010,
+    "codigo_postal_rural": 271018.271017
+  },
+  {
+    "codigo": 27250,
+    "departamento": "Choco",
+    "municipio": "EL LITORAL DEL SAN JUAN",
+    "codigo_postal_urbano": 275050,
+    "codigo_postal_rural": 275057.275058
+  },
+  {
+    "codigo": 27361,
+    "departamento": "Choco",
+    "municipio": "ISTMINA",
+    "codigo_postal_urbano": 274010,
+    "codigo_postal_rural": "274018,274017,274019"
+  },
+  {
+    "codigo": 27372,
+    "departamento": "Choco",
+    "municipio": "JURADO",
+    "codigo_postal_urbano": 276010,
+    "codigo_postal_rural": "276019,276017,276018"
+  },
+  {
+    "codigo": 27413,
+    "departamento": "Choco",
+    "municipio": "LLORO",
+    "codigo_postal_urbano": 271030,
+    "codigo_postal_rural": 271037
+  },
+  {
+    "codigo": 27425,
+    "departamento": "Choco",
+    "municipio": "MEDIO ATRATO",
+    "codigo_postal_urbano": 270070,
+    "codigo_postal_rural": 270078.270077
+  },
+  {
+    "codigo": 27430,
+    "departamento": "Choco",
+    "municipio": "MEDIO BAUDO",
+    "codigo_postal_urbano": 275010,
+    "codigo_postal_rural": 275017.275018
+  },
+  {
+    "codigo": 27450,
+    "departamento": "Choco",
+    "municipio": "MEDIO SAN JUAN",
+    "codigo_postal_urbano": 274030,
+    "codigo_postal_rural": "274038,274037,274039"
+  },
+  {
+    "codigo": 27491,
+    "departamento": "Choco",
+    "municipio": "NOVITA",
+    "codigo_postal_urbano": 273050,
+    "codigo_postal_rural": 273058.273057
+  },
+  {
+    "codigo": 27495,
+    "departamento": "Choco",
+    "municipio": "NUQUI",
+    "codigo_postal_urbano": 276050,
+    "codigo_postal_rural": 276057.276058
+  },
+  {
+    "codigo": 27001,
+    "departamento": "Choco",
+    "municipio": "QUIBDO",
+    "codigo_postal_urbano": 270002.270001,
+    "codigo_postal_rural": "270008,270007,270009"
+  },
+  {
+    "codigo": 27580,
+    "departamento": "Choco",
+    "municipio": "RIO IRO",
+    "codigo_postal_urbano": 273010,
+    "codigo_postal_rural": 273017
+  },
+  {
+    "codigo": 27600,
+    "departamento": "Choco",
+    "municipio": "RIO QUITO",
+    "codigo_postal_urbano": 272050,
+    "codigo_postal_rural": 272058.272057
+  },
+  {
+    "codigo": 27615,
+    "departamento": "Choco",
+    "municipio": "RIOSUCIO",
+    "codigo_postal_urbano": 278050,
+    "codigo_postal_rural": "277010,278057,278058,277017,277018"
+  },
+  {
+    "codigo": 27660,
+    "departamento": "Choco",
+    "municipio": "SAN JOSE DEL PALMAR",
+    "codigo_postal_urbano": 273070,
+    "codigo_postal_rural": 273077.273078
+  },
+  {
+    "codigo": 27745,
+    "departamento": "Choco",
+    "municipio": "SIPI",
+    "codigo_postal_urbano": 274050,
+    "codigo_postal_rural": 274058.274057
+  },
+  {
+    "codigo": 27787,
+    "departamento": "Choco",
+    "municipio": "TADO",
+    "codigo_postal_urbano": 271070,
+    "codigo_postal_rural": 271077
+  },
+  {
+    "codigo": 27800,
+    "departamento": "Choco",
+    "municipio": "UNGUIA",
+    "codigo_postal_urbano": 278030,
+    "codigo_postal_rural": 278038.278037
+  },
+  {
+    "codigo": 27810,
+    "departamento": "Choco",
+    "municipio": "UNION PANAMERICANA",
+    "codigo_postal_urbano": 272030,
+    "codigo_postal_rural": 272037
+  },
+  {
+    "codigo": 23068,
+    "departamento": "Cordoba",
+    "municipio": "AYAPEL",
+    "codigo_postal_urbano": 233530,
+    "codigo_postal_rural": "233538,233539,233537"
+  },
+  {
+    "codigo": 23079,
+    "departamento": "Cordoba",
+    "municipio": "BUENAVISTA",
+    "codigo_postal_urbano": 233028,
+    "codigo_postal_rural": "233027,233020,"
+  },
+  {
+    "codigo": 23090,
+    "departamento": "Cordoba",
+    "municipio": "CANALETE",
+    "codigo_postal_urbano": 235040,
+    "codigo_postal_rural": "235047,235048,"
+  },
+  {
+    "codigo": 23162,
+    "departamento": "Cordoba",
+    "municipio": "CERETE",
+    "codigo_postal_urbano": 230550,
+    "codigo_postal_rural": "230557,230558,230559"
+  },
+  {
+    "codigo": 23168,
+    "departamento": "Cordoba",
+    "municipio": "CHIMA",
+    "codigo_postal_urbano": 232010,
+    "codigo_postal_rural": "232017,232018,"
+  },
+  {
+    "codigo": 23182,
+    "departamento": "Cordoba",
+    "municipio": "CHINU",
+    "codigo_postal_urbano": 232050,
+    "codigo_postal_rural": "232058,232059,232057"
+  },
+  {
+    "codigo": 23189,
+    "departamento": "Cordoba",
+    "municipio": "CIENAGA DE ORO",
+    "codigo_postal_urbano": 232520,
+    "codigo_postal_rural": "232538,232527,232528,232537,232529"
+  },
+  {
+    "codigo": 23300,
+    "departamento": "Cordoba",
+    "municipio": "COTORRA",
+    "codigo_postal_urbano": 230501,
+    "codigo_postal_rural": 230507
+  },
+  {
+    "codigo": 23350,
+    "departamento": "Cordoba",
+    "municipio": "LA APARTADA",
+    "codigo_postal_urbano": 233501,
+    "codigo_postal_rural": 233507
+  },
+  {
+    "codigo": 23417,
+    "departamento": "Cordoba",
+    "municipio": "LORICA",
+    "codigo_postal_urbano": 231020,
+    "codigo_postal_rural": "231029,231039,231027,231047,231028"
+  },
+  {
+    "codigo": 23419,
+    "departamento": "Cordoba",
+    "municipio": "LOS CORDOBAS",
+    "codigo_postal_urbano": 235020,
+    "codigo_postal_rural": "235028,235027,"
+  },
+  {
+    "codigo": 23464,
+    "departamento": "Cordoba",
+    "municipio": "MOMIL",
+    "codigo_postal_urbano": 232001,
+    "codigo_postal_rural": "232008,232007,"
+  },
+  {
+    "codigo": 23500,
+    "departamento": "Cordoba",
+    "municipio": "MOÑITOS",
+    "codigo_postal_urbano": 231001,
+    "codigo_postal_rural": "231007,231008,"
+  },
+  {
+    "codigo": 23466,
+    "departamento": "Cordoba",
+    "municipio": "MONTELIBANO",
+    "codigo_postal_urbano": 234001,
+    "codigo_postal_rural": "234007,234008,"
+  },
+  {
+    "codigo": 23001,
+    "departamento": "Cordoba",
+    "municipio": "MONTERIA",
+    "codigo_postal_urbano": 230002.230001,
+    "codigo_postal_rural": "230017,230004,230007,230029"
+  },
+  {
+    "codigo": 23555,
+    "departamento": "Cordoba",
+    "municipio": "PLANETA RICA",
+    "codigo_postal_urbano": 233040,
+    "codigo_postal_rural": "233047,233049,233057,233048,"
+  },
+  {
+    "codigo": 23570,
+    "departamento": "Cordoba",
+    "municipio": "PUEBLO NUEVO",
+    "codigo_postal_urbano": 233001,
+    "codigo_postal_rural": "233008,233007,233009"
+  },
+  {
+    "codigo": 23574,
+    "departamento": "Cordoba",
+    "municipio": "PUERTO ESCONDIDO",
+    "codigo_postal_urbano": 235001,
+    "codigo_postal_rural": "235008,235007,"
+  },
+  {
+    "codigo": 23580,
+    "departamento": "Cordoba",
+    "municipio": "PUERTO LIBERTADOR",
+    "codigo_postal_urbano": 234030,
+    "codigo_postal_rural": "234038,234037,234039"
+  },
+  {
+    "codigo": 23586,
+    "departamento": "Cordoba",
+    "municipio": "PURISIMA",
+    "codigo_postal_urbano": 231540,
+    "codigo_postal_rural": 231547
+  },
+  {
+    "codigo": 23660,
+    "departamento": "Cordoba",
+    "municipio": "SAHAGUN",
+    "codigo_postal_urbano": 232540,
+    "codigo_postal_rural": "232549,232558,232547,232548,232559"
+  },
+  {
+    "codigo": 23670,
+    "departamento": "Cordoba",
+    "municipio": "SAN ANDRES SOTAVENTO",
+    "codigo_postal_urbano": 232030,
+    "codigo_postal_rural": "232038,232039,"
+  },
+  {
+    "codigo": 23672,
+    "departamento": "Cordoba",
+    "municipio": "SAN ANTERO",
+    "codigo_postal_urbano": 231520,
+    "codigo_postal_rural": "231528,231527,"
+  },
+  {
+    "codigo": 23675,
+    "departamento": "Cordoba",
+    "municipio": "SAN BERNARDO DEL VIENTO",
+    "codigo_postal_urbano": 231501,
+    "codigo_postal_rural": "231509,231508,231507"
+  },
+  {
+    "codigo": 23678,
+    "departamento": "Cordoba",
+    "municipio": "SAN CARLOS",
+    "codigo_postal_urbano": 232501,
+    "codigo_postal_rural": "232508,232517,232509,232507,"
+  },
+  {
+    "codigo": 23682,
+    "departamento": "Cordoba",
+    "municipio": "SAN JOSÉ DE URÉ",
+    "codigo_postal_urbano": 234010,
+    "codigo_postal_rural": 234017
+  },
+  {
+    "codigo": 23686,
+    "departamento": "Cordoba",
+    "municipio": "SAN PELAYO",
+    "codigo_postal_urbano": 230520,
+    "codigo_postal_rural": "230538,230527,230529,230528,230537"
+  },
+  {
+    "codigo": 23807,
+    "departamento": "Cordoba",
+    "municipio": "TIERRALTA",
+    "codigo_postal_urbano": 234501,
+    "codigo_postal_rural": "234517,234507,234509,234518,234508"
+  },
+  {
+    "codigo": 23815,
+    "departamento": "Cordoba",
+    "municipio": "TUCHÍN",
+    "codigo_postal_urbano": 232020,
+    "codigo_postal_rural": 232027
+  },
+  {
+    "codigo": 23855,
+    "departamento": "Cordoba",
+    "municipio": "VALENCIA",
+    "codigo_postal_urbano": 234530,
+    "codigo_postal_rural": "234539,234537,234538"
+  },
+  {
+    "codigo": 25001,
+    "departamento": "Cundinamarca",
+    "municipio": "AGUA DE DIOS",
+    "codigo_postal_urbano": 252850,
+    "codigo_postal_rural": 252857
+  },
+  {
+    "codigo": 25019,
+    "departamento": "Cundinamarca",
+    "municipio": "ALBAN",
+    "codigo_postal_urbano": 253201,
+    "codigo_postal_rural": 253207
+  },
+  {
+    "codigo": 25035,
+    "departamento": "Cundinamarca",
+    "municipio": "ANAPOIMA",
+    "codigo_postal_urbano": 252640,
+    "codigo_postal_rural": 252647.252648
+  },
+  {
+    "codigo": 25040,
+    "departamento": "Cundinamarca",
+    "municipio": "ANOLAIMA",
+    "codigo_postal_urbano": 253040,
+    "codigo_postal_rural": 253048.253047
+  },
+  {
+    "codigo": 25599,
+    "departamento": "Cundinamarca",
+    "municipio": "APULO",
+    "codigo_postal_urbano": 252650,
+    "codigo_postal_rural": 252657
+  },
+  {
+    "codigo": 25053,
+    "departamento": "Cundinamarca",
+    "municipio": "ARBELAEZ",
+    "codigo_postal_urbano": 252001,
+    "codigo_postal_rural": 252007.252008
+  },
+  {
+    "codigo": 25086,
+    "departamento": "Cundinamarca",
+    "municipio": "BELTRAN",
+    "codigo_postal_urbano": 253260,
+    "codigo_postal_rural": 253267
+  },
+  {
+    "codigo": 25095,
+    "departamento": "Cundinamarca",
+    "municipio": "BITUIMA",
+    "codigo_postal_urbano": 253220,
+    "codigo_postal_rural": 253227
+  },
+  {
+    "codigo": 25099,
+    "departamento": "Cundinamarca",
+    "municipio": "BOJACA",
+    "codigo_postal_urbano": 253001,
+    "codigo_postal_rural": 253007
+  },
+  {
+    "codigo": 25120,
+    "departamento": "Cundinamarca",
+    "municipio": "CABRERA",
+    "codigo_postal_urbano": 252040,
+    "codigo_postal_rural": 252047
+  },
+  {
+    "codigo": 25123,
+    "departamento": "Cundinamarca",
+    "municipio": "CACHIPAY",
+    "codigo_postal_urbano": 253020,
+    "codigo_postal_rural": 253027
+  },
+  {
+    "codigo": 25126,
+    "departamento": "Cundinamarca",
+    "municipio": "CAJICA",
+    "codigo_postal_urbano": 250240,
+    "codigo_postal_rural": 250247
+  },
+  {
+    "codigo": 25148,
+    "departamento": "Cundinamarca",
+    "municipio": "CAPARRAPI",
+    "codigo_postal_urbano": 253460,
+    "codigo_postal_rural": 253468.253467
+  },
+  {
+    "codigo": 25151,
+    "departamento": "Cundinamarca",
+    "municipio": "CAQUEZA",
+    "codigo_postal_urbano": 251820,
+    "codigo_postal_rural": 251827
+  },
+  {
+    "codigo": 25154,
+    "departamento": "Cundinamarca",
+    "municipio": "CARMEN DE CARUPA",
+    "codigo_postal_urbano": 250420,
+    "codigo_postal_rural": 250428.250427
+  },
+  {
+    "codigo": 25168,
+    "departamento": "Cundinamarca",
+    "municipio": "CHAGUANI",
+    "codigo_postal_urbano": 253240,
+    "codigo_postal_rural": 253247
+  },
+  {
+    "codigo": 25175,
+    "departamento": "Cundinamarca",
+    "municipio": "CHIA",
+    "codigo_postal_urbano": 250001,
+    "codigo_postal_rural": "250002,250007,250008,"
+  },
+  {
+    "codigo": 25178,
+    "departamento": "Cundinamarca",
+    "municipio": "CHIPAQUE",
+    "codigo_postal_urbano": 251801,
+    "codigo_postal_rural": 251807.251808
+  },
+  {
+    "codigo": 25181,
+    "departamento": "Cundinamarca",
+    "municipio": "CHOACHI",
+    "codigo_postal_urbano": 251620,
+    "codigo_postal_rural": 251627.251628
+  },
+  {
+    "codigo": 25183,
+    "departamento": "Cundinamarca",
+    "municipio": "CHOCONTA",
+    "codigo_postal_urbano": 250801,
+    "codigo_postal_rural": 250808.250807
+  },
+  {
+    "codigo": 25200,
+    "departamento": "Cundinamarca",
+    "municipio": "COGUA",
+    "codigo_postal_urbano": 250401,
+    "codigo_postal_rural": 250408.250407
+  },
+  {
+    "codigo": 25214,
+    "departamento": "Cundinamarca",
+    "municipio": "COTA",
+    "codigo_postal_urbano": 250010,
+    "codigo_postal_rural": 250017
+  },
+  {
+    "codigo": 25224,
+    "departamento": "Cundinamarca",
+    "municipio": "CUCUNUBA",
+    "codigo_postal_urbano": 250450,
+    "codigo_postal_rural": 250457
+  },
+  {
+    "codigo": 25245,
+    "departamento": "Cundinamarca",
+    "municipio": "EL COLEGIO",
+    "codigo_postal_urbano": 252630,
+    "codigo_postal_rural": 252637.252638
+  },
+  {
+    "codigo": 25258,
+    "departamento": "Cundinamarca",
+    "municipio": "EL PEÑON",
+    "codigo_postal_urbano": 254020,
+    "codigo_postal_rural": 254027
+  },
+  {
+    "codigo": 25260,
+    "departamento": "Cundinamarca",
+    "municipio": "EL ROSAL",
+    "codigo_postal_urbano": 250210,
+    "codigo_postal_rural": 250217
+  },
+  {
+    "codigo": 25269,
+    "departamento": "Cundinamarca",
+    "municipio": "FACATATIVA",
+    "codigo_postal_urbano": 253052.253051,
+    "codigo_postal_rural": 253058.253057
+  },
+  {
+    "codigo": 25279,
+    "departamento": "Cundinamarca",
+    "municipio": "FOMEQUE",
+    "codigo_postal_urbano": 251640,
+    "codigo_postal_rural": 251648.251647
+  },
+  {
+    "codigo": 25281,
+    "departamento": "Cundinamarca",
+    "municipio": "FOSCA",
+    "codigo_postal_urbano": 251830,
+    "codigo_postal_rural": 251837
+  },
+  {
+    "codigo": 25286,
+    "departamento": "Cundinamarca",
+    "municipio": "FUNZA",
+    "codigo_postal_urbano": 250020,
+    "codigo_postal_rural": 250027
+  },
+  {
+    "codigo": 25288,
+    "departamento": "Cundinamarca",
+    "municipio": "FUQUENE",
+    "codigo_postal_urbano": 250620,
+    "codigo_postal_rural": 250627
+  },
+  {
+    "codigo": 25290,
+    "departamento": "Cundinamarca",
+    "municipio": "FUSAGASUGA",
+    "codigo_postal_urbano": 252211.252212,
+    "codigo_postal_rural": "252219,252218,252217"
+  },
+  {
+    "codigo": 25293,
+    "departamento": "Cundinamarca",
+    "municipio": "GACHALA",
+    "codigo_postal_urbano": 251250,
+    "codigo_postal_rural": 251257
+  },
+  {
+    "codigo": 25295,
+    "departamento": "Cundinamarca",
+    "municipio": "GACHANCIPA",
+    "codigo_postal_urbano": 251020,
+    "codigo_postal_rural": 251027
+  },
+  {
+    "codigo": 25297,
+    "departamento": "Cundinamarca",
+    "municipio": "GACHETA",
+    "codigo_postal_urbano": 251230,
+    "codigo_postal_rural": 251237.251238
+  },
+  {
+    "codigo": 25299,
+    "departamento": "Cundinamarca",
+    "municipio": "GAMA",
+    "codigo_postal_urbano": 251240,
+    "codigo_postal_rural": 251247
+  },
+  {
+    "codigo": 25307,
+    "departamento": "Cundinamarca",
+    "municipio": "GIRARDOT",
+    "codigo_postal_urbano": 252431,
+    "codigo_postal_rural": 252437.252432
+  },
+  {
+    "codigo": 25312,
+    "departamento": "Cundinamarca",
+    "municipio": "GRANADA",
+    "codigo_postal_urbano": 252250,
+    "codigo_postal_rural": 252257
+  },
+  {
+    "codigo": 25317,
+    "departamento": "Cundinamarca",
+    "municipio": "GUACHETA",
+    "codigo_postal_urbano": 250610,
+    "codigo_postal_rural": 250617.250618
+  },
+  {
+    "codigo": 25320,
+    "departamento": "Cundinamarca",
+    "municipio": "GUADUAS",
+    "codigo_postal_urbano": 253440,
+    "codigo_postal_rural": "253448,253449,253447"
+  },
+  {
+    "codigo": 25322,
+    "departamento": "Cundinamarca",
+    "municipio": "GUASCA",
+    "codigo_postal_urbano": 251210,
+    "codigo_postal_rural": 251218.251217
+  },
+  {
+    "codigo": 25324,
+    "departamento": "Cundinamarca",
+    "municipio": "GUATAQUI",
+    "codigo_postal_urbano": 252820,
+    "codigo_postal_rural": 252827
+  },
+  {
+    "codigo": 25326,
+    "departamento": "Cundinamarca",
+    "municipio": "GUATAVITA",
+    "codigo_postal_urbano": 251060,
+    "codigo_postal_rural": 251067
+  },
+  {
+    "codigo": 25328,
+    "departamento": "Cundinamarca",
+    "municipio": "GUAYABAL DE SIQUIMA",
+    "codigo_postal_urbano": 253210,
+    "codigo_postal_rural": 253217
+  },
+  {
+    "codigo": 25335,
+    "departamento": "Cundinamarca",
+    "municipio": "GUAYABETAL",
+    "codigo_postal_urbano": 251850,
+    "codigo_postal_rural": 251857
+  },
+  {
+    "codigo": 25339,
+    "departamento": "Cundinamarca",
+    "municipio": "GUTIERREZ",
+    "codigo_postal_urbano": 251860,
+    "codigo_postal_rural": 251867
+  },
+  {
+    "codigo": 25368,
+    "departamento": "Cundinamarca",
+    "municipio": "JERUSALEN",
+    "codigo_postal_urbano": 252810,
+    "codigo_postal_rural": 252817
+  },
+  {
+    "codigo": 25372,
+    "departamento": "Cundinamarca",
+    "municipio": "JUNIN",
+    "codigo_postal_urbano": 251220,
+    "codigo_postal_rural": 251227
+  },
+  {
+    "codigo": 25377,
+    "departamento": "Cundinamarca",
+    "municipio": "LA CALERA",
+    "codigo_postal_urbano": 251201,
+    "codigo_postal_rural": 251208.251207
+  },
+  {
+    "codigo": 25386,
+    "departamento": "Cundinamarca",
+    "municipio": "LA MESA",
+    "codigo_postal_urbano": 252601,
+    "codigo_postal_rural": 252607.252608
+  },
+  {
+    "codigo": 25394,
+    "departamento": "Cundinamarca",
+    "municipio": "LA PALMA",
+    "codigo_postal_urbano": 253801,
+    "codigo_postal_rural": 253808.253807
+  },
+  {
+    "codigo": 25398,
+    "departamento": "Cundinamarca",
+    "municipio": "LA PEÑA",
+    "codigo_postal_urbano": 253640,
+    "codigo_postal_rural": 253647.253648
+  },
+  {
+    "codigo": 25402,
+    "departamento": "Cundinamarca",
+    "municipio": "LA VEGA",
+    "codigo_postal_urbano": 253610,
+    "codigo_postal_rural": 253618.253617
+  },
+  {
+    "codigo": 25407,
+    "departamento": "Cundinamarca",
+    "municipio": "LENGUAZAQUE",
+    "codigo_postal_urbano": 250601,
+    "codigo_postal_rural": 250607.250608
+  },
+  {
+    "codigo": 25426,
+    "departamento": "Cundinamarca",
+    "municipio": "MACHETA",
+    "codigo_postal_urbano": 250840,
+    "codigo_postal_rural": 250847.250848
+  },
+  {
+    "codigo": 25430,
+    "departamento": "Cundinamarca",
+    "municipio": "MADRID",
+    "codigo_postal_urbano": 250030,
+    "codigo_postal_rural": 250038.250037
+  },
+  {
+    "codigo": 25436,
+    "departamento": "Cundinamarca",
+    "municipio": "MANTA",
+    "codigo_postal_urbano": 250830,
+    "codigo_postal_rural": 250837
+  },
+  {
+    "codigo": 25438,
+    "departamento": "Cundinamarca",
+    "municipio": "MEDINA",
+    "codigo_postal_urbano": 251420,
+    "codigo_postal_rural": 251427.251428
+  },
+  {
+    "codigo": 25473,
+    "departamento": "Cundinamarca",
+    "municipio": "MOSQUERA",
+    "codigo_postal_urbano": 250040,
+    "codigo_postal_rural": 250047
+  },
+  {
+    "codigo": 25483,
+    "departamento": "Cundinamarca",
+    "municipio": "NARIÑO",
+    "codigo_postal_urbano": 252830,
+    "codigo_postal_rural": 252837
+  },
+  {
+    "codigo": 25486,
+    "departamento": "Cundinamarca",
+    "municipio": "NEMOCON",
+    "codigo_postal_urbano": 251030,
+    "codigo_postal_rural": 251038.251037
+  },
+  {
+    "codigo": 25488,
+    "departamento": "Cundinamarca",
+    "municipio": "NILO",
+    "codigo_postal_urbano": 252401,
+    "codigo_postal_rural": 252407.252408
+  },
+  {
+    "codigo": 25489,
+    "departamento": "Cundinamarca",
+    "municipio": "NIMAIMA",
+    "codigo_postal_urbano": 253630,
+    "codigo_postal_rural": 253637
+  },
+  {
+    "codigo": 25491,
+    "departamento": "Cundinamarca",
+    "municipio": "NOCAIMA",
+    "codigo_postal_urbano": 253620,
+    "codigo_postal_rural": 253627
+  },
+  {
+    "codigo": 25513,
+    "departamento": "Cundinamarca",
+    "municipio": "PACHO",
+    "codigo_postal_urbano": 254001,
+    "codigo_postal_rural": 254007.254008
+  },
+  {
+    "codigo": 25518,
+    "departamento": "Cundinamarca",
+    "municipio": "PAIME",
+    "codigo_postal_urbano": 254040,
+    "codigo_postal_rural": 254047
+  },
+  {
+    "codigo": 25524,
+    "departamento": "Cundinamarca",
+    "municipio": "PANDI",
+    "codigo_postal_urbano": 252010,
+    "codigo_postal_rural": 252017
+  },
+  {
+    "codigo": 25530,
+    "departamento": "Cundinamarca",
+    "municipio": "PARATEBUENO",
+    "codigo_postal_urbano": 251401,
+    "codigo_postal_rural": 251407
+  },
+  {
+    "codigo": 25535,
+    "departamento": "Cundinamarca",
+    "municipio": "PASCA",
+    "codigo_postal_urbano": 252201,
+    "codigo_postal_rural": 252207.252208
+  },
+  {
+    "codigo": 25572,
+    "departamento": "Cundinamarca",
+    "municipio": "PUERTO SALGAR",
+    "codigo_postal_urbano": 253480,
+    "codigo_postal_rural": 253487
+  },
+  {
+    "codigo": 25580,
+    "departamento": "Cundinamarca",
+    "municipio": "PULI",
+    "codigo_postal_urbano": 252801,
+    "codigo_postal_rural": 252807
+  },
+  {
+    "codigo": 25592,
+    "departamento": "Cundinamarca",
+    "municipio": "QUEBRADANEGRA",
+    "codigo_postal_urbano": 253420,
+    "codigo_postal_rural": 253427
+  },
+  {
+    "codigo": 25594,
+    "departamento": "Cundinamarca",
+    "municipio": "QUETAME",
+    "codigo_postal_urbano": 251840,
+    "codigo_postal_rural": 251847
+  },
+  {
+    "codigo": 25596,
+    "departamento": "Cundinamarca",
+    "municipio": "QUIPILE",
+    "codigo_postal_urbano": 253030,
+    "codigo_postal_rural": 253037
+  },
+  {
+    "codigo": 25612,
+    "departamento": "Cundinamarca",
+    "municipio": "RICAUTE",
+    "codigo_postal_urbano": 252410,
+    "codigo_postal_rural": 252417
+  },
+  {
+    "codigo": 25645,
+    "departamento": "Cundinamarca",
+    "municipio": "SAN ANTONIO DEL TEQUENDAMA",
+    "codigo_postal_urbano": 252620,
+    "codigo_postal_rural": 252627
+  },
+  {
+    "codigo": 25649,
+    "departamento": "Cundinamarca",
+    "municipio": "SAN BERNARDO",
+    "codigo_postal_urbano": 252020,
+    "codigo_postal_rural": 252028.252027
+  },
+  {
+    "codigo": 25653,
+    "departamento": "Cundinamarca",
+    "municipio": "SAN CAYETANO",
+    "codigo_postal_urbano": 254050,
+    "codigo_postal_rural": 254057
+  },
+  {
+    "codigo": 25658,
+    "departamento": "Cundinamarca",
+    "municipio": "SAN FRANCISCO",
+    "codigo_postal_urbano": 253601,
+    "codigo_postal_rural": 253607.253608
+  },
+  {
+    "codigo": 25662,
+    "departamento": "Cundinamarca",
+    "municipio": "SAN JUAN DE RIO SECO",
+    "codigo_postal_urbano": 253250,
+    "codigo_postal_rural": 253257.253258
+  },
+  {
+    "codigo": 25718,
+    "departamento": "Cundinamarca",
+    "municipio": "SASAIMA",
+    "codigo_postal_urbano": 253401,
+    "codigo_postal_rural": 253407.253408
+  },
+  {
+    "codigo": 25736,
+    "departamento": "Cundinamarca",
+    "municipio": "SESQUILE",
+    "codigo_postal_urbano": 251050,
+    "codigo_postal_rural": 251058.251057
+  },
+  {
+    "codigo": 25740,
+    "departamento": "Cundinamarca",
+    "municipio": "SIBATE",
+    "codigo_postal_urbano": 250070,
+    "codigo_postal_rural": 250077.250078
+  },
+  {
+    "codigo": 25743,
+    "departamento": "Cundinamarca",
+    "municipio": "SILVANIA",
+    "codigo_postal_urbano": 252240,
+    "codigo_postal_rural": 252248.252247
+  },
+  {
+    "codigo": 25745,
+    "departamento": "Cundinamarca",
+    "municipio": "SIMIJACA",
+    "codigo_postal_urbano": 250640,
+    "codigo_postal_rural": 250647
+  },
+  {
+    "codigo": 25754,
+    "departamento": "Cundinamarca",
+    "municipio": "SOACHA",
+    "codigo_postal_urbano": "250051,250052,250054,250055,250053",
+    "codigo_postal_rural": 250057
+  },
+  {
+    "codigo": 25758,
+    "departamento": "Cundinamarca",
+    "municipio": "SOPO",
+    "codigo_postal_urbano": 251001,
+    "codigo_postal_rural": 251007.251008
+  },
+  {
+    "codigo": 25769,
+    "departamento": "Cundinamarca",
+    "municipio": "SUBACHOQUE",
+    "codigo_postal_urbano": 250220,
+    "codigo_postal_rural": 250228250227
+  },
+  {
+    "codigo": 25772,
+    "departamento": "Cundinamarca",
+    "municipio": "SUESCA",
+    "codigo_postal_urbano": 251040,
+    "codigo_postal_rural": 251047.251048
+  },
+  {
+    "codigo": 25777,
+    "departamento": "Cundinamarca",
+    "municipio": "SUPATA",
+    "codigo_postal_urbano": 253660,
+    "codigo_postal_rural": 253667
+  },
+  {
+    "codigo": 25779,
+    "departamento": "Cundinamarca",
+    "municipio": "SUSA",
+    "codigo_postal_urbano": 250630,
+    "codigo_postal_rural": 250637
+  },
+  {
+    "codigo": 25781,
+    "departamento": "Cundinamarca",
+    "municipio": "SUTATAUSA",
+    "codigo_postal_urbano": 250440,
+    "codigo_postal_rural": 250447
+  },
+  {
+    "codigo": 25785,
+    "departamento": "Cundinamarca",
+    "municipio": "TABIO",
+    "codigo_postal_urbano": 250230,
+    "codigo_postal_rural": 250237
+  },
+  {
+    "codigo": 25793,
+    "departamento": "Cundinamarca",
+    "municipio": "TAUSA",
+    "codigo_postal_urbano": 250410,
+    "codigo_postal_rural": 250418.250417
+  },
+  {
+    "codigo": 25797,
+    "departamento": "Cundinamarca",
+    "municipio": "TENA",
+    "codigo_postal_urbano": 252610,
+    "codigo_postal_rural": 252617
+  },
+  {
+    "codigo": 25799,
+    "departamento": "Cundinamarca",
+    "municipio": "TENJO",
+    "codigo_postal_urbano": 250201,
+    "codigo_postal_rural": 250207.250208
+  },
+  {
+    "codigo": 25805,
+    "departamento": "Cundinamarca",
+    "municipio": "TIBACUY",
+    "codigo_postal_urbano": 252230,
+    "codigo_postal_rural": 252237
+  },
+  {
+    "codigo": 25807,
+    "departamento": "Cundinamarca",
+    "municipio": "TIBIRITA",
+    "codigo_postal_urbano": 250820,
+    "codigo_postal_rural": 250827
+  },
+  {
+    "codigo": 25815,
+    "departamento": "Cundinamarca",
+    "municipio": "TOCAIMA",
+    "codigo_postal_urbano": 252840,
+    "codigo_postal_rural": 252847.252848
+  },
+  {
+    "codigo": 25817,
+    "departamento": "Cundinamarca",
+    "municipio": "TOCANCIPA",
+    "codigo_postal_urbano": 251010,
+    "codigo_postal_rural": 251017
+  },
+  {
+    "codigo": 25823,
+    "departamento": "Cundinamarca",
+    "municipio": "TOPAIPI",
+    "codigo_postal_urbano": 253820,
+    "codigo_postal_rural": 253827
+  },
+  {
+    "codigo": 25839,
+    "departamento": "Cundinamarca",
+    "municipio": "UBALA",
+    "codigo_postal_urbano": 251260,
+    "codigo_postal_rural": 251267.251268
+  },
+  {
+    "codigo": 25841,
+    "departamento": "Cundinamarca",
+    "municipio": "UBAQUE",
+    "codigo_postal_urbano": 251601,
+    "codigo_postal_rural": 251607
+  },
+  {
+    "codigo": 25845,
+    "departamento": "Cundinamarca",
+    "municipio": "UNE",
+    "codigo_postal_urbano": 251810,
+    "codigo_postal_rural": 251817
+  },
+  {
+    "codigo": 25851,
+    "departamento": "Cundinamarca",
+    "municipio": "UTICA",
+    "codigo_postal_urbano": 253430,
+    "codigo_postal_rural": 253437
+  },
+  {
+    "codigo": 25506,
+    "departamento": "Cundinamarca",
+    "municipio": "VENECIA",
+    "codigo_postal_urbano": 252030,
+    "codigo_postal_rural": 252037
+  },
+  {
+    "codigo": 25862,
+    "departamento": "Cundinamarca",
+    "municipio": "VERGARA",
+    "codigo_postal_urbano": 253650,
+    "codigo_postal_rural": 253658.253657
+  },
+  {
+    "codigo": 25867,
+    "departamento": "Cundinamarca",
+    "municipio": "VIANI",
+    "codigo_postal_urbano": 253230,
+    "codigo_postal_rural": 253237
+  },
+  {
+    "codigo": 25843,
+    "departamento": "Cundinamarca",
+    "municipio": "VILLA DE SAN DIEGO DE UBATE",
+    "codigo_postal_urbano": 250430,
+    "codigo_postal_rural": 250437
+  },
+  {
+    "codigo": 25871,
+    "departamento": "Cundinamarca",
+    "municipio": "VILLAGOMEZ",
+    "codigo_postal_urbano": 254030,
+    "codigo_postal_rural": 254037
+  },
+  {
+    "codigo": 25873,
+    "departamento": "Cundinamarca",
+    "municipio": "VILLAPINZON",
+    "codigo_postal_urbano": 250810,
+    "codigo_postal_rural": 250817.250818
+  },
+  {
+    "codigo": 25875,
+    "departamento": "Cundinamarca",
+    "municipio": "VILLETA",
+    "codigo_postal_urbano": 253410,
+    "codigo_postal_rural": 253418.253417
+  },
+  {
+    "codigo": 25878,
+    "departamento": "Cundinamarca",
+    "municipio": "VIOTA",
+    "codigo_postal_urbano": 252660,
+    "codigo_postal_rural": 252667.252668
+  },
+  {
+    "codigo": 25885,
+    "departamento": "Cundinamarca",
+    "municipio": "YACOPI",
+    "codigo_postal_urbano": 253840,
+    "codigo_postal_rural": 253848.253847
+  },
+  {
+    "codigo": 25898,
+    "departamento": "Cundinamarca",
+    "municipio": "ZIPACON",
+    "codigo_postal_urbano": 253010,
+    "codigo_postal_rural": 253017
+  },
+  {
+    "codigo": 25899,
+    "departamento": "Cundinamarca",
+    "municipio": "ZIPAQUIRA",
+    "codigo_postal_urbano": 250251,
+    "codigo_postal_rural": "250258,250252,250257,"
+  },
+  {
+    "codigo": 94343,
+    "departamento": "Guainia",
+    "municipio": "BARRANCO MINAS",
+    "codigo_postal_urbano": 944010,
+    "codigo_postal_rural": "944019,944018,944017"
+  },
+  {
+    "codigo": 94886,
+    "departamento": "Guainia",
+    "municipio": "CACAHUAL",
+    "codigo_postal_urbano": 941010,
+    "codigo_postal_rural": 941017.941018
+  },
+  {
+    "codigo": 94001,
+    "departamento": "Guainia",
+    "municipio": "INIRIDA",
+    "codigo_postal_urbano": 940001,
+    "codigo_postal_rural": "940017,940009,940027,940007,940019"
+  },
+  {
+    "codigo": 94883,
+    "departamento": "Guainia",
+    "municipio": "SAN FELIPE",
+    "codigo_postal_urbano": 942010,
+    "codigo_postal_rural": 942017.942018
+  },
+  {
+    "codigo": 44035,
+    "departamento": "Guajira",
+    "municipio": "ALBANIA",
+    "codigo_postal_urbano": 443001,
+    "codigo_postal_rural": "443007,443008,443009"
+  },
+  {
+    "codigo": 44078,
+    "departamento": "Guajira",
+    "municipio": "BARRANCAS",
+    "codigo_postal_urbano": 443040,
+    "codigo_postal_rural": "443048,443049,443047"
+  },
+  {
+    "codigo": 44090,
+    "departamento": "Guajira",
+    "municipio": "DIBULLA",
+    "codigo_postal_urbano": 446001,
+    "codigo_postal_rural": "446008,446017,446007,446009"
+  },
+  {
+    "codigo": 44098,
+    "departamento": "Guajira",
+    "municipio": "DISTRACCION",
+    "codigo_postal_urbano": 444001,
+    "codigo_postal_rural": 444007.444008
+  },
+  {
+    "codigo": 44110,
+    "departamento": "Guajira",
+    "municipio": "EL MOLINO",
+    "codigo_postal_urbano": 444050,
+    "codigo_postal_rural": 444057
+  },
+  {
+    "codigo": 44279,
+    "departamento": "Guajira",
+    "municipio": "FONSECA",
+    "codigo_postal_urbano": 444010,
+    "codigo_postal_rural": 444017.444018
+  },
+  {
+    "codigo": 44378,
+    "departamento": "Guajira",
+    "municipio": "HATONUEVO",
+    "codigo_postal_urbano": 443020,
+    "codigo_postal_rural": 443028.443027
+  },
+  {
+    "codigo": 44420,
+    "departamento": "Guajira",
+    "municipio": "LA JAGUA DEL PILAR",
+    "codigo_postal_urbano": 445040,
+    "codigo_postal_rural": 445047
+  },
+  {
+    "codigo": 44430,
+    "departamento": "Guajira",
+    "municipio": "MAICAO",
+    "codigo_postal_urbano": 442001,
+    "codigo_postal_rural": "442007,442009,442008"
+  },
+  {
+    "codigo": 44560,
+    "departamento": "Guajira",
+    "municipio": "MANAURE",
+    "codigo_postal_urbano": 441001,
+    "codigo_postal_rural": "441008,441018,441017,441009,441007"
+  },
+  {
+    "codigo": 44001,
+    "departamento": "Guajira",
+    "municipio": "RIOHACHA",
+    "codigo_postal_urbano": "440001,440002,440003",
+    "codigo_postal_rural": "440017,440008,440009"
+  },
+  {
+    "codigo": 44650,
+    "departamento": "Guajira",
+    "municipio": "SAN JUAN DEL CESAR",
+    "codigo_postal_urbano": 444030,
+    "codigo_postal_rural": 444037.444038
+  },
+  {
+    "codigo": 44847,
+    "departamento": "Guajira",
+    "municipio": "URIBIA",
+    "codigo_postal_urbano": 441020,
+    "codigo_postal_rural": "441037,441048,441039,441058,441027"
+  },
+  {
+    "codigo": 44855,
+    "departamento": "Guajira",
+    "municipio": "URUMITA",
+    "codigo_postal_urbano": 445020,
+    "codigo_postal_rural": 445027
+  },
+  {
+    "codigo": 44874,
+    "departamento": "Guajira",
+    "municipio": "VILLANUEVA",
+    "codigo_postal_urbano": 445001,
+    "codigo_postal_rural": 445008.445007
+  },
+  {
+    "codigo": 95015,
+    "departamento": "Guaviare",
+    "municipio": "CALAMAR",
+    "codigo_postal_urbano": 953001,
+    "codigo_postal_rural": "953009,953018,953007,953008,953017"
+  },
+  {
+    "codigo": 95025,
+    "departamento": "Guaviare",
+    "municipio": "EL RETORNO",
+    "codigo_postal_urbano": 951001,
+    "codigo_postal_rural": "951008,951007,951017,951009,"
+  },
+  {
+    "codigo": 95200,
+    "departamento": "Guaviare",
+    "municipio": "MIRAFLORES",
+    "codigo_postal_urbano": 952001,
+    "codigo_postal_rural": "952007,952017,952008,952009,"
+  },
+  {
+    "codigo": 95001,
+    "departamento": "Guaviare",
+    "municipio": "SAN JOSE DEL GUAVIARE",
+    "codigo_postal_urbano": 950001,
+    "codigo_postal_rural": "950007,950009,950008"
+  },
+  {
+    "codigo": 41006,
+    "departamento": "Huila",
+    "municipio": "ACEVEDO",
+    "codigo_postal_urbano": 417070,
+    "codigo_postal_rural": "417079,417087,417078,417077,417088"
+  },
+  {
+    "codigo": 41013,
+    "departamento": "Huila",
+    "municipio": "AGRADO",
+    "codigo_postal_urbano": 414040,
+    "codigo_postal_rural": 414047
+  },
+  {
+    "codigo": 41016,
+    "departamento": "Huila",
+    "municipio": "AIPE",
+    "codigo_postal_urbano": 411001,
+    "codigo_postal_rural": 411007.411008
+  },
+  {
+    "codigo": 41020,
+    "departamento": "Huila",
+    "municipio": "ALGECIRAS",
+    "codigo_postal_urbano": 413040,
+    "codigo_postal_rural": 413047.413048
+  },
+  {
+    "codigo": 41026,
+    "departamento": "Huila",
+    "municipio": "ALTAMIRA",
+    "codigo_postal_urbano": 416020,
+    "codigo_postal_rural": 416027
+  },
+  {
+    "codigo": 41078,
+    "departamento": "Huila",
+    "municipio": "BARAYA",
+    "codigo_postal_urbano": 411060,
+    "codigo_postal_rural": 411067
+  },
+  {
+    "codigo": 41132,
+    "departamento": "Huila",
+    "municipio": "CAMPOALEGRE",
+    "codigo_postal_urbano": 413020,
+    "codigo_postal_rural": 413028.413027
+  },
+  {
+    "codigo": 41206,
+    "departamento": "Huila",
+    "municipio": "COLOMBIA",
+    "codigo_postal_urbano": 411080,
+    "codigo_postal_rural": 411088.411087
+  },
+  {
+    "codigo": 41244,
+    "departamento": "Huila",
+    "municipio": "ELIAS",
+    "codigo_postal_urbano": 417001,
+    "codigo_postal_rural": 417007
+  },
+  {
+    "codigo": 41298,
+    "departamento": "Huila",
+    "municipio": "GARZON",
+    "codigo_postal_urbano": 414020,
+    "codigo_postal_rural": "414027,414028,414029"
+  },
+  {
+    "codigo": 41306,
+    "departamento": "Huila",
+    "municipio": "GIGANTE",
+    "codigo_postal_urbano": 414001,
+    "codigo_postal_rural": "414008,414007,414009"
+  },
+  {
+    "codigo": 41319,
+    "departamento": "Huila",
+    "municipio": "GUADALUPE",
+    "codigo_postal_urbano": 416040,
+    "codigo_postal_rural": 416047.416048
+  },
+  {
+    "codigo": 41349,
+    "departamento": "Huila",
+    "municipio": "HOBO",
+    "codigo_postal_urbano": 413060,
+    "codigo_postal_rural": 413067
+  },
+  {
+    "codigo": 41357,
+    "departamento": "Huila",
+    "municipio": "IQUIRA",
+    "codigo_postal_urbano": 412060,
+    "codigo_postal_rural": 412067.412068
+  },
+  {
+    "codigo": 41359,
+    "departamento": "Huila",
+    "municipio": "ISNOS",
+    "codigo_postal_urbano": 418040,
+    "codigo_postal_rural": "418048,418049,418047"
+  },
+  {
+    "codigo": 41378,
+    "departamento": "Huila",
+    "municipio": "LA ARGENTINA",
+    "codigo_postal_urbano": 415080,
+    "codigo_postal_rural": 415088.415087
+  },
+  {
+    "codigo": 41396,
+    "departamento": "Huila",
+    "municipio": "LA PLATA",
+    "codigo_postal_urbano": 415060,
+    "codigo_postal_rural": "415078,415077,415068,416067,415069"
+  },
+  {
+    "codigo": 41483,
+    "departamento": "Huila",
+    "municipio": "NATAGA",
+    "codigo_postal_urbano": 415020,
+    "codigo_postal_rural": 415027
+  },
+  {
+    "codigo": 41001,
+    "departamento": "Huila",
+    "municipio": "NEIVA",
+    "codigo_postal_urbano": "410010,410004,410005,410003",
+    "codigo_postal_rural": 410009.410017
+  },
+  {
+    "codigo": 41503,
+    "departamento": "Huila",
+    "municipio": "OPORAPA",
+    "codigo_postal_urbano": 418001,
+    "codigo_postal_rural": 418007.418008
+  },
+  {
+    "codigo": 41518,
+    "departamento": "Huila",
+    "municipio": "PAICOL",
+    "codigo_postal_urbano": 415040,
+    "codigo_postal_rural": 415047
+  },
+  {
+    "codigo": 41524,
+    "departamento": "Huila",
+    "municipio": "PALERMO",
+    "codigo_postal_urbano": 412001,
+    "codigo_postal_rural": 412008.412007
+  },
+  {
+    "codigo": 41530,
+    "departamento": "Huila",
+    "municipio": "PALESTINA",
+    "codigo_postal_urbano": 417060,
+    "codigo_postal_rural": 417067
+  },
+  {
+    "codigo": 41548,
+    "departamento": "Huila",
+    "municipio": "PITAL",
+    "codigo_postal_urbano": 414060,
+    "codigo_postal_rural": 414067.414068
+  },
+  {
+    "codigo": 41551,
+    "departamento": "Huila",
+    "municipio": "PITALITO",
+    "codigo_postal_urbano": 417030,
+    "codigo_postal_rural": "417038,417048,417037,417047,417039"
+  },
+  {
+    "codigo": 41615,
+    "departamento": "Huila",
+    "municipio": "RIVERA",
+    "codigo_postal_urbano": 413001,
+    "codigo_postal_rural": 413008.413007
+  },
+  {
+    "codigo": 41660,
+    "departamento": "Huila",
+    "municipio": "SALADOBLANCO",
+    "codigo_postal_urbano": 418020,
+    "codigo_postal_rural": 418028.418027
+  },
+  {
+    "codigo": 41668,
+    "departamento": "Huila",
+    "municipio": "SAN AGUSTIN",
+    "codigo_postal_urbano": 418060,
+    "codigo_postal_rural": "418068,418077,418069,418067"
+  },
+  {
+    "codigo": 41676,
+    "departamento": "Huila",
+    "municipio": "SANTA MARIA",
+    "codigo_postal_urbano": 412020,
+    "codigo_postal_rural": 412027
+  },
+  {
+    "codigo": 41770,
+    "departamento": "Huila",
+    "municipio": "SUAZA",
+    "codigo_postal_urbano": 416080,
+    "codigo_postal_rural": "416089,416088,416087"
+  },
+  {
+    "codigo": 41791,
+    "departamento": "Huila",
+    "municipio": "TARQUI",
+    "codigo_postal_urbano": 416001,
+    "codigo_postal_rural": 416007
+  },
+  {
+    "codigo": 41797,
+    "departamento": "Huila",
+    "municipio": "TELLO",
+    "codigo_postal_urbano": 415001,
+    "codigo_postal_rural": 415007.415008
+  },
+  {
+    "codigo": 41799,
+    "departamento": "Huila",
+    "municipio": "TERUEL",
+    "codigo_postal_urbano": 411040,
+    "codigo_postal_rural": 411048.411047
+  },
+  {
+    "codigo": 41801,
+    "departamento": "Huila",
+    "municipio": "TESALIA",
+    "codigo_postal_urbano": 412040,
+    "codigo_postal_rural": 412047
+  },
+  {
+    "codigo": 41807,
+    "departamento": "Huila",
+    "municipio": "TIMANA",
+    "codigo_postal_urbano": 417010,
+    "codigo_postal_rural": 417017.417018
+  },
+  {
+    "codigo": 41872,
+    "departamento": "Huila",
+    "municipio": "VILLAVIEJA",
+    "codigo_postal_urbano": 411020,
+    "codigo_postal_rural": 411027.411028
+  },
+  {
+    "codigo": 41885,
+    "departamento": "Huila",
+    "municipio": "YAGUARA",
+    "codigo_postal_urbano": 412080,
+    "codigo_postal_rural": 412087
+  },
+  {
+    "codigo": 47030,
+    "departamento": "Magdalena",
+    "municipio": "ALGARROBO",
+    "codigo_postal_urbano": 472040,
+    "codigo_postal_rural": 472047
+  },
+  {
+    "codigo": 47053,
+    "departamento": "Magdalena",
+    "municipio": "ARACATACA",
+    "codigo_postal_urbano": 472001,
+    "codigo_postal_rural": 472007.472008
+  },
+  {
+    "codigo": 47058,
+    "departamento": "Magdalena",
+    "municipio": "ARIGUANI",
+    "codigo_postal_urbano": 475010,
+    "codigo_postal_rural": "475017,475018,475019"
+  },
+  {
+    "codigo": 47161,
+    "departamento": "Magdalena",
+    "municipio": "CERRO SAN ANTONIO",
+    "codigo_postal_urbano": 476020,
+    "codigo_postal_rural": 476027
+  },
+  {
+    "codigo": 47170,
+    "departamento": "Magdalena",
+    "municipio": "CHIBOLO",
+    "codigo_postal_urbano": 476060,
+    "codigo_postal_rural": 476068.476067
+  },
+  {
+    "codigo": 47189,
+    "departamento": "Magdalena",
+    "municipio": "CIENAGA",
+    "codigo_postal_urbano": 478001,
+    "codigo_postal_rural": "478002,478007,478008"
+  },
+  {
+    "codigo": 47205,
+    "departamento": "Magdalena",
+    "municipio": "CONCORDIA",
+    "codigo_postal_urbano": 476030,
+    "codigo_postal_rural": 476037
+  },
+  {
+    "codigo": 47245,
+    "departamento": "Magdalena",
+    "municipio": "EL BANCO",
+    "codigo_postal_urbano": 473040,
+    "codigo_postal_rural": "473048,473049,473047"
+  },
+  {
+    "codigo": 47258,
+    "departamento": "Magdalena",
+    "municipio": "EL PIÑON",
+    "codigo_postal_urbano": 476001,
+    "codigo_postal_rural": 476007.476008
+  },
+  {
+    "codigo": 47268,
+    "departamento": "Magdalena",
+    "municipio": "EL RETEN",
+    "codigo_postal_urbano": 478060,
+    "codigo_postal_rural": 478067
+  },
+  {
+    "codigo": 47288,
+    "departamento": "Magdalena",
+    "municipio": "FUNDACION",
+    "codigo_postal_urbano": 472020,
+    "codigo_postal_rural": 472028.472027
+  },
+  {
+    "codigo": 47318,
+    "departamento": "Magdalena",
+    "municipio": "GUAMAL",
+    "codigo_postal_urbano": 473020,
+    "codigo_postal_rural": "473029,473028,473027"
+  },
+  {
+    "codigo": 47460,
+    "departamento": "Magdalena",
+    "municipio": "NUEVA GRANADA",
+    "codigo_postal_urbano": 475020,
+    "codigo_postal_rural": 475028.475027
+  },
+  {
+    "codigo": 47541,
+    "departamento": "Magdalena",
+    "municipio": "PEDRAZA",
+    "codigo_postal_urbano": 476040,
+    "codigo_postal_rural": 476047.476048
+  },
+  {
+    "codigo": 47545,
+    "departamento": "Magdalena",
+    "municipio": "PIJIÑO DEL CARMEN",
+    "codigo_postal_urbano": 474040,
+    "codigo_postal_rural": 474047.474048
+  },
+  {
+    "codigo": 47551,
+    "departamento": "Magdalena",
+    "municipio": "PIVIJAY",
+    "codigo_postal_urbano": 477050,
+    "codigo_postal_rural": 477057.477058
+  },
+  {
+    "codigo": 47555,
+    "departamento": "Magdalena",
+    "municipio": "PLATO",
+    "codigo_postal_urbano": 475030,
+    "codigo_postal_rural": 475038.475037
+  },
+  {
+    "codigo": 47570,
+    "departamento": "Magdalena",
+    "municipio": "PUEBLOVIEJO",
+    "codigo_postal_urbano": 478040,
+    "codigo_postal_rural": 478048.478047
+  },
+  {
+    "codigo": 47605,
+    "departamento": "Magdalena",
+    "municipio": "REMOLINO",
+    "codigo_postal_urbano": 477020,
+    "codigo_postal_rural": 477027
+  },
+  {
+    "codigo": 47660,
+    "departamento": "Magdalena",
+    "municipio": "SABANAS DE SAN ANGEL",
+    "codigo_postal_urbano": 475001,
+    "codigo_postal_rural": 475007.475008
+  },
+  {
+    "codigo": 47675,
+    "departamento": "Magdalena",
+    "municipio": "SALAMINA",
+    "codigo_postal_urbano": 477040,
+    "codigo_postal_rural": 477047
+  },
+  {
+    "codigo": 47692,
+    "departamento": "Magdalena",
+    "municipio": "SAN SEBASTIAN DE BUENAVISTA",
+    "codigo_postal_urbano": 473001,
+    "codigo_postal_rural": 473007.473008
+  },
+  {
+    "codigo": 47703,
+    "departamento": "Magdalena",
+    "municipio": "SANTA ANA",
+    "codigo_postal_urbano": 474060,
+    "codigo_postal_rural": 474068.474067
+  },
+  {
+    "codigo": 47707,
+    "departamento": "Magdalena",
+    "municipio": "SANTA BARBARA DE PINTO",
+    "codigo_postal_urbano": 474020,
+    "codigo_postal_rural": 474028.474027
+  },
+  {
+    "codigo": 47001,
+    "departamento": "Magdalena",
+    "municipio": "SANTA MARTA",
+    "codigo_postal_urbano": "470001,470005,470002,470003",
+    "codigo_postal_rural": 470009.470007
+  },
+  {
+    "codigo": 47720,
+    "departamento": "Magdalena",
+    "municipio": "SAN ZENON",
+    "codigo_postal_urbano": 474001,
+    "codigo_postal_rural": 474007
+  },
+  {
+    "codigo": 47745,
+    "departamento": "Magdalena",
+    "municipio": "SITIONUEVO",
+    "codigo_postal_urbano": 477001,
+    "codigo_postal_rural": "477007,477009,477008"
+  },
+  {
+    "codigo": 47798,
+    "departamento": "Magdalena",
+    "municipio": "TENERIFE",
+    "codigo_postal_urbano": 475050,
+    "codigo_postal_rural": 475057
+  },
+  {
+    "codigo": 47960,
+    "departamento": "Magdalena",
+    "municipio": "ZAPAYAN",
+    "codigo_postal_urbano": 476050,
+    "codigo_postal_rural": 476058.476057
+  },
+  {
+    "codigo": 47980,
+    "departamento": "Magdalena",
+    "municipio": "ZONA BANANERA",
+    "codigo_postal_urbano": 478020,
+    "codigo_postal_rural": "478027,478037,478029,478028,"
+  },
+  {
+    "codigo": 50006,
+    "departamento": "Meta",
+    "municipio": "ACACIAS",
+    "codigo_postal_urbano": 507001,
+    "codigo_postal_rural": "507008,507017,507007,507009"
+  },
+  {
+    "codigo": 50110,
+    "departamento": "Meta",
+    "municipio": "BARRANCA DE UPIA",
+    "codigo_postal_urbano": 501001,
+    "codigo_postal_rural": 501007
+  },
+  {
+    "codigo": 50124,
+    "departamento": "Meta",
+    "municipio": "CABUYARO",
+    "codigo_postal_urbano": 501011,
+    "codigo_postal_rural": 501018.501017
+  },
+  {
+    "codigo": 50223,
+    "departamento": "Meta",
+    "municipio": "CUBARRAL",
+    "codigo_postal_urbano": 501021,
+    "codigo_postal_rural": "506007,506008,501028,501027"
+  },
+  {
+    "codigo": 50245,
+    "departamento": "Meta",
+    "municipio": "EL CALVARIO",
+    "codigo_postal_urbano": 501041,
+    "codigo_postal_rural": 501047
+  },
+  {
+    "codigo": 50251,
+    "departamento": "Meta",
+    "municipio": "EL CASTILLO",
+    "codigo_postal_urbano": 506041,
+    "codigo_postal_rural": 506047.506048
+  },
+  {
+    "codigo": 50270,
+    "departamento": "Meta",
+    "municipio": "EL DORADO",
+    "codigo_postal_urbano": 506021,
+    "codigo_postal_rural": 506027
+  },
+  {
+    "codigo": 50287,
+    "departamento": "Meta",
+    "municipio": "FUENTE DE ORO",
+    "codigo_postal_urbano": 504021,
+    "codigo_postal_rural": 504027.504028
+  },
+  {
+    "codigo": 50313,
+    "departamento": "Meta",
+    "municipio": "GRANADA",
+    "codigo_postal_urbano": 504001,
+    "codigo_postal_rural": 504007.504008
+  },
+  {
+    "codigo": 50318,
+    "departamento": "Meta",
+    "municipio": "GUAMAL",
+    "codigo_postal_urbano": 507051,
+    "codigo_postal_rural": 507057.507058
+  },
+  {
+    "codigo": 50350,
+    "departamento": "Meta",
+    "municipio": "LA MACARENA",
+    "codigo_postal_urbano": 505021,
+    "codigo_postal_rural": 505027.505028
+  },
+  {
+    "codigo": 50400,
+    "departamento": "Meta",
+    "municipio": "LEJANIAS",
+    "codigo_postal_urbano": 506061,
+    "codigo_postal_rural": 506067.506068
+  },
+  {
+    "codigo": 50325,
+    "departamento": "Meta",
+    "municipio": "MAPIRIPAN",
+    "codigo_postal_urbano": 503021,
+    "codigo_postal_rural": "503028,503027,503037,503029"
+  },
+  {
+    "codigo": 50330,
+    "departamento": "Meta",
+    "municipio": "MESETAS",
+    "codigo_postal_urbano": 505001,
+    "codigo_postal_rural": 505007.505008
+  },
+  {
+    "codigo": 50450,
+    "departamento": "Meta",
+    "municipio": "PUERTO CONCORDIA",
+    "codigo_postal_urbano": 503041,
+    "codigo_postal_rural": 503047
+  },
+  {
+    "codigo": 50568,
+    "departamento": "Meta",
+    "municipio": "PUERTO GAITAN",
+    "codigo_postal_urbano": 502041,
+    "codigo_postal_rural": "502058,502057,502047,502048,502059,502049"
+  },
+  {
+    "codigo": 50577,
+    "departamento": "Meta",
+    "municipio": "PUERTO LLERAS",
+    "codigo_postal_urbano": 503001,
+    "codigo_postal_rural": 503008.503007
+  },
+  {
+    "codigo": 50573,
+    "departamento": "Meta",
+    "municipio": "PUERTO LOPEZ",
+    "codigo_postal_urbano": 502001,
+    "codigo_postal_rural": "502008,502009,502007"
+  },
+  {
+    "codigo": 50590,
+    "departamento": "Meta",
+    "municipio": "PUERTO RICO",
+    "codigo_postal_urbano": 503061,
+    "codigo_postal_rural": 503068.503067
+  },
+  {
+    "codigo": 50606,
+    "departamento": "Meta",
+    "municipio": "RESTREPO",
+    "codigo_postal_urbano": 501031,
+    "codigo_postal_rural": 501038.501037
+  },
+  {
+    "codigo": 50680,
+    "departamento": "Meta",
+    "municipio": "SAN CARLOS DE GUAROA",
+    "codigo_postal_urbano": 507011,
+    "codigo_postal_rural": 507019
+  },
+  {
+    "codigo": 50683,
+    "departamento": "Meta",
+    "municipio": "SAN JUAN DE ARAMA",
+    "codigo_postal_urbano": 504041,
+    "codigo_postal_rural": 504047.504048
+  },
+  {
+    "codigo": 50686,
+    "departamento": "Meta",
+    "municipio": "SAN JUANITO",
+    "codigo_postal_urbano": 501051,
+    "codigo_postal_rural": 501057
+  },
+  {
+    "codigo": 50689,
+    "departamento": "Meta",
+    "municipio": "SAN MARTIN",
+    "codigo_postal_urbano": 507021,
+    "codigo_postal_rural": "507037,507027,507029,507028"
+  },
+  {
+    "codigo": 50370,
+    "departamento": "Meta",
+    "municipio": "URIBE",
+    "codigo_postal_urbano": 505041,
+    "codigo_postal_rural": 505048.505047
+  },
+  {
+    "codigo": 50001,
+    "departamento": "Meta",
+    "municipio": "VILLAVICENCIO",
+    "codigo_postal_urbano": "500004,500001,500003,500002",
+    "codigo_postal_rural": "500009,500017,500008,500005,500007"
+  },
+  {
+    "codigo": 50711,
+    "departamento": "Meta",
+    "municipio": "VISTAHERMOSA",
+    "codigo_postal_urbano": 504061,
+    "codigo_postal_rural": 504068.504067
+  },
+  {
+    "codigo": 52019,
+    "departamento": "Narino",
+    "municipio": "ALBAN",
+    "codigo_postal_urbano": 521050,
+    "codigo_postal_rural": 520557
+  },
+  {
+    "codigo": 52022,
+    "departamento": "Narino",
+    "municipio": "ALDANA",
+    "codigo_postal_urbano": 524540,
+    "codigo_postal_rural": 524547
+  },
+  {
+    "codigo": 52036,
+    "departamento": "Narino",
+    "municipio": "ANCUYA",
+    "codigo_postal_urbano": 0.526001,
+    "codigo_postal_rural": 526007
+  },
+  {
+    "codigo": 52051,
+    "departamento": "Narino",
+    "municipio": "ARBOLEDA",
+    "codigo_postal_urbano": 520570,
+    "codigo_postal_rural": 520578.520577
+  },
+  {
+    "codigo": 52079,
+    "departamento": "Narino",
+    "municipio": "BARBACOAS",
+    "codigo_postal_urbano": 528060,
+    "codigo_postal_rural": "528069,528068,528078,528077,528067"
+  },
+  {
+    "codigo": 52083,
+    "departamento": "Narino",
+    "municipio": "BELEN",
+    "codigo_postal_urbano": 521080,
+    "codigo_postal_rural": 521087
+  },
+  {
+    "codigo": 52110,
+    "departamento": "Narino",
+    "municipio": "BUESACO",
+    "codigo_postal_urbano": 520501,
+    "codigo_postal_rural": "520509,520507,520517,520518,520508"
+  },
+  {
+    "codigo": 52240,
+    "departamento": "Narino",
+    "municipio": "CHACHAGsI",
+    "codigo_postal_urbano": 522001,
+    "codigo_postal_rural": 522007
+  },
+  {
+    "codigo": 52203,
+    "departamento": "Narino",
+    "municipio": "COLON",
+    "codigo_postal_urbano": 521060,
+    "codigo_postal_rural": 521067
+  },
+  {
+    "codigo": 52207,
+    "departamento": "Narino",
+    "municipio": "CONSACA",
+    "codigo_postal_urbano": 522540,
+    "codigo_postal_rural": 522548.522547
+  },
+  {
+    "codigo": 52210,
+    "departamento": "Narino",
+    "municipio": "CONTADERO",
+    "codigo_postal_urbano": 523080,
+    "codigo_postal_rural": 523087
+  },
+  {
+    "codigo": 52215,
+    "departamento": "Narino",
+    "municipio": "CORDOBA",
+    "codigo_postal_urbano": 524001,
+    "codigo_postal_rural": "524009,524007,524008"
+  },
+  {
+    "codigo": 52224,
+    "departamento": "Narino",
+    "municipio": "CUASPUD",
+    "codigo_postal_urbano": 524560,
+    "codigo_postal_rural": 524567
+  },
+  {
+    "codigo": 52227,
+    "departamento": "Narino",
+    "municipio": "CUMBAL",
+    "codigo_postal_urbano": 525001,
+    "codigo_postal_rural": "525007,525008,525009"
+  },
+  {
+    "codigo": 52233,
+    "departamento": "Narino",
+    "municipio": "CUMBITARA",
+    "codigo_postal_urbano": 526560,
+    "codigo_postal_rural": 526567.526568
+  },
+  {
+    "codigo": 52250,
+    "departamento": "Narino",
+    "municipio": "EL CHARCO",
+    "codigo_postal_urbano": 527520,
+    "codigo_postal_rural": "527537,527528,527529,527527"
+  },
+  {
+    "codigo": 52254,
+    "departamento": "Narino",
+    "municipio": "EL PEÑOL",
+    "codigo_postal_urbano": 522080,
+    "codigo_postal_rural": 522088.522087
+  },
+  {
+    "codigo": 52256,
+    "departamento": "Narino",
+    "municipio": "EL ROSARIO",
+    "codigo_postal_urbano": 527030,
+    "codigo_postal_rural": "527037,527038,527039"
+  },
+  {
+    "codigo": 52258,
+    "departamento": "Narino",
+    "municipio": "EL TABLON DE GOMEZ",
+    "codigo_postal_urbano": 520530,
+    "codigo_postal_rural": "520539,520537,520538"
+  },
+  {
+    "codigo": 52260,
+    "departamento": "Narino",
+    "municipio": "EL TAMBO",
+    "codigo_postal_urbano": 522060,
+    "codigo_postal_rural": 522067.522068
+  },
+  {
+    "codigo": 52520,
+    "departamento": "Narino",
+    "municipio": "FRANCISCO PIZARRO",
+    "codigo_postal_urbano": 528560,
+    "codigo_postal_rural": 528567.528568
+  },
+  {
+    "codigo": 52287,
+    "departamento": "Narino",
+    "municipio": "FUNES",
+    "codigo_postal_urbano": 523520,
+    "codigo_postal_rural": 523527.523528
+  },
+  {
+    "codigo": 52317,
+    "departamento": "Narino",
+    "municipio": "GUACHUCAL",
+    "codigo_postal_urbano": 524580,
+    "codigo_postal_rural": 524588.524587
+  },
+  {
+    "codigo": 52320,
+    "departamento": "Narino",
+    "municipio": "GUAITARILLA",
+    "codigo_postal_urbano": 525501,
+    "codigo_postal_rural": 525508.525507
+  },
+  {
+    "codigo": 52323,
+    "departamento": "Narino",
+    "municipio": "GUALMATAN",
+    "codigo_postal_urbano": 524501,
+    "codigo_postal_rural": 524507
+  },
+  {
+    "codigo": 52352,
+    "departamento": "Narino",
+    "municipio": "ILES",
+    "codigo_postal_urbano": 523060,
+    "codigo_postal_rural": 523067.523068
+  },
+  {
+    "codigo": 52354,
+    "departamento": "Narino",
+    "municipio": "IMUES",
+    "codigo_postal_urbano": 523020,
+    "codigo_postal_rural": 523028.523027
+  },
+  {
+    "codigo": 52356,
+    "departamento": "Narino",
+    "municipio": "IPIALES",
+    "codigo_postal_urbano": 524060.524061,
+    "codigo_postal_rural": "524068,524069,524078,524077,524067"
+  },
+  {
+    "codigo": 52378,
+    "departamento": "Narino",
+    "municipio": "LA CRUZ",
+    "codigo_postal_urbano": 521020,
+    "codigo_postal_rural": 521028.521027
+  },
+  {
+    "codigo": 52381,
+    "departamento": "Narino",
+    "municipio": "LA FLORIDA",
+    "codigo_postal_urbano": 522040,
+    "codigo_postal_rural": 522048.522047
+  },
+  {
+    "codigo": 52385,
+    "departamento": "Narino",
+    "municipio": "LA LLANADA",
+    "codigo_postal_urbano": 526501,
+    "codigo_postal_rural": 526507
+  },
+  {
+    "codigo": 52390,
+    "departamento": "Narino",
+    "municipio": "LA TOLA",
+    "codigo_postal_urbano": 527540,
+    "codigo_postal_rural": 527547.527548
+  },
+  {
+    "codigo": 52399,
+    "departamento": "Narino",
+    "municipio": "LA UNION",
+    "codigo_postal_urbano": 521520,
+    "codigo_postal_rural": "521528,521527,521529"
+  },
+  {
+    "codigo": 52405,
+    "departamento": "Narino",
+    "municipio": "LEIVA",
+    "codigo_postal_urbano": 527060,
+    "codigo_postal_rural": 527060
+  },
+  {
+    "codigo": 52411,
+    "departamento": "Narino",
+    "municipio": "LINARES",
+    "codigo_postal_urbano": 522501,
+    "codigo_postal_rural": 522508.522507
+  },
+  {
+    "codigo": 52418,
+    "departamento": "Narino",
+    "municipio": "LOS ANDES",
+    "codigo_postal_urbano": 526520,
+    "codigo_postal_rural": "526527,526529,526528"
+  },
+  {
+    "codigo": 52427,
+    "departamento": "Narino",
+    "municipio": "MAGsI",
+    "codigo_postal_urbano": 528001,
+    "codigo_postal_rural": "528017,528009,528007,528008"
+  },
+  {
+    "codigo": 52435,
+    "departamento": "Narino",
+    "municipio": "MALLAMA",
+    "codigo_postal_urbano": 525060,
+    "codigo_postal_rural": "525068,525067,525069"
+  },
+  {
+    "codigo": 52473,
+    "departamento": "Narino",
+    "municipio": "MOSQUERA",
+    "codigo_postal_urbano": 527580,
+    "codigo_postal_rural": "527588,527589,527587"
+  },
+  {
+    "codigo": 52480,
+    "departamento": "Narino",
+    "municipio": "NARIÑO",
+    "codigo_postal_urbano": 522020,
+    "codigo_postal_rural": 522027
+  },
+  {
+    "codigo": 52490,
+    "departamento": "Narino",
+    "municipio": "OLAYA HERRERA",
+    "codigo_postal_urbano": 527560,
+    "codigo_postal_rural": "527569,527567,527568"
+  },
+  {
+    "codigo": 52506,
+    "departamento": "Narino",
+    "municipio": "OSPINA",
+    "codigo_postal_urbano": 523040,
+    "codigo_postal_rural": 523047
+  },
+  {
+    "codigo": 52001,
+    "departamento": "Narino",
+    "municipio": "PASTO",
+    "codigo_postal_urbano": 520002.520003,
+    "codigo_postal_rural": "520038,520018,520029,520039,520006,520027,520007"
+  },
+  {
+    "codigo": 52540,
+    "departamento": "Narino",
+    "municipio": "POLICARPA",
+    "codigo_postal_urbano": 527001,
+    "codigo_postal_rural": "527007,527009,527008"
+  },
+  {
+    "codigo": 52560,
+    "departamento": "Narino",
+    "municipio": "POTOSI",
+    "codigo_postal_urbano": 524030,
+    "codigo_postal_rural": "524039,524038,524037"
+  },
+  {
+    "codigo": 52565,
+    "departamento": "Narino",
+    "municipio": "PROVIDENCIA",
+    "codigo_postal_urbano": 526020,
+    "codigo_postal_rural": 526027
+  },
+  {
+    "codigo": 52573,
+    "departamento": "Narino",
+    "municipio": "PUERRES",
+    "codigo_postal_urbano": 523540,
+    "codigo_postal_rural": 523548.523547
+  },
+  {
+    "codigo": 52585,
+    "departamento": "Narino",
+    "municipio": "PUPIALES",
+    "codigo_postal_urbano": 524520,
+    "codigo_postal_rural": 524527.524528
+  },
+  {
+    "codigo": 52612,
+    "departamento": "Narino",
+    "municipio": "RICAURTE",
+    "codigo_postal_urbano": 525030,
+    "codigo_postal_rural": "525039,525047,525037,525038"
+  },
+  {
+    "codigo": 52621,
+    "departamento": "Narino",
+    "municipio": "ROBERTO PAYAN",
+    "codigo_postal_urbano": 528030,
+    "codigo_postal_rural": "528037,528039,528038,528047"
+  },
+  {
+    "codigo": 52678,
+    "departamento": "Narino",
+    "municipio": "SAMANIEGO",
+    "codigo_postal_urbano": 526040,
+    "codigo_postal_rural": "526049,526057,526047,526058,526048"
+  },
+  {
+    "codigo": 52835,
+    "departamento": "Narino",
+    "municipio": "SAN ANDRES DE TUMACO",
+    "codigo_postal_urbano": 528501,
+    "codigo_postal_rural": "528528,528537,528519,528518,528527,528538,528539,528508"
+  },
+  {
+    "codigo": 52685,
+    "departamento": "Narino",
+    "municipio": "SAN BERNARDO",
+    "codigo_postal_urbano": 521001,
+    "codigo_postal_rural": 521007
+  },
+  {
+    "codigo": 52683,
+    "departamento": "Narino",
+    "municipio": "SANDONA",
+    "codigo_postal_urbano": 522520,
+    "codigo_postal_rural": 522527
+  },
+  {
+    "codigo": 52687,
+    "departamento": "Narino",
+    "municipio": "SAN LORENZO",
+    "codigo_postal_urbano": 521540,
+    "codigo_postal_rural": "521548,521547,521549"
+  },
+  {
+    "codigo": 52693,
+    "departamento": "Narino",
+    "municipio": "SAN PABLO",
+    "codigo_postal_urbano": 521040,
+    "codigo_postal_rural": 521047.521048
+  },
+  {
+    "codigo": 52694,
+    "departamento": "Narino",
+    "municipio": "SAN PEDRO DE CARTAGO",
+    "codigo_postal_urbano": 521501,
+    "codigo_postal_rural": 521508.521507
+  },
+  {
+    "codigo": 52696,
+    "departamento": "Narino",
+    "municipio": "SANTA BARBARA",
+    "codigo_postal_urbano": 527501,
+    "codigo_postal_rural": 527507.527508
+  },
+  {
+    "codigo": 52699,
+    "departamento": "Narino",
+    "municipio": "SANTACRUZ",
+    "codigo_postal_urbano": 525570,
+    "codigo_postal_rural": "525579,525577,525578"
+  },
+  {
+    "codigo": 52720,
+    "departamento": "Narino",
+    "municipio": "SAPUYES",
+    "codigo_postal_urbano": 525550,
+    "codigo_postal_rural": 525558.525557
+  },
+  {
+    "codigo": 52786,
+    "departamento": "Narino",
+    "municipio": "TAMINANGO",
+    "codigo_postal_urbano": 521560,
+    "codigo_postal_rural": "521567,521569,521568"
+  },
+  {
+    "codigo": 52788,
+    "departamento": "Narino",
+    "municipio": "TANGUA",
+    "codigo_postal_urbano": 523501,
+    "codigo_postal_rural": 523507.523508
+  },
+  {
+    "codigo": 52838,
+    "departamento": "Narino",
+    "municipio": "TUQUERRES",
+    "codigo_postal_urbano": 525520,
+    "codigo_postal_rural": "525537,525528,525529,525527"
+  },
+  {
+    "codigo": 52885,
+    "departamento": "Narino",
+    "municipio": "YACUANQUER",
+    "codigo_postal_urbano": 523001,
+    "codigo_postal_rural": 523008.523007
+  },
+  {
+    "codigo": 54003,
+    "departamento": "Norte de Santander",
+    "municipio": "ABREGO",
+    "codigo_postal_urbano": 546070,
+    "codigo_postal_rural": "546078,546077,546079"
+  },
+  {
+    "codigo": 54051,
+    "departamento": "Norte de Santander",
+    "municipio": "ARBOLEDAS",
+    "codigo_postal_urbano": 544550,
+    "codigo_postal_rural": 544557.544558
+  },
+  {
+    "codigo": 54099,
+    "departamento": "Norte de Santander",
+    "municipio": "BOCHALEMA",
+    "codigo_postal_urbano": 543010,
+    "codigo_postal_rural": 543018.543017
+  },
+  {
+    "codigo": 54109,
+    "departamento": "Norte de Santander",
+    "municipio": "BUCARASICA",
+    "codigo_postal_urbano": 545550,
+    "codigo_postal_rural": 545557.545558
+  },
+  {
+    "codigo": 54128,
+    "departamento": "Norte de Santander",
+    "municipio": "CACHIRA",
+    "codigo_postal_urbano": 546030,
+    "codigo_postal_rural": 546037.546038
+  },
+  {
+    "codigo": 54125,
+    "departamento": "Norte de Santander",
+    "municipio": "CACOTA",
+    "codigo_postal_urbano": 544010,
+    "codigo_postal_rural": 544017
+  },
+  {
+    "codigo": 54172,
+    "departamento": "Norte de Santander",
+    "municipio": "CHINACOTA",
+    "codigo_postal_urbano": 541070,
+    "codigo_postal_rural": 541077
+  },
+  {
+    "codigo": 54174,
+    "departamento": "Norte de Santander",
+    "municipio": "CHITAGA",
+    "codigo_postal_urbano": 544030,
+    "codigo_postal_rural": 544037.544038
+  },
+  {
+    "codigo": 54206,
+    "departamento": "Norte de Santander",
+    "municipio": "CONVENCION",
+    "codigo_postal_urbano": 547050,
+    "codigo_postal_rural": "547057,547058,547059"
+  },
+  {
+    "codigo": 54001,
+    "departamento": "Norte de Santander",
+    "municipio": "CUCUTA",
+    "codigo_postal_urbano": 540002.540004,
+    "codigo_postal_rural": "540019,540018,540011,540006,540005,540013,540008"
+  },
+  {
+    "codigo": 54223,
+    "departamento": "Norte de Santander",
+    "municipio": "CUCUTILLA",
+    "codigo_postal_urbano": 544520,
+    "codigo_postal_rural": "544528,544529,544527"
+  },
+  {
+    "codigo": 54239,
+    "departamento": "Norte de Santander",
+    "municipio": "DURANIA",
+    "codigo_postal_urbano": 544510,
+    "codigo_postal_rural": 544517
+  },
+  {
+    "codigo": 54245,
+    "departamento": "Norte de Santander",
+    "municipio": "EL CARMEN",
+    "codigo_postal_urbano": 547070,
+    "codigo_postal_rural": "547078,547077,547079"
+  },
+  {
+    "codigo": 54250,
+    "departamento": "Norte de Santander",
+    "municipio": "EL TARRA",
+    "codigo_postal_urbano": 548050,
+    "codigo_postal_rural": 548058.548057
+  },
+  {
+    "codigo": 54261,
+    "departamento": "Norte de Santander",
+    "municipio": "EL ZULIA",
+    "codigo_postal_urbano": 545510,
+    "codigo_postal_rural": 545518.545517
+  },
+  {
+    "codigo": 54313,
+    "departamento": "Norte de Santander",
+    "municipio": "GRAMALOTE",
+    "codigo_postal_urbano": 545050,
+    "codigo_postal_rural": 545057
+  },
+  {
+    "codigo": 54344,
+    "departamento": "Norte de Santander",
+    "municipio": "HACARI",
+    "codigo_postal_urbano": 546510,
+    "codigo_postal_rural": 546517
+  },
+  {
+    "codigo": 54347,
+    "departamento": "Norte de Santander",
+    "municipio": "HERRAN",
+    "codigo_postal_urbano": 542010,
+    "codigo_postal_rural": 542017.542018
+  },
+  {
+    "codigo": 54377,
+    "departamento": "Norte de Santander",
+    "municipio": "LABATECA",
+    "codigo_postal_urbano": 542050,
+    "codigo_postal_rural": 542058.542057
+  },
+  {
+    "codigo": 54385,
+    "departamento": "Norte de Santander",
+    "municipio": "LA ESPERANZA",
+    "codigo_postal_urbano": 546050,
+    "codigo_postal_rural": 546058.546057
+  },
+  {
+    "codigo": 54398,
+    "departamento": "Norte de Santander",
+    "municipio": "LA PLAYA",
+    "codigo_postal_urbano": 546530,
+    "codigo_postal_rural": 546537
+  },
+  {
+    "codigo": 54405,
+    "departamento": "Norte de Santander",
+    "municipio": "LOS PATIOS",
+    "codigo_postal_urbano": 541010,
+    "codigo_postal_rural": 541017.541018
+  },
+  {
+    "codigo": 54418,
+    "departamento": "Norte de Santander",
+    "municipio": "LOURDES",
+    "codigo_postal_urbano": 545070,
+    "codigo_postal_rural": 545077
+  },
+  {
+    "codigo": 54480,
+    "departamento": "Norte de Santander",
+    "municipio": "MUTISCUA",
+    "codigo_postal_urbano": 544070,
+    "codigo_postal_rural": 544077
+  },
+  {
+    "codigo": 54498,
+    "departamento": "Norte de Santander",
+    "municipio": "OCAÑA",
+    "codigo_postal_urbano": 546551,
+    "codigo_postal_rural": "546552,546559,546558,546557"
+  },
+  {
+    "codigo": 54518,
+    "departamento": "Norte de Santander",
+    "municipio": "PAMPLONA",
+    "codigo_postal_urbano": 543050,
+    "codigo_postal_rural": 543057.543058
+  },
+  {
+    "codigo": 54520,
+    "departamento": "Norte de Santander",
+    "municipio": "PAMPLONITA",
+    "codigo_postal_urbano": 543030,
+    "codigo_postal_rural": 543038.543037
+  },
+  {
+    "codigo": 54553,
+    "departamento": "Norte de Santander",
+    "municipio": "PUERTO SANTANDER",
+    "codigo_postal_urbano": 548030,
+    "codigo_postal_rural": 548037
+  },
+  {
+    "codigo": 54599,
+    "departamento": "Norte de Santander",
+    "municipio": "RAGONVALIA",
+    "codigo_postal_urbano": 541050,
+    "codigo_postal_rural": 541057
+  },
+  {
+    "codigo": 54660,
+    "departamento": "Norte de Santander",
+    "municipio": "SALAZAR",
+    "codigo_postal_urbano": 544570,
+    "codigo_postal_rural": 544577.544578
+  },
+  {
+    "codigo": 54670,
+    "departamento": "Norte de Santander",
+    "municipio": "SAN CALIXTO",
+    "codigo_postal_urbano": 547010,
+    "codigo_postal_rural": 547018.547017
+  },
+  {
+    "codigo": 54673,
+    "departamento": "Norte de Santander",
+    "municipio": "SAN CAYETANO",
+    "codigo_postal_urbano": 545010,
+    "codigo_postal_rural": 545017
+  },
+  {
+    "codigo": 54680,
+    "departamento": "Norte de Santander",
+    "municipio": "SANTIAGO",
+    "codigo_postal_urbano": 545030,
+    "codigo_postal_rural": 545037
+  },
+  {
+    "codigo": 54720,
+    "departamento": "Norte de Santander",
+    "municipio": "SARDINATA",
+    "codigo_postal_urbano": 545530,
+    "codigo_postal_rural": "545538,545539,545537"
+  },
+  {
+    "codigo": 54743,
+    "departamento": "Norte de Santander",
+    "municipio": "SILOS",
+    "codigo_postal_urbano": 544050,
+    "codigo_postal_rural": 544057.544058
+  },
+  {
+    "codigo": 54800,
+    "departamento": "Norte de Santander",
+    "municipio": "TEORAMA",
+    "codigo_postal_urbano": 547030,
+    "codigo_postal_rural": "547038,547037,547039"
+  },
+  {
+    "codigo": 54810,
+    "departamento": "Norte de Santander",
+    "municipio": "TIBU",
+    "codigo_postal_urbano": 548010,
+    "codigo_postal_rural": 548017.548018
+  },
+  {
+    "codigo": 54820,
+    "departamento": "Norte de Santander",
+    "municipio": "TOLEDO",
+    "codigo_postal_urbano": 542030,
+    "codigo_postal_rural": 542038.542037
+  },
+  {
+    "codigo": 54871,
+    "departamento": "Norte de Santander",
+    "municipio": "VILLA CARO",
+    "codigo_postal_urbano": 546010,
+    "codigo_postal_rural": 546017
+  },
+  {
+    "codigo": 54874,
+    "departamento": "Norte de Santander",
+    "municipio": "VILLA DEL ROSARIO",
+    "codigo_postal_urbano": 541030,
+    "codigo_postal_rural": 541038
+  },
+  {
+    "codigo": 86219,
+    "departamento": "Putumayo",
+    "municipio": "COLON",
+    "codigo_postal_urbano": 861040,
+    "codigo_postal_rural": 861047
+  },
+  {
+    "codigo": 86573,
+    "departamento": "Putumayo",
+    "municipio": "LEGUIZAMO",
+    "codigo_postal_urbano": 864001,
+    "codigo_postal_rural": "864009,864008,864007"
+  },
+  {
+    "codigo": 86001,
+    "departamento": "Putumayo",
+    "municipio": "MOCOA",
+    "codigo_postal_urbano": 860001,
+    "codigo_postal_rural": 860007.860008
+  },
+  {
+    "codigo": 86320,
+    "departamento": "Putumayo",
+    "municipio": "ORITO",
+    "codigo_postal_urbano": 862001,
+    "codigo_postal_rural": 862007.862008
+  },
+  {
+    "codigo": 86568,
+    "departamento": "Putumayo",
+    "municipio": "PUERTO ASIS",
+    "codigo_postal_urbano": 862060,
+    "codigo_postal_rural": "862068,862067,862069"
+  },
+  {
+    "codigo": 86569,
+    "departamento": "Putumayo",
+    "municipio": "PUERTO CAICEDO",
+    "codigo_postal_urbano": 862080,
+    "codigo_postal_rural": 862087
+  },
+  {
+    "codigo": 86571,
+    "departamento": "Putumayo",
+    "municipio": "PUERTO GUZMAN",
+    "codigo_postal_urbano": 863001,
+    "codigo_postal_rural": 863008.863007
+  },
+  {
+    "codigo": 86755,
+    "departamento": "Putumayo",
+    "municipio": "SAN FRANCISCO",
+    "codigo_postal_urbano": 861001,
+    "codigo_postal_rural": 861007.861008
+  },
+  {
+    "codigo": 86757,
+    "departamento": "Putumayo",
+    "municipio": "SAN MIGUEL",
+    "codigo_postal_urbano": 862040,
+    "codigo_postal_rural": 862047
+  },
+  {
+    "codigo": 86760,
+    "departamento": "Putumayo",
+    "municipio": "SANTIAGO",
+    "codigo_postal_urbano": 861060,
+    "codigo_postal_rural": 861067.861068
+  },
+  {
+    "codigo": 86749,
+    "departamento": "Putumayo",
+    "municipio": "SIBUNDOY",
+    "codigo_postal_urbano": 861020,
+    "codigo_postal_rural": 861027
+  },
+  {
+    "codigo": 86865,
+    "departamento": "Putumayo",
+    "municipio": "VALLE DEL GUAMUEZ",
+    "codigo_postal_urbano": 862020,
+    "codigo_postal_rural": 862027.862028
+  },
+  {
+    "codigo": 86885,
+    "departamento": "Putumayo",
+    "municipio": "VILLAGARZON",
+    "codigo_postal_urbano": 861080,
+    "codigo_postal_rural": 861087.861088
+  },
+  {
+    "codigo": 63001,
+    "departamento": "Quindio",
+    "municipio": "ARMENIA",
+    "codigo_postal_urbano": "630003,630004,630002,630001",
+    "codigo_postal_rural": 630007.630008
+  },
+  {
+    "codigo": 63111,
+    "departamento": "Quindio",
+    "municipio": "BUENAVISTA",
+    "codigo_postal_urbano": 632040,
+    "codigo_postal_rural": 632047
+  },
+  {
+    "codigo": 63130,
+    "departamento": "Quindio",
+    "municipio": "CALARCA",
+    "codigo_postal_urbano": 632001,
+    "codigo_postal_rural": 632007.632008
+  },
+  {
+    "codigo": 63190,
+    "departamento": "Quindio",
+    "municipio": "CIRCASIA",
+    "codigo_postal_urbano": 631001,
+    "codigo_postal_rural": 631008.631007
+  },
+  {
+    "codigo": 63212,
+    "departamento": "Quindio",
+    "municipio": "CORDOBA",
+    "codigo_postal_urbano": 632020,
+    "codigo_postal_rural": 632027
+  },
+  {
+    "codigo": 63272,
+    "departamento": "Quindio",
+    "municipio": "FILANDIA",
+    "codigo_postal_urbano": 634001,
+    "codigo_postal_rural": 634008.634007
+  },
+  {
+    "codigo": 63302,
+    "departamento": "Quindio",
+    "municipio": "GENOVA",
+    "codigo_postal_urbano": 632080,
+    "codigo_postal_rural": 632087
+  },
+  {
+    "codigo": 63401,
+    "departamento": "Quindio",
+    "municipio": "LA TEBAIDA",
+    "codigo_postal_urbano": 633020,
+    "codigo_postal_rural": 633027
+  },
+  {
+    "codigo": 63470,
+    "departamento": "Quindio",
+    "municipio": "MONTENEGRO",
+    "codigo_postal_urbano": 633001,
+    "codigo_postal_rural": 633007.633008
+  },
+  {
+    "codigo": 63548,
+    "departamento": "Quindio",
+    "municipio": "PIJAO",
+    "codigo_postal_urbano": 632060,
+    "codigo_postal_rural": 632067
+  },
+  {
+    "codigo": 63594,
+    "departamento": "Quindio",
+    "municipio": "QUIMBAYA",
+    "codigo_postal_urbano": 634020,
+    "codigo_postal_rural": 634027
+  },
+  {
+    "codigo": 63690,
+    "departamento": "Quindio",
+    "municipio": "SALENTO",
+    "codigo_postal_urbano": 631020,
+    "codigo_postal_rural": 631027.631028
+  },
+  {
+    "codigo": 66045,
+    "departamento": "Risaralda",
+    "municipio": "APIA",
+    "codigo_postal_urbano": 663030,
+    "codigo_postal_rural": 663038.663037
+  },
+  {
+    "codigo": 66075,
+    "departamento": "Risaralda",
+    "municipio": "BALBOA",
+    "codigo_postal_urbano": 662010,
+    "codigo_postal_rural": 662017
+  },
+  {
+    "codigo": 66088,
+    "departamento": "Risaralda",
+    "municipio": "BELEN DE UMBRIA",
+    "codigo_postal_urbano": 664040,
+    "codigo_postal_rural": 664047.664048
+  },
+  {
+    "codigo": 66170,
+    "departamento": "Risaralda",
+    "municipio": "DOSQUEBRADAS",
+    "codigo_postal_urbano": 661002,
+    "codigo_postal_rural": "661007,661008,661001"
+  },
+  {
+    "codigo": 66318,
+    "departamento": "Risaralda",
+    "municipio": "GUATICA",
+    "codigo_postal_urbano": 664010,
+    "codigo_postal_rural": 664017.664018
+  },
+  {
+    "codigo": 66383,
+    "departamento": "Risaralda",
+    "municipio": "LA CELIA",
+    "codigo_postal_urbano": 662030,
+    "codigo_postal_rural": 662037
+  },
+  {
+    "codigo": 66400,
+    "departamento": "Risaralda",
+    "municipio": "LA VIRGINIA",
+    "codigo_postal_urbano": 662001,
+    "codigo_postal_rural": 662007
+  },
+  {
+    "codigo": 66440,
+    "departamento": "Risaralda",
+    "municipio": "MARSELLA",
+    "codigo_postal_urbano": 661040,
+    "codigo_postal_rural": 661047.661048
+  },
+  {
+    "codigo": 66456,
+    "departamento": "Risaralda",
+    "municipio": "MISTRATO",
+    "codigo_postal_urbano": 664020,
+    "codigo_postal_rural": 664028.664027
+  },
+  {
+    "codigo": 66001,
+    "departamento": "Risaralda",
+    "municipio": "PEREIRA",
+    "codigo_postal_urbano": "660001,660002,660005,660004,660003",
+    "codigo_postal_rural": "660009,660008,660007,660004,660003"
+  },
+  {
+    "codigo": 66572,
+    "departamento": "Risaralda",
+    "municipio": "PUEBLO RICO",
+    "codigo_postal_urbano": 663011,
+    "codigo_postal_rural": 663017.663018
+  },
+  {
+    "codigo": 66594,
+    "departamento": "Risaralda",
+    "municipio": "QUINCHIA",
+    "codigo_postal_urbano": 664001,
+    "codigo_postal_rural": 664008.664007
+  },
+  {
+    "codigo": 66682,
+    "departamento": "Risaralda",
+    "municipio": "SANTA ROSA DE CABAL",
+    "codigo_postal_urbano": 661020,
+    "codigo_postal_rural": 661027.661028
+  },
+  {
+    "codigo": 66687,
+    "departamento": "Risaralda",
+    "municipio": "SANTUARIO",
+    "codigo_postal_urbano": 663001,
+    "codigo_postal_rural": 663008.663007
+  },
+  {
+    "codigo": 88564,
+    "departamento": "San Andrés y Providencia",
+    "municipio": "Providencia",
+    "codigo_postal_urbano": 880020,
+    "codigo_postal_rural": 880027.880028
+  },
+  {
+    "codigo": 88001,
+    "departamento": "San Andrés y Providencia",
+    "municipio": "San Andrés",
+    "codigo_postal_urbano": 880001,
+    "codigo_postal_rural": 880008.880007
+  },
+  {
+    "codigo": 68013,
+    "departamento": "Santander",
+    "municipio": "AGUADA",
+    "codigo_postal_urbano": 685521,
+    "codigo_postal_rural": 685527
+  },
+  {
+    "codigo": 68020,
+    "departamento": "Santander",
+    "municipio": "ALBANIA",
+    "codigo_postal_urbano": 684531,
+    "codigo_postal_rural": 684537
+  },
+  {
+    "codigo": 68051,
+    "departamento": "Santander",
+    "municipio": "ARATOCA",
+    "codigo_postal_urbano": 682051,
+    "codigo_postal_rural": 682058.682057
+  },
+  {
+    "codigo": 68077,
+    "departamento": "Santander",
+    "municipio": "BARBOSA",
+    "codigo_postal_urbano": 684511,
+    "codigo_postal_rural": 684517
+  },
+  {
+    "codigo": 68079,
+    "departamento": "Santander",
+    "municipio": "BARICHARA",
+    "codigo_postal_urbano": 684041,
+    "codigo_postal_rural": 684047.684048
+  },
+  {
+    "codigo": 68081,
+    "departamento": "Santander",
+    "municipio": "BARRANCABERMEJA",
+    "codigo_postal_urbano": "687032,687033,687031",
+    "codigo_postal_rural": "687039,687047,687038,687037"
+  },
+  {
+    "codigo": 68092,
+    "departamento": "Santander",
+    "municipio": "BETULIA",
+    "codigo_postal_urbano": 686501,
+    "codigo_postal_rural": 686508.686507
+  },
+  {
+    "codigo": 68101,
+    "departamento": "Santander",
+    "municipio": "BOLIVAR",
+    "codigo_postal_urbano": 685001,
+    "codigo_postal_rural": "685007,685008,685009"
+  },
+  {
+    "codigo": 68001,
+    "departamento": "Santander",
+    "municipio": "BUCARAMANGA",
+    "codigo_postal_urbano": "680004,680003,680001,680005,680002",
+    "codigo_postal_rural": "680008,680007,680011,680006"
+  },
+  {
+    "codigo": 68121,
+    "departamento": "Santander",
+    "municipio": "CABRERA",
+    "codigo_postal_urbano": 683501,
+    "codigo_postal_rural": 683507
+  },
+  {
+    "codigo": 68132,
+    "departamento": "Santander",
+    "municipio": "CALIFORNIA",
+    "codigo_postal_urbano": 680511,
+    "codigo_postal_rural": 680517
+  },
+  {
+    "codigo": 68147,
+    "departamento": "Santander",
+    "municipio": "CAPITANEJO",
+    "codigo_postal_urbano": 681541,
+    "codigo_postal_rural": 681548.681547
+  },
+  {
+    "codigo": 68152,
+    "departamento": "Santander",
+    "municipio": "CARCASI",
+    "codigo_postal_urbano": 681521,
+    "codigo_postal_rural": "681528,681529,681527"
+  },
+  {
+    "codigo": 68160,
+    "departamento": "Santander",
+    "municipio": "CEPITA",
+    "codigo_postal_urbano": 682061,
+    "codigo_postal_rural": 682067
+  },
+  {
+    "codigo": 68162,
+    "departamento": "Santander",
+    "municipio": "CERRITO",
+    "codigo_postal_urbano": 681501,
+    "codigo_postal_rural": "681508,681509,681507"
+  },
+  {
+    "codigo": 68167,
+    "departamento": "Santander",
+    "municipio": "CHARALA",
+    "codigo_postal_urbano": 682551,
+    "codigo_postal_rural": "682558,682559,682557"
+  },
+  {
+    "codigo": 68169,
+    "departamento": "Santander",
+    "municipio": "CHARTA",
+    "codigo_postal_urbano": 680551,
+    "codigo_postal_rural": 680557
+  },
+  {
+    "codigo": 68176,
+    "departamento": "Santander",
+    "municipio": "CHIMA",
+    "codigo_postal_urbano": 683001,
+    "codigo_postal_rural": 683007
+  },
+  {
+    "codigo": 68179,
+    "departamento": "Santander",
+    "municipio": "CHIPATA",
+    "codigo_postal_urbano": 685551,
+    "codigo_postal_rural": 685557
+  },
+  {
+    "codigo": 68190,
+    "departamento": "Santander",
+    "municipio": "CIMITARRA",
+    "codigo_postal_urbano": 686041,
+    "codigo_postal_rural": "686058,686057,686049,686047,686048"
+  },
+  {
+    "codigo": 68207,
+    "departamento": "Santander",
+    "municipio": "CONCEPCION",
+    "codigo_postal_urbano": 681511,
+    "codigo_postal_rural": "681519,681518,681517"
+  },
+  {
+    "codigo": 68209,
+    "departamento": "Santander",
+    "municipio": "CONFINES",
+    "codigo_postal_urbano": 683531,
+    "codigo_postal_rural": 683537
+  },
+  {
+    "codigo": 68211,
+    "departamento": "Santander",
+    "municipio": "CONTRATACION",
+    "codigo_postal_urbano": 683071,
+    "codigo_postal_rural": 683077
+  },
+  {
+    "codigo": 68217,
+    "departamento": "Santander",
+    "municipio": "COROMORO",
+    "codigo_postal_urbano": 682531,
+    "codigo_postal_rural": "682538,682537,682539"
+  },
+  {
+    "codigo": 68229,
+    "departamento": "Santander",
+    "municipio": "CURITI",
+    "codigo_postal_urbano": 682041,
+    "codigo_postal_rural": 682047.682048
+  },
+  {
+    "codigo": 68235,
+    "departamento": "Santander",
+    "municipio": "EL CARMEN DE CHUCURI",
+    "codigo_postal_urbano": 686561,
+    "codigo_postal_rural": "686577,686567,686568,686569"
+  },
+  {
+    "codigo": 68245,
+    "departamento": "Santander",
+    "municipio": "EL GUACAMAYO",
+    "codigo_postal_urbano": 683061,
+    "codigo_postal_rural": 683067
+  },
+  {
+    "codigo": 68250,
+    "departamento": "Santander",
+    "municipio": "EL PEÑON",
+    "codigo_postal_urbano": 685021,
+    "codigo_postal_rural": 685027
+  },
+  {
+    "codigo": 68255,
+    "departamento": "Santander",
+    "municipio": "EL PLAYON",
+    "codigo_postal_urbano": 687501,
+    "codigo_postal_rural": "687509,687507,687508"
+  },
+  {
+    "codigo": 68264,
+    "departamento": "Santander",
+    "municipio": "ENCINO",
+    "codigo_postal_urbano": 682541,
+    "codigo_postal_rural": "682547,682548,682549"
+  },
+  {
+    "codigo": 68266,
+    "departamento": "Santander",
+    "municipio": "ENCISO",
+    "codigo_postal_urbano": 681561,
+    "codigo_postal_rural": 681567
+  },
+  {
+    "codigo": 68271,
+    "departamento": "Santander",
+    "municipio": "FLORIAN",
+    "codigo_postal_urbano": 684541,
+    "codigo_postal_rural": 684547
+  },
+  {
+    "codigo": 68276,
+    "departamento": "Santander",
+    "municipio": "FLORIDABLANCA",
+    "codigo_postal_urbano": "681002,681004,681003,681001",
+    "codigo_postal_rural": 681007.681008
+  },
+  {
+    "codigo": 68296,
+    "departamento": "Santander",
+    "municipio": "GALAN",
+    "codigo_postal_urbano": 684051,
+    "codigo_postal_rural": 684057.684058
+  },
+  {
+    "codigo": 68298,
+    "departamento": "Santander",
+    "municipio": "GAMBITA",
+    "codigo_postal_urbano": 683031,
+    "codigo_postal_rural": "683038,683037,683039"
+  },
+  {
+    "codigo": 68307,
+    "departamento": "Santander",
+    "municipio": "GIRON",
+    "codigo_postal_urbano": 687541.687542,
+    "codigo_postal_rural": "687558,687557,687549,687547,687548"
+  },
+  {
+    "codigo": 68327,
+    "departamento": "Santander",
+    "municipio": "GsEPSA",
+    "codigo_postal_urbano": 685541,
+    "codigo_postal_rural": 685547
+  },
+  {
+    "codigo": 68318,
+    "departamento": "Santander",
+    "municipio": "GUACA",
+    "codigo_postal_urbano": 681031,
+    "codigo_postal_rural": 681048.681047
+  },
+  {
+    "codigo": 68320,
+    "departamento": "Santander",
+    "municipio": "GUADALUPE",
+    "codigo_postal_urbano": 683051,
+    "codigo_postal_rural": 683057
+  },
+  {
+    "codigo": 68322,
+    "departamento": "Santander",
+    "municipio": "GUAPOTA",
+    "codigo_postal_urbano": 683011,
+    "codigo_postal_rural": 683017
+  },
+  {
+    "codigo": 68324,
+    "departamento": "Santander",
+    "municipio": "GUAVATA",
+    "codigo_postal_urbano": 684501,
+    "codigo_postal_rural": 684507
+  },
+  {
+    "codigo": 68344,
+    "departamento": "Santander",
+    "municipio": "HATO",
+    "codigo_postal_urbano": 683571,
+    "codigo_postal_rural": 683578
+  },
+  {
+    "codigo": 68368,
+    "departamento": "Santander",
+    "municipio": "JESUS MARIA",
+    "codigo_postal_urbano": 684551,
+    "codigo_postal_rural": 684557
+  },
+  {
+    "codigo": 68370,
+    "departamento": "Santander",
+    "municipio": "JORDAN",
+    "codigo_postal_urbano": 684011,
+    "codigo_postal_rural": 684017
+  },
+  {
+    "codigo": 68377,
+    "departamento": "Santander",
+    "municipio": "LA BELLEZA",
+    "codigo_postal_urbano": 685061,
+    "codigo_postal_rural": 685067
+  },
+  {
+    "codigo": 68385,
+    "departamento": "Santander",
+    "municipio": "LANDAZURI",
+    "codigo_postal_urbano": 686021,
+    "codigo_postal_rural": "686027,686029,686028"
+  },
+  {
+    "codigo": 68397,
+    "departamento": "Santander",
+    "municipio": "LA PAZ",
+    "codigo_postal_urbano": 685511,
+    "codigo_postal_rural": 685517.685518
+  },
+  {
+    "codigo": 68406,
+    "departamento": "Santander",
+    "municipio": "LEBRIJA",
+    "codigo_postal_urbano": 687571,
+    "codigo_postal_rural": "687578,687577,687579,687587"
+  },
+  {
+    "codigo": 68418,
+    "departamento": "Santander",
+    "municipio": "LOS SANTOS",
+    "codigo_postal_urbano": 684001,
+    "codigo_postal_rural": "684009,684008,684007"
+  },
+  {
+    "codigo": 68425,
+    "departamento": "Santander",
+    "municipio": "MACARAVITA",
+    "codigo_postal_urbano": 681531,
+    "codigo_postal_rural": 681538.681537
+  },
+  {
+    "codigo": 68432,
+    "departamento": "Santander",
+    "municipio": "MALAGA",
+    "codigo_postal_urbano": 682011,
+    "codigo_postal_rural": 682017.682018
+  },
+  {
+    "codigo": 68444,
+    "departamento": "Santander",
+    "municipio": "MATANZA",
+    "codigo_postal_urbano": 680561,
+    "codigo_postal_rural": 680567.680568
+  },
+  {
+    "codigo": 68464,
+    "departamento": "Santander",
+    "municipio": "MOGOTES",
+    "codigo_postal_urbano": 682501,
+    "codigo_postal_rural": "682508,682507,682509"
+  },
+  {
+    "codigo": 68468,
+    "departamento": "Santander",
+    "municipio": "MOLAGAVITA",
+    "codigo_postal_urbano": 682031,
+    "codigo_postal_rural": 682038.682037
+  },
+  {
+    "codigo": 68498,
+    "departamento": "Santander",
+    "municipio": "OCAMONTE",
+    "codigo_postal_urbano": 682561,
+    "codigo_postal_rural": 682567.682568
+  },
+  {
+    "codigo": 68500,
+    "departamento": "Santander",
+    "municipio": "OIBA",
+    "codigo_postal_urbano": 683021,
+    "codigo_postal_rural": "683029,683019,683027,683028"
+  },
+  {
+    "codigo": 68502,
+    "departamento": "Santander",
+    "municipio": "ONZAGA",
+    "codigo_postal_urbano": 682521,
+    "codigo_postal_rural": "682528,682527,682529,682519"
+  },
+  {
+    "codigo": 68522,
+    "departamento": "Santander",
+    "municipio": "PALMAR",
+    "codigo_postal_urbano": 683581,
+    "codigo_postal_rural": 683587
+  },
+  {
+    "codigo": 68524,
+    "departamento": "Santander",
+    "municipio": "PALMAS DEL SOCORRO",
+    "codigo_postal_urbano": 683541,
+    "codigo_postal_rural": 683547
+  },
+  {
+    "codigo": 68533,
+    "departamento": "Santander",
+    "municipio": "PARAMO",
+    "codigo_postal_urbano": 683521,
+    "codigo_postal_rural": 683527.683528
+  },
+  {
+    "codigo": 68547,
+    "departamento": "Santander",
+    "municipio": "PIEDECUESTA",
+    "codigo_postal_urbano": 681012.681011,
+    "codigo_postal_rural": "681017,681027,681019,681018"
+  },
+  {
+    "codigo": 68549,
+    "departamento": "Santander",
+    "municipio": "PINCHOTE",
+    "codigo_postal_urbano": 683511,
+    "codigo_postal_rural": 683518.683517
+  },
+  {
+    "codigo": 68572,
+    "departamento": "Santander",
+    "municipio": "PUENTE NACIONAL",
+    "codigo_postal_urbano": 684521,
+    "codigo_postal_rural": 684527
+  },
+  {
+    "codigo": 68573,
+    "departamento": "Santander",
+    "municipio": "PUERTO PARRA",
+    "codigo_postal_urbano": 686001,
+    "codigo_postal_rural": 686007.686008
+  },
+  {
+    "codigo": 68575,
+    "departamento": "Santander",
+    "municipio": "PUERTO WILCHES",
+    "codigo_postal_urbano": 687061,
+    "codigo_postal_rural": "687067,687069,687068"
+  },
+  {
+    "codigo": 68615,
+    "departamento": "Santander",
+    "municipio": "RIONEGRO",
+    "codigo_postal_urbano": 687511,
+    "codigo_postal_rural": "687519,687517,687527,687518"
+  },
+  {
+    "codigo": 68655,
+    "departamento": "Santander",
+    "municipio": "SABANA DE TORRES",
+    "codigo_postal_urbano": 687001,
+    "codigo_postal_rural": 687007.687008
+  },
+  {
+    "codigo": 68669,
+    "departamento": "Santander",
+    "municipio": "SAN ANDRES",
+    "codigo_postal_urbano": 682001,
+    "codigo_postal_rural": "682008,682007,682009"
+  },
+  {
+    "codigo": 68673,
+    "departamento": "Santander",
+    "municipio": "SAN BENITO",
+    "codigo_postal_urbano": 685531,
+    "codigo_postal_rural": 685537
+  },
+  {
+    "codigo": 68679,
+    "departamento": "Santander",
+    "municipio": "SAN GIL",
+    "codigo_postal_urbano": 684031,
+    "codigo_postal_rural": "684037,684039,684038"
+  },
+  {
+    "codigo": 68682,
+    "departamento": "Santander",
+    "municipio": "SAN JOAQUIN",
+    "codigo_postal_urbano": 682511,
+    "codigo_postal_rural": 682517
+  },
+  {
+    "codigo": 68684,
+    "departamento": "Santander",
+    "municipio": "SAN JOSE DE MIRANDA",
+    "codigo_postal_urbano": 682021,
+    "codigo_postal_rural": 682027
+  },
+  {
+    "codigo": 68686,
+    "departamento": "Santander",
+    "municipio": "SAN MIGUEL",
+    "codigo_postal_urbano": 681551,
+    "codigo_postal_rural": 681557
+  },
+  {
+    "codigo": 68705,
+    "departamento": "Santander",
+    "municipio": "SANTA BARBARA",
+    "codigo_postal_urbano": 681021,
+    "codigo_postal_rural": 681038.681037
+  },
+  {
+    "codigo": 68720,
+    "departamento": "Santander",
+    "municipio": "SANTA HELENA DEL OPON",
+    "codigo_postal_urbano": 685501,
+    "codigo_postal_rural": 685507
+  },
+  {
+    "codigo": 68689,
+    "departamento": "Santander",
+    "municipio": "SAN VICENTE DE CHUCURI",
+    "codigo_postal_urbano": 686531,
+    "codigo_postal_rural": "686539,686537,686538,686547"
+  },
+  {
+    "codigo": 68745,
+    "departamento": "Santander",
+    "municipio": "SIMACOTA",
+    "codigo_postal_urbano": 683561,
+    "codigo_postal_rural": "683568,683577,683569,683567"
+  },
+  {
+    "codigo": 68755,
+    "departamento": "Santander",
+    "municipio": "SOCORRO",
+    "codigo_postal_urbano": 683551,
+    "codigo_postal_rural": 683557.683558
+  },
+  {
+    "codigo": 68770,
+    "departamento": "Santander",
+    "municipio": "SUAITA",
+    "codigo_postal_urbano": 683041,
+    "codigo_postal_rural": "683048,683049,683047"
+  },
+  {
+    "codigo": 68773,
+    "departamento": "Santander",
+    "municipio": "SUCRE",
+    "codigo_postal_urbano": 685041,
+    "codigo_postal_rural": "685048,685047,685049"
+  },
+  {
+    "codigo": 68780,
+    "departamento": "Santander",
+    "municipio": "SURATA",
+    "codigo_postal_urbano": 680501,
+    "codigo_postal_rural": 680507
+  },
+  {
+    "codigo": 68820,
+    "departamento": "Santander",
+    "municipio": "TONA",
+    "codigo_postal_urbano": 680541,
+    "codigo_postal_rural": 680548.680547
+  },
+  {
+    "codigo": 68855,
+    "departamento": "Santander",
+    "municipio": "VALLE DE SAN JOSE",
+    "codigo_postal_urbano": 682571,
+    "codigo_postal_rural": 682577.682578
+  },
+  {
+    "codigo": 68861,
+    "departamento": "Santander",
+    "municipio": "VELEZ",
+    "codigo_postal_urbano": 685561,
+    "codigo_postal_rural": "685569,685567,685568"
+  },
+  {
+    "codigo": 68867,
+    "departamento": "Santander",
+    "municipio": "VETAS",
+    "codigo_postal_urbano": 680531,
+    "codigo_postal_rural": 680527
+  },
+  {
+    "codigo": 68872,
+    "departamento": "Santander",
+    "municipio": "VILLANUEVA",
+    "codigo_postal_urbano": 684021,
+    "codigo_postal_rural": 684027.684028
+  },
+  {
+    "codigo": 68895,
+    "departamento": "Santander",
+    "municipio": "ZAPATOCA",
+    "codigo_postal_urbano": 684061,
+    "codigo_postal_rural": "684069,684067,684068"
+  },
+  {
+    "codigo": 70110,
+    "departamento": "Sucre",
+    "municipio": "BUENAVISTA",
+    "codigo_postal_urbano": 702030,
+    "codigo_postal_rural": 702037
+  },
+  {
+    "codigo": 70124,
+    "departamento": "Sucre",
+    "municipio": "CAIMITO",
+    "codigo_postal_urbano": 704010,
+    "codigo_postal_rural": 704018.704017
+  },
+  {
+    "codigo": 70230,
+    "departamento": "Sucre",
+    "municipio": "CHALAN",
+    "codigo_postal_urbano": 701010,
+    "codigo_postal_rural": 701017
+  },
+  {
+    "codigo": 70204,
+    "departamento": "Sucre",
+    "municipio": "COLOSO",
+    "codigo_postal_urbano": 707030,
+    "codigo_postal_rural": 707037
+  },
+  {
+    "codigo": 70215,
+    "departamento": "Sucre",
+    "municipio": "COROZAL",
+    "codigo_postal_urbano": 705030,
+    "codigo_postal_rural": "705039,705038,705037"
+  },
+  {
+    "codigo": 70221,
+    "departamento": "Sucre",
+    "municipio": "COVEÑAS",
+    "codigo_postal_urbano": 706050,
+    "codigo_postal_rural": 706057
+  },
+  {
+    "codigo": 70233,
+    "departamento": "Sucre",
+    "municipio": "EL ROBLE",
+    "codigo_postal_urbano": 705050,
+    "codigo_postal_rural": 705058.705057
+  },
+  {
+    "codigo": 70235,
+    "departamento": "Sucre",
+    "municipio": "GALERAS",
+    "codigo_postal_urbano": 702050,
+    "codigo_postal_rural": 702057
+  },
+  {
+    "codigo": 70265,
+    "departamento": "Sucre",
+    "municipio": "GUARANDA",
+    "codigo_postal_urbano": 703070,
+    "codigo_postal_rural": 703078.703077
+  },
+  {
+    "codigo": 70400,
+    "departamento": "Sucre",
+    "municipio": "LA UNION",
+    "codigo_postal_urbano": 704050,
+    "codigo_postal_rural": 704057
+  },
+  {
+    "codigo": 70418,
+    "departamento": "Sucre",
+    "municipio": "LOS PALMITOS",
+    "codigo_postal_urbano": 701050,
+    "codigo_postal_rural": 701058.701057
+  },
+  {
+    "codigo": 70429,
+    "departamento": "Sucre",
+    "municipio": "MAJAGUAL",
+    "codigo_postal_urbano": 703050,
+    "codigo_postal_rural": 703058.703057
+  },
+  {
+    "codigo": 70473,
+    "departamento": "Sucre",
+    "municipio": "MORROA",
+    "codigo_postal_urbano": 701070,
+    "codigo_postal_rural": 701078.701077
+  },
+  {
+    "codigo": 70508,
+    "departamento": "Sucre",
+    "municipio": "OVEJAS",
+    "codigo_postal_urbano": 701030,
+    "codigo_postal_rural": 701038.701037
+  },
+  {
+    "codigo": 70523,
+    "departamento": "Sucre",
+    "municipio": "PALMITO",
+    "codigo_postal_urbano": 706030,
+    "codigo_postal_rural": 706037
+  },
+  {
+    "codigo": 70670,
+    "departamento": "Sucre",
+    "municipio": "SAMPUES",
+    "codigo_postal_urbano": 705070,
+    "codigo_postal_rural": "705079,705078,705077"
+  },
+  {
+    "codigo": 70678,
+    "departamento": "Sucre",
+    "municipio": "SAN BENITO ABAD",
+    "codigo_postal_urbano": 703010,
+    "codigo_postal_rural": 703017.703018
+  },
+  {
+    "codigo": 70702,
+    "departamento": "Sucre",
+    "municipio": "SAN JUAN DE BETULIA",
+    "codigo_postal_urbano": 705010,
+    "codigo_postal_rural": 705018.705017
+  },
+  {
+    "codigo": 70742,
+    "departamento": "Sucre",
+    "municipio": "SAN LUIS DE SINCE",
+    "codigo_postal_urbano": 702070,
+    "codigo_postal_rural": 702078.702077
+  },
+  {
+    "codigo": 70708,
+    "departamento": "Sucre",
+    "municipio": "SAN MARCOS",
+    "codigo_postal_urbano": 704030,
+    "codigo_postal_rural": 704037.704038
+  },
+  {
+    "codigo": 70713,
+    "departamento": "Sucre",
+    "municipio": "SAN ONOFRE",
+    "codigo_postal_urbano": 707010,
+    "codigo_postal_rural": 707018.707017
+  },
+  {
+    "codigo": 70717,
+    "departamento": "Sucre",
+    "municipio": "SAN PEDRO",
+    "codigo_postal_urbano": 702010,
+    "codigo_postal_rural": 702017.702018
+  },
+  {
+    "codigo": 70820,
+    "departamento": "Sucre",
+    "municipio": "SANTIAGO DE TOLU",
+    "codigo_postal_urbano": 706010,
+    "codigo_postal_rural": 706018.706017
+  },
+  {
+    "codigo": 70001,
+    "departamento": "Sucre",
+    "municipio": "SINCELEJO",
+    "codigo_postal_urbano": "700003,700001,700002",
+    "codigo_postal_rural": "700007,700008,700017,700009"
+  },
+  {
+    "codigo": 70771,
+    "departamento": "Sucre",
+    "municipio": "SUCRE",
+    "codigo_postal_urbano": 703030,
+    "codigo_postal_rural": 703038.703037
+  },
+  {
+    "codigo": 70823,
+    "departamento": "Sucre",
+    "municipio": "TOLU VIEJO",
+    "codigo_postal_urbano": 707050,
+    "codigo_postal_rural": 707057
+  },
+  {
+    "codigo": 73024,
+    "departamento": "Tolima",
+    "municipio": "ALPUJARRA",
+    "codigo_postal_urbano": 734560,
+    "codigo_postal_rural": 734567
+  },
+  {
+    "codigo": 73026,
+    "departamento": "Tolima",
+    "municipio": "ALVARADO",
+    "codigo_postal_urbano": 730520,
+    "codigo_postal_rural": 730527.730528
+  },
+  {
+    "codigo": 73030,
+    "departamento": "Tolima",
+    "municipio": "AMBALEMA",
+    "codigo_postal_urbano": 731001,
+    "codigo_postal_rural": 731007
+  },
+  {
+    "codigo": 73043,
+    "departamento": "Tolima",
+    "municipio": "ANZOATEGUI",
+    "codigo_postal_urbano": 730540,
+    "codigo_postal_rural": 730547.730548
+  },
+  {
+    "codigo": 73055,
+    "departamento": "Tolima",
+    "municipio": "ARMERO",
+    "codigo_postal_urbano": 732060,
+    "codigo_postal_rural": 732067.732068
+  },
+  {
+    "codigo": 73067,
+    "departamento": "Tolima",
+    "municipio": "ATACO",
+    "codigo_postal_urbano": 735050,
+    "codigo_postal_rural": 735058.735057
+  },
+  {
+    "codigo": 73124,
+    "departamento": "Tolima",
+    "municipio": "CAJAMARCA",
+    "codigo_postal_urbano": 732501,
+    "codigo_postal_rural": 732507.732508
+  },
+  {
+    "codigo": 73148,
+    "departamento": "Tolima",
+    "municipio": "CARMEN DE APICALA",
+    "codigo_postal_urbano": 733590,
+    "codigo_postal_rural": 733597
+  },
+  {
+    "codigo": 73152,
+    "departamento": "Tolima",
+    "municipio": "CASABIANCA",
+    "codigo_postal_urbano": 731520,
+    "codigo_postal_rural": 731528.731527
+  },
+  {
+    "codigo": 73168,
+    "departamento": "Tolima",
+    "municipio": "CHAPARRAL",
+    "codigo_postal_urbano": 735560,
+    "codigo_postal_rural": "735569,735567,735568"
+  },
+  {
+    "codigo": 73200,
+    "departamento": "Tolima",
+    "municipio": "COELLO",
+    "codigo_postal_urbano": 733501,
+    "codigo_postal_rural": 733508.733507
+  },
+  {
+    "codigo": 73217,
+    "departamento": "Tolima",
+    "municipio": "COYAIMA",
+    "codigo_postal_urbano": 735020,
+    "codigo_postal_rural": "735029,735028,735027,735037"
+  },
+  {
+    "codigo": 73226,
+    "departamento": "Tolima",
+    "municipio": "CUNDAY",
+    "codigo_postal_urbano": 734040,
+    "codigo_postal_rural": 734047.734048
+  },
+  {
+    "codigo": 73236,
+    "departamento": "Tolima",
+    "municipio": "DOLORES",
+    "codigo_postal_urbano": 734540,
+    "codigo_postal_rural": 734547
+  },
+  {
+    "codigo": 73268,
+    "departamento": "Tolima",
+    "municipio": "ESPINAL",
+    "codigo_postal_urbano": 733520,
+    "codigo_postal_rural": "733529,733528,733527"
+  },
+  {
+    "codigo": 73270,
+    "departamento": "Tolima",
+    "municipio": "FALAN",
+    "codigo_postal_urbano": 732001,
+    "codigo_postal_rural": 732008.732007
+  },
+  {
+    "codigo": 73275,
+    "departamento": "Tolima",
+    "municipio": "FLANDES",
+    "codigo_postal_urbano": 733510,
+    "codigo_postal_rural": 733517
+  },
+  {
+    "codigo": 73283,
+    "departamento": "Tolima",
+    "municipio": "FRESNO",
+    "codigo_postal_urbano": 731560,
+    "codigo_postal_rural": 731567.731568
+  },
+  {
+    "codigo": 73319,
+    "departamento": "Tolima",
+    "municipio": "GUAMO",
+    "codigo_postal_urbano": 733540,
+    "codigo_postal_rural": "733549,733547,733558,733548,733557"
+  },
+  {
+    "codigo": 73347,
+    "departamento": "Tolima",
+    "municipio": "HERVEO",
+    "codigo_postal_urbano": 731540,
+    "codigo_postal_rural": 731548.731547
+  },
+  {
+    "codigo": 73349,
+    "departamento": "Tolima",
+    "municipio": "HONDA",
+    "codigo_postal_urbano": 732040,
+    "codigo_postal_rural": 732047.732048
+  },
+  {
+    "codigo": 73001,
+    "departamento": "Tolima",
+    "municipio": "IBAGUE",
+    "codigo_postal_urbano": "730001,730002 ,730004,730003",
+    "codigo_postal_rural": "730010,730006,730019,730017,730007, 730005,730018,730008,730009"
+  },
+  {
+    "codigo": 73352,
+    "departamento": "Tolima",
+    "municipio": "ICONONZO",
+    "codigo_postal_urbano": 734020,
+    "codigo_postal_rural": 734028.734027
+  },
+  {
+    "codigo": 73408,
+    "departamento": "Tolima",
+    "municipio": "LERIDA",
+    "codigo_postal_urbano": 731020,
+    "codigo_postal_rural": 731027
+  },
+  {
+    "codigo": 73411,
+    "departamento": "Tolima",
+    "municipio": "LIBANO",
+    "codigo_postal_urbano": 731040,
+    "codigo_postal_rural": 731048.731047
+  },
+  {
+    "codigo": 73443,
+    "departamento": "Tolima",
+    "municipio": "MARIQUITA",
+    "codigo_postal_urbano": 732020,
+    "codigo_postal_rural": 732027.732028
+  },
+  {
+    "codigo": 73449,
+    "departamento": "Tolima",
+    "municipio": "MELGAR",
+    "codigo_postal_urbano": 734001,
+    "codigo_postal_rural": 734007
+  },
+  {
+    "codigo": 73461,
+    "departamento": "Tolima",
+    "municipio": "MURILLO",
+    "codigo_postal_urbano": 731060,
+    "codigo_postal_rural": 731067
+  },
+  {
+    "codigo": 73483,
+    "departamento": "Tolima",
+    "municipio": "NATAGAIMA",
+    "codigo_postal_urbano": 735001,
+    "codigo_postal_rural": 735007.735008
+  },
+  {
+    "codigo": 73504,
+    "departamento": "Tolima",
+    "municipio": "ORTEGA",
+    "codigo_postal_urbano": 735501,
+    "codigo_postal_rural": "735517,735509,735507,735508"
+  },
+  {
+    "codigo": 73520,
+    "departamento": "Tolima",
+    "municipio": "PALOCABILDO",
+    "codigo_postal_urbano": 731580,
+    "codigo_postal_rural": 731587
+  },
+  {
+    "codigo": 73547,
+    "departamento": "Tolima",
+    "municipio": "PIEDRAS",
+    "codigo_postal_urbano": 730501,
+    "codigo_postal_rural": 730507
+  },
+  {
+    "codigo": 73555,
+    "departamento": "Tolima",
+    "municipio": "PLANADAS",
+    "codigo_postal_urbano": 735070,
+    "codigo_postal_rural": 735077.735078
+  },
+  {
+    "codigo": 73563,
+    "departamento": "Tolima",
+    "municipio": "PRADO",
+    "codigo_postal_urbano": 734520,
+    "codigo_postal_rural": 734528.734527
+  },
+  {
+    "codigo": 73585,
+    "departamento": "Tolima",
+    "municipio": "PURIFICACION",
+    "codigo_postal_urbano": 734501,
+    "codigo_postal_rural": "734508,734509,734507"
+  },
+  {
+    "codigo": 73616,
+    "departamento": "Tolima",
+    "municipio": "RIOBLANCO",
+    "codigo_postal_urbano": 735580,
+    "codigo_postal_rural": "735587,735589,735588"
+  },
+  {
+    "codigo": 73622,
+    "departamento": "Tolima",
+    "municipio": "RONCESVALLES",
+    "codigo_postal_urbano": 735550,
+    "codigo_postal_rural": 735557
+  },
+  {
+    "codigo": 73624,
+    "departamento": "Tolima",
+    "municipio": "ROVIRA",
+    "codigo_postal_urbano": 733040,
+    "codigo_postal_rural": 733047.733048
+  },
+  {
+    "codigo": 73671,
+    "departamento": "Tolima",
+    "municipio": "SALDAÑA",
+    "codigo_postal_urbano": 733570,
+    "codigo_postal_rural": 733578.733577
+  },
+  {
+    "codigo": 73675,
+    "departamento": "Tolima",
+    "municipio": "SAN ANTONIO",
+    "codigo_postal_urbano": 735530,
+    "codigo_postal_rural": 735538.735537
+  },
+  {
+    "codigo": 73678,
+    "departamento": "Tolima",
+    "municipio": "SAN LUIS",
+    "codigo_postal_urbano": 733001,
+    "codigo_postal_rural": 733008.733007
+  },
+  {
+    "codigo": 73686,
+    "departamento": "Tolima",
+    "municipio": "SANTA ISABEL",
+    "codigo_postal_urbano": 730560,
+    "codigo_postal_rural": 730567.730568
+  },
+  {
+    "codigo": 73770,
+    "departamento": "Tolima",
+    "municipio": "SUAREZ",
+    "codigo_postal_urbano": 733580,
+    "codigo_postal_rural": 733588.733587
+  },
+  {
+    "codigo": 73854,
+    "departamento": "Tolima",
+    "municipio": "VALLE DE SAN JUAN",
+    "codigo_postal_urbano": 733020,
+    "codigo_postal_rural": 733027
+  },
+  {
+    "codigo": 73861,
+    "departamento": "Tolima",
+    "municipio": "VENADILLO",
+    "codigo_postal_urbano": 730580,
+    "codigo_postal_rural": 730588.730587
+  },
+  {
+    "codigo": 73870,
+    "departamento": "Tolima",
+    "municipio": "VILLAHERMOSA",
+    "codigo_postal_urbano": 731501,
+    "codigo_postal_rural": 731507.731508
+  },
+  {
+    "codigo": 73873,
+    "departamento": "Tolima",
+    "municipio": "VILLARRICA",
+    "codigo_postal_urbano": 734060,
+    "codigo_postal_rural": 734068.734067
+  },
+  {
+    "codigo": 76020,
+    "departamento": "Valle del Cauca",
+    "municipio": "ALCALA",
+    "codigo_postal_urbano": 762040,
+    "codigo_postal_rural": 762047
+  },
+  {
+    "codigo": 76036,
+    "departamento": "Valle del Cauca",
+    "municipio": "ANDALUCIA",
+    "codigo_postal_urbano": 763010,
+    "codigo_postal_rural": 763017
+  },
+  {
+    "codigo": 76041,
+    "departamento": "Valle del Cauca",
+    "municipio": "ANSERMANUEVO",
+    "codigo_postal_urbano": 762010,
+    "codigo_postal_rural": 762018.762017
+  },
+  {
+    "codigo": 76054,
+    "departamento": "Valle del Cauca",
+    "municipio": "ARGELIA",
+    "codigo_postal_urbano": 761510,
+    "codigo_postal_rural": 761517
+  },
+  {
+    "codigo": 76100,
+    "departamento": "Valle del Cauca",
+    "municipio": "BOLIVAR",
+    "codigo_postal_urbano": 761001,
+    "codigo_postal_rural": 761008.761007
+  },
+  {
+    "codigo": 76109,
+    "departamento": "Valle del Cauca",
+    "municipio": "BUENAVENTURA",
+    "codigo_postal_urbano": 764501,
+    "codigo_postal_rural": "764507,764504,764517,764508,764503,764502,764509"
+  },
+  {
+    "codigo": 76113,
+    "departamento": "Valle del Cauca",
+    "municipio": "BUGALAGRANDE",
+    "codigo_postal_urbano": 763001,
+    "codigo_postal_rural": 763008.763007
+  },
+  {
+    "codigo": 76122,
+    "departamento": "Valle del Cauca",
+    "municipio": "CAICEDONIA",
+    "codigo_postal_urbano": 762540,
+    "codigo_postal_rural": 762547.762548
+  },
+  {
+    "codigo": 76001,
+    "departamento": "Valle del Cauca",
+    "municipio": "CALI",
+    "codigo_postal_urbano": "760030,760026,760002,760001,760004,760025,760045,760006,760022,760014,760050,760020,760031,760013",
+    "codigo_postal_rural": ""
+  },
+  {
+    "codigo": "",
+    "departamento": "",
+    "municipio": "",
+    "codigo_postal_urbano": "760044,760043,760011,760015,760003,760012,760036,760046,760041,760023,760035,76002",
+    "codigo_postal_rural": ""
+  },
+  {
+    "codigo": 76126,
+    "departamento": "Valle del Cauca",
+    "municipio": "CALIMA",
+    "codigo_postal_urbano": 760530,
+    "codigo_postal_rural": 760537.760538
+  },
+  {
+    "codigo": 76130,
+    "departamento": "Valle del Cauca",
+    "municipio": "CANDELARIA",
+    "codigo_postal_urbano": 763570,
+    "codigo_postal_rural": "763578,763577,763579"
+  },
+  {
+    "codigo": 76147,
+    "departamento": "Valle del Cauca",
+    "municipio": "CARTAGO",
+    "codigo_postal_urbano": 762021,
+    "codigo_postal_rural": 762022.762027
+  },
+  {
+    "codigo": 76233,
+    "departamento": "Valle del Cauca",
+    "municipio": "DAGUA",
+    "codigo_postal_urbano": 760520,
+    "codigo_postal_rural": "760527,760529,760528"
+  },
+  {
+    "codigo": 76243,
+    "departamento": "Valle del Cauca",
+    "municipio": "EL AGUILA",
+    "codigo_postal_urbano": 762001,
+    "codigo_postal_rural": 762008.762007
+  },
+  {
+    "codigo": 76246,
+    "departamento": "Valle del Cauca",
+    "municipio": "EL CAIRO",
+    "codigo_postal_urbano": 761501,
+    "codigo_postal_rural": 761507.761508
+  },
+  {
+    "codigo": 76248,
+    "departamento": "Valle del Cauca",
+    "municipio": "EL CERRITO",
+    "codigo_postal_urbano": 763520,
+    "codigo_postal_rural": 763527.763528
+  },
+  {
+    "codigo": 76250,
+    "departamento": "Valle del Cauca",
+    "municipio": "EL DOVIO",
+    "codigo_postal_urbano": 761560,
+    "codigo_postal_rural": 761567
+  },
+  {
+    "codigo": 76275,
+    "departamento": "Valle del Cauca",
+    "municipio": "FLORIDA",
+    "codigo_postal_urbano": 763560,
+    "codigo_postal_rural": 763568.763567
+  },
+  {
+    "codigo": 76306,
+    "departamento": "Valle del Cauca",
+    "municipio": "GINEBRA",
+    "codigo_postal_urbano": 763510,
+    "codigo_postal_rural": 763517.763518
+  },
+  {
+    "codigo": 76318,
+    "departamento": "Valle del Cauca",
+    "municipio": "GUACARI",
+    "codigo_postal_urbano": 763501,
+    "codigo_postal_rural": 763508.763507
+  },
+  {
+    "codigo": 76111,
+    "departamento": "Valle del Cauca",
+    "municipio": "GUADALAJARA DE BUGA",
+    "codigo_postal_urbano": 763041.763042,
+    "codigo_postal_rural": "763047,763048,763049"
+  },
+  {
+    "codigo": 76364,
+    "departamento": "Valle del Cauca",
+    "municipio": "JAMUNDI",
+    "codigo_postal_urbano": 764001,
+    "codigo_postal_rural": 764008.764007
+  },
+  {
+    "codigo": 76377,
+    "departamento": "Valle del Cauca",
+    "municipio": "LA CUMBRE",
+    "codigo_postal_urbano": 760510,
+    "codigo_postal_rural": 760518.760517
+  },
+  {
+    "codigo": 76400,
+    "departamento": "Valle del Cauca",
+    "municipio": "LA UNION",
+    "codigo_postal_urbano": 761540,
+    "codigo_postal_rural": 761548.761547
+  },
+  {
+    "codigo": 76403,
+    "departamento": "Valle del Cauca",
+    "municipio": "LA VICTORIA",
+    "codigo_postal_urbano": 762510,
+    "codigo_postal_rural": 762517
+  },
+  {
+    "codigo": 76497,
+    "departamento": "Valle del Cauca",
+    "municipio": "OBANDO",
+    "codigo_postal_urbano": 762501,
+    "codigo_postal_rural": 762507
+  },
+  {
+    "codigo": 76520,
+    "departamento": "Valle del Cauca",
+    "municipio": "PALMIRA",
+    "codigo_postal_urbano": "763532,763531,763533",
+    "codigo_postal_rural": "763537,763538,763539,763547"
+  },
+  {
+    "codigo": 76563,
+    "departamento": "Valle del Cauca",
+    "municipio": "PRADERA",
+    "codigo_postal_urbano": 763550,
+    "codigo_postal_rural": 763558.763557
+  },
+  {
+    "codigo": 76606,
+    "departamento": "Valle del Cauca",
+    "municipio": "RESTREPO",
+    "codigo_postal_urbano": 760540,
+    "codigo_postal_rural": 760547.760548
+  },
+  {
+    "codigo": 76616,
+    "departamento": "Valle del Cauca",
+    "municipio": "RIOFRIO",
+    "codigo_postal_urbano": 761030,
+    "codigo_postal_rural": 761038.761037
+  },
+  {
+    "codigo": 76622,
+    "departamento": "Valle del Cauca",
+    "municipio": "ROLDANILLO",
+    "codigo_postal_urbano": 761550,
+    "codigo_postal_rural": 761558.761557
+  },
+  {
+    "codigo": 76670,
+    "departamento": "Valle del Cauca",
+    "municipio": "SAN PEDRO",
+    "codigo_postal_urbano": 763030,
+    "codigo_postal_rural": 763037.763038
+  },
+  {
+    "codigo": 76736,
+    "departamento": "Valle del Cauca",
+    "municipio": "SEVILLA",
+    "codigo_postal_urbano": 762530,
+    "codigo_postal_rural": 762538.762537
+  },
+  {
+    "codigo": 76823,
+    "departamento": "Valle del Cauca",
+    "municipio": "TORO",
+    "codigo_postal_urbano": 761520,
+    "codigo_postal_rural": 761527.761528
+  },
+  {
+    "codigo": 76828,
+    "departamento": "Valle del Cauca",
+    "municipio": "TRUJILLO",
+    "codigo_postal_urbano": 761020,
+    "codigo_postal_rural": 761027.761028
+  },
+  {
+    "codigo": 76834,
+    "departamento": "Valle del Cauca",
+    "municipio": "TULUA",
+    "codigo_postal_urbano": 763021,
+    "codigo_postal_rural": "763029,763028,763027"
+  },
+  {
+    "codigo": 76845,
+    "departamento": "Valle del Cauca",
+    "municipio": "ULLOA",
+    "codigo_postal_urbano": 762030,
+    "codigo_postal_rural": 762037
+  },
+  {
+    "codigo": 76863,
+    "departamento": "Valle del Cauca",
+    "municipio": "VERSALLES",
+    "codigo_postal_urbano": 761530,
+    "codigo_postal_rural": 761537
+  },
+  {
+    "codigo": 76869,
+    "departamento": "Valle del Cauca",
+    "municipio": "VIJES",
+    "codigo_postal_urbano": 760550,
+    "codigo_postal_rural": 760557
+  },
+  {
+    "codigo": 76890,
+    "departamento": "Valle del Cauca",
+    "municipio": "YOTOCO",
+    "codigo_postal_urbano": 761040,
+    "codigo_postal_rural": 761047.761048
+  },
+  {
+    "codigo": 76892,
+    "departamento": "Valle del Cauca",
+    "municipio": "YUMBO",
+    "codigo_postal_urbano": 760502.760501,
+    "codigo_postal_rural": 760507.760508
+  },
+  {
+    "codigo": 76895,
+    "departamento": "Valle del Cauca",
+    "municipio": "ZARZAL",
+    "codigo_postal_urbano": 762520,
+    "codigo_postal_rural": 762527.762528
+  },
+  {
+    "codigo": 97161,
+    "departamento": "Vaupes",
+    "municipio": "CARURU",
+    "codigo_postal_urbano": 973001,
+    "codigo_postal_rural": 973007.973008
+  },
+  {
+    "codigo": 97001,
+    "departamento": "Vaupes",
+    "municipio": "MITU",
+    "codigo_postal_urbano": 970001,
+    "codigo_postal_rural": "970007,970008,970009"
+  },
+  {
+    "codigo": 97666,
+    "departamento": "Vaupes",
+    "municipio": "TARAIRA",
+    "codigo_postal_urbano": 972040,
+    "codigo_postal_rural": 972047.972048
+  },
+  {
+    "codigo": 99773,
+    "departamento": "Vichada",
+    "municipio": "CUMARIBO",
+    "codigo_postal_urbano": 991001,
+    "codigo_postal_rural": "991008,991017,991018,991047,991058,991007,991019 991029,991009,991059,991039,991049,991038,991028,991057,991048,991037,991027"
+  },
+  {
+    "codigo": 99524,
+    "departamento": "Vichada",
+    "municipio": "LA PRIMAVERA",
+    "codigo_postal_urbano": 992001,
+    "codigo_postal_rural": "992008,992017,992007,992018,992009"
+  },
+  {
+    "codigo": 99001,
+    "departamento": "Vichada",
+    "municipio": "PUERTO CARREÑO",
+    "codigo_postal_urbano": 990001,
+    "codigo_postal_rural": "990017,990008,990007,990009,990018"
+  },
+  {
+    "codigo": 99624,
+    "departamento": "Vichada",
+    "municipio": "SANTA ROSALIA",
+    "codigo_postal_urbano": 992050,
+    "codigo_postal_rural": "995007,995008,995009"
+  }
+]

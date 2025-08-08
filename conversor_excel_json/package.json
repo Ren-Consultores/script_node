@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "name": "conversor_excel_json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conversor_excel_json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

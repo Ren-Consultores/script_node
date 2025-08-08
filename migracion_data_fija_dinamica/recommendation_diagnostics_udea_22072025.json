@@ -1,0 +1,274 @@
+[
+  {
+    "recommendation_id": 1,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 1,
+    "code": "M751",
+    "description": "SINDROME DE MANGUITO ROTATORIO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 2,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 2,
+    "code": "K591",
+    "description": "DIARREA FUNCIONAL",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 3,
+    "code": "M199",
+    "description": "ARTROSIS, NO ESPECIFICADA CARPO DERECHO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 3,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO BILATERAL",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 4,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 5,
+    "code": "F419",
+    "description": "TRASTORNO DE ANSIEDAD , NO ESPECIFICADO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 5,
+    "code": "F412",
+    "description": "TRASTORNO MIXTO DE ANSIEDAD Y DEPRESION",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 5,
+    "code": "F322",
+    "description": "EPISODIO DEPRESIVO GRAVE SIN SINTOMAS PSICOTICOS",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 5,
+    "code": "H524",
+    "description": "PRESBICIA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 6,
+    "code": "R53X",
+    "description": "MALESTAR Y FATIGA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 7,
+    "code": "F332",
+    "description": "TRASTORNO DEPRESIVO RECURRENTE, EPISODIO DEPRESIVO GRAVE PRESENTE SIN SINTOMAS PSICOTICOS",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 7,
+    "code": "F171",
+    "description": "TRASTORNOS MENTALES Y DEL COMPORTAMIENTO DEBIDOS AL USO DE TABACO: USO NOCIVO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 8,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 9,
+    "code": "C509",
+    "description": "TUMOR MALIGNO DE LA MAMA, PARTE NO ESPECIFICADA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "M45X",
+    "description": "ESPONDILITIS ANQUILOSANTE",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "F419",
+    "description": "TRASTORNO DE ANSIEDAD , NO ESPECIFICADO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "E790",
+    "description": "HIPERURICEMIA SIN SIGNOS DE ARTRITIS INFLAMATORIA Y ENFERMEDAD TOFACEA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "F432",
+    "description": "TRASTORNOS DE ADAPTACION",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "E785",
+    "description": "HIPERLIPIDEMIA NO ESPECIFICADA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 10,
+    "code": "R522",
+    "description": "OTRO DOLOR CRONICO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 11,
+    "code": "F322",
+    "description": "EPISODIO DEPRESIVO GRAVE SIN SINTOMAS PSICOTICOS",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 12,
+    "code": "M770",
+    "description": "EPICONDILITIS MEDIA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 12,
+    "code": "M771",
+    "description": "EPICONDILITIS LATERAL",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 13,
+    "code": "M179",
+    "description": "GONARTROSIS, NO ESPECIFICADA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 14,
+    "code": "A000",
+    "description": "COLERA DEBIDO A VIBRIO CHOLERAE O1, BIOTIPO CHOLERAE",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 15,
+    "code": "M175",
+    "description": "OTRAS GONARTROSIS SECUNDARIAS",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 16,
+    "code": "F329",
+    "description": "EPISODIO DEPRESIVO, NO ESPECIFICADO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 17,
+    "code": "M508",
+    "description": "OTROS TRASTORNOS DEL DISCO CERVICAL",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 17,
+    "code": "M542",
+    "description": "CERVICALGIA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 18,
+    "code": "G560",
+    "description": "SINDROME DEL TUNEL CARPIANO",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 19,
+    "code": "M235",
+    "description": "INESTABILIDAD CRONICA DE LA RODILLA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  },
+  {
+    "recommendation_id": 19,
+    "code": "M232",
+    "description": "TRASTORNO DEL MENISCO DEBIDO A DESGARRO O LESION ANTIGUA",
+    "ciet_type": 10,
+    "created_at": "2025-07-22 15:07:00",
+    "updated_at": "2025-07-22 15:07:00"
+  }
+]

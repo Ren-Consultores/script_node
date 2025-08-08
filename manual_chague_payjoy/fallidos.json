@@ -1,0 +1,7 @@
+[
+  {
+    "row": 3517,
+    "doc_number": 1037588128,
+    "error": "\nInvalid `prisma.activities.update()` invocation in\nC:\\laragon\\www\\manual_chague_payjoy\\src\\scripts\\load-excel-life-insurance.ts:181:33\n\n  178   },\n  179 });\n  180 \n→ 181 await prisma.activities.update(\nCan't reach database server at `renapp-credijamar.czxkii21sdpo.us-east-2.rds.amazonaws.com:3306`\n\nPlease make sure your database server is running at `renapp-credijamar.czxkii21sdpo.us-east-2.rds.amazonaws.com:3306`."
+  }
+]

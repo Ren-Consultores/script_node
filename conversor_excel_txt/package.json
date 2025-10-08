@@ -1,0 +1,16 @@
+{
+  "name": "conversor_excel_txt",
+  "version": "1.0.0",
+  "main": "conversor_excel_json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
+  }
+}

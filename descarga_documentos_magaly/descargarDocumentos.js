@@ -45,6 +45,11 @@ async function descargarPDF(url, destino) {
 
     const docs = [
       {
+        url: fila.url,
+        nombreOriginal: fila.numFactura,
+        nombreFinal: fila.numFactura
+      },
+      {
         url: fila.valoracionMedica,
         nombreOriginal: 'valoration_',
         nombreFinal: 'valoracion_'

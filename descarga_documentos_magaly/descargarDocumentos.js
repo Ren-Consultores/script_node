@@ -30,7 +30,12 @@ async function descargarPDF(url, destino) {
 
 // Función principal
 (async () => {
-  const carpetaRaiz = path.join(__dirname, 'facturacion_alfa');
+  // Obtener mes anterior (en español)
+  const fecha = new Date();
+  fecha.setMonth(fecha.getMonth() - 1);
+
+  const nombreMes = fecha.toLocaleString('es-ES', { month: 'long' }); // ejemplo: "septiembre"
+  const carpetaRaiz = path.join(__dirname, `facturacion_alfa_${nombreMes}`);
   await fs.ensureDir(carpetaRaiz);
 
   for (const fila of datos) {

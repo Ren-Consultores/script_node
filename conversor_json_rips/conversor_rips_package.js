@@ -12,8 +12,8 @@ if (!cliente || !['nuevaeps', 'compensar', 'mutualser','saludmia'].includes(clie
 }
 
 // 🟡 RANGO DE FACTURAS
-const START = 356;
-const END = 357;
+const START = 578;
+const END = 579;
 
 const codigosMunicipioMap = {};
 codigosValidos.forEach(item => {
@@ -118,7 +118,7 @@ function leerUsuariosDesdeExcel(ruta) {
       tipoDiagnosticoPrincipal: limpiarValor(fila.tipoDiagnosticoPrincipal),
       tipoDocumentoIdentificacion: limpiarValor(fila.tipoDocumentoIdentificacionDoc) || 'CC',
       numDocumentoIdentificacion: fila.numDocumentoIdentificacionDoc ? String(fila.numDocumentoIdentificacionDoc) : null,
-      vrServicio: limpiarValor(fila.vrServicio, 'number') || 0,
+      vrServicio: limpiarValor(Number(fila.vrServicio), 'number') || 0,
       conceptoRecaudo: limpiarValor(fila.conceptoRecaudo) || '05',
       valorPagoModerador: 0,
       numFEVPagoModerador: null,

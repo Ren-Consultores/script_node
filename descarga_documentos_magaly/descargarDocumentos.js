@@ -5,20 +5,10 @@ const xlsx = require('xlsx');
 const PDFMerger = require('pdf-merger-js');
 
 // Leer archivo Excel
-const workbook = xlsx.readFile('RipsInfo.xlsx');
+const workbook = xlsx.readFile('RipsInfoDiciembre.xlsx');
 const hoja = workbook.Sheets[workbook.SheetNames[0]];
-const datosCrudos = xlsx.utils.sheet_to_json(hoja);
+const datos = xlsx.utils.sheet_to_json(hoja);
 
-// NORMALIZACIÓN: Todo a minúsculas para evitar errores de digitación en el Excel
-const datos = datosCrudos.map(fila => {
-  const filaNormalizada = {};
-  for (let key in fila) {
-    filaNormalizada[key.toLowerCase().trim()] = fila[key]; // trim() elimina espacios accidentales
-  }
-  return filaNormalizada;
-});
-
-// Función para descargar PDF desde URL
 async function descargarPDF(url, destino) {
   try {
     const response = await axios.get(url, { responseType: 'stream' });
@@ -30,51 +20,33 @@ async function descargarPDF(url, destino) {
       writer.on('finish', resolve);
       writer.on('error', reject);
     });
-
     console.log(`✅ Descargado temporalmente: ${destino}`);
   } catch (error) {
     console.error(`❌ Error al descargar ${url}: ${error.message}`);
   }
 }
 
-// Función principal
 (async () => {
   const fecha = new Date();
   fecha.setMonth(fecha.getMonth() - 1);
   const nombreMes = fecha.toLocaleString('es-ES', { month: 'long' });
+  
+  // 1. CARPETA ÚNICA: Todos los PDFs finales irán aquí
   const carpetaRaiz = path.join(__dirname, `facturacion_alfa_${nombreMes}`);
+  // 2. CARPETA TEMP: Para no mezclar basura mientras descargamos
+  const carpetaTemp = path.join(carpetaRaiz, 'temp_downloads');
+  
   await fs.ensureDir(carpetaRaiz);
+  await fs.ensureDir(carpetaTemp);
 
   for (const fila of datos) {
-    // AJUSTE: Acceso en minúsculas
-    const numFactura = fila.numfactura; 
-    
-    if (!numFactura) {
-      console.warn(`⚠️ numfactura vacío para fila:`, fila);
-      continue;
-    }
-
-    const carpetaFactura = path.join(carpetaRaiz, numFactura.toString());
-    await fs.ensureDir(carpetaFactura);
+    const numFactura = fila.numFactura;
+    if (!numFactura) continue;
 
     const docs = [
-      {
-        url: fila.url,
-        nombreOriginal: numFactura.toString(),
-        nombreFinal: numFactura.toString()
-      },
-      {
-        // AJUSTE: Acceso en minúsculas (ya lo tenías bien aquí)
-        url: fila.valoracionmedica, 
-        nombreOriginal: 'valoration_',
-        nombreFinal: 'valoracion_'
-      },
-      {
-        // AJUSTE: Acceso en minúsculas (ya lo tenías bien aquí)
-        url: fila.certificadovaloracionmedica, 
-        nombreOriginal: 'valoration_crt_',
-        nombreFinal: 'valoracion_crt_'
-      },
+      { url: fila.url, nombreOriginal: fila.numFactura, nombreFinal: fila.numFactura },
+      { url: fila.valoracionMedica, nombreOriginal: 'valoration_', nombreFinal: 'valoracion_' },
+      { url: fila.certificadoValoracionMedica, nombreOriginal: 'valoration_crt_', nombreFinal: 'valoracion_crt_' },
     ];
 
     const archivosTemporales = [];
@@ -82,9 +54,9 @@ async function descargarPDF(url, destino) {
     for (const doc of docs) {
       if (!doc.url) continue;
 
-      // Usamos replace de forma segura convirtiendo a String
-      const nombreArchivo = path.basename(doc.url).replace(doc.nombreOriginal.toString(), doc.nombreFinal.toString());
-      const rutaTemporal = path.join(carpetaFactura, nombreArchivo);
+      const nombreArchivo = path.basename(doc.url).replace(doc.nombreOriginal, doc.nombreFinal);
+      // Los temporales se guardan en la carpeta temp usando el numFactura para evitar colisiones de nombres
+      const rutaTemporal = path.join(carpetaTemp, `${numFactura}_${nombreArchivo}`);
       
       await descargarPDF(doc.url, rutaTemporal);
       archivosTemporales.push(rutaTemporal);
@@ -98,15 +70,19 @@ async function descargarPDF(url, destino) {
         }
       }
 
-      const salidaUnificado = path.join(carpetaFactura, `${numFactura}.pdf`);
+      // 3. RUTA FINAL: Ahora el PDF unificado se guarda directamente en carpetaRaiz
+      const salidaUnificado = path.join(carpetaRaiz, `${numFactura}.pdf`);
       await merger.save(salidaUnificado);
-      console.log(`📎 Unificado generado: ${salidaUnificado}`);
+      console.log(`📎 Unificado generado en carpeta raíz: ${salidaUnificado}`);
 
-      // Eliminar archivos temporales
+      // Limpiar temporales
       for (const tempFile of archivosTemporales) {
         await fs.remove(tempFile);
-        console.log(`🗑️ Eliminado temporal: ${tempFile}`);
       }
     }
   }
+
+  // 4. ELIMINAR CARPETA TEMP: Al finalizar todo, borramos la carpeta de paso
+  await fs.remove(carpetaTemp);
+  console.log('🚀 Proceso completado. Todos los PDFs están en:', carpetaRaiz);
 })();

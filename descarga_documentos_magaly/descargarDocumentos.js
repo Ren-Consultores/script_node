@@ -5,7 +5,7 @@ const xlsx = require('xlsx');
 const PDFMerger = require('pdf-merger-js');
 
 // Configuracion
-const ARCHIVO_EXCEL_POR_DEFECTO = 'RipsInfoDiciembre.xlsx';
+const ARCHIVO_EXCEL_POR_DEFECTO = 'RipsInfoFebrero.xlsx';
 const SOBRESCRIBIR = false;
 
 function resolverArchivoExcel() {
@@ -70,6 +70,31 @@ async function descargarJSON(url, destino) {
   }
 }
 
+async function descargarRIPS(url, numFactura, destino) {
+  try {
+    const response = await axios.get(url, {
+      responseType: 'json',
+      timeout: 30000
+    });
+
+    const datos = response.data;
+    const numFacturaJSON = String(datos.numFactura || '').trim();
+
+    if (numFacturaJSON !== numFactura) {
+      return { ok: false, error: `Coincidencia fallida: esperado ${numFactura}, obtenido ${numFacturaJSON}` };
+    }
+
+    await fs.ensureDir(path.dirname(destino));
+    await fs.writeJSON(destino, datos, { spaces: 2 });
+    return { ok: true };
+  } catch (error) {
+    let detalle = error.message;
+    if (error.response) detalle = `HTTP ${error.response.status}`;
+    if (error.code === 'ECONNABORTED') detalle = 'Timeout';
+    return { ok: false, error: detalle };
+  }
+}
+
 (async () => {
   const archivoExcel = resolverArchivoExcel();
 
@@ -97,6 +122,9 @@ async function descargarJSON(url, destino) {
     cuv_ok: 0,
     cuv_fail: 0,
     cuv_omitidos: 0,
+    rips_ok: 0,
+    rips_fail: 0,
+    rips_omitidos: 0,
     omitidos: 0
   };
 
@@ -179,6 +207,25 @@ async function descargarJSON(url, destino) {
             estadisticas.cuv_fail++;
             console.error(`Error CUV (${idCarpeta}): ${rta.error}`);
           }
+        }
+      }
+    }
+
+    const urlRips = String(fila.valor_total_reteiva || '').trim();
+    if (urlRips) {
+      const destinoRIPS = path.join(carpetaItem, `rips_${numFactura}.json`);
+
+      if (!SOBRESCRIBIR && (await fs.pathExists(destinoRIPS))) {
+        estadisticas.rips_omitidos++;
+        console.log(`RIPS existente, omitido: ${destinoRIPS}`);
+      } else {
+        const rta = await descargarRIPS(urlRips, numFactura, destinoRIPS);
+        if (rta.ok) {
+          estadisticas.rips_ok++;
+          console.log(`RIPS guardado: ${destinoRIPS}`);
+        } else {
+          estadisticas.rips_fail++;
+          console.error(`Error RIPS (${numFactura}): ${rta.error}`);
         }
       }
     }
